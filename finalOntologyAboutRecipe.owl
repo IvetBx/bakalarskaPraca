@@ -1,0 +1,232 @@
+@prefix : <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl> .
+
+<http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl> rdf:type owl:Ontology ;
+                                                                                  owl:imports rdf: ,
+                                                                                              <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#belongsToCuisine
+:belongsToCuisine rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Recipe ;
+                  rdfs:range <http://www.wikidata.org/entity/Q1778821> .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasAuthor
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:domain :Recipe ;
+           rdfs:range <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasFood
+:hasFood rdf:type owl:ObjectProperty ;
+         rdfs:domain :Ingredient ;
+         rdfs:range <https://www.wikidata.org/wiki/Q2095> .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasImage
+:hasImage rdf:type owl:ObjectProperty ;
+          rdfs:range <http://xmlns.com/foaf/0.1/Image> .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasIngredient
+:hasIngredient rdf:type owl:ObjectProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( :Instruction
+                                           :Recipe
+                                         )
+                           ] ;
+               rdfs:range :Ingredient .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasInstructions
+:hasInstructions rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( :Instruction
+                                             :Recipe
+                                           )
+                             ] ;
+                 rdfs:range [ rdf:type owl:Class ;
+                              owl:unionOf ( rdf:Alt
+                                            rdf:Seq
+                                          )
+                            ] .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasQuantity
+:hasQuantity rdf:type owl:ObjectProperty ;
+             rdfs:domain :Ingredient ;
+             rdfs:range :Mass .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasRating
+:hasRating rdf:type owl:ObjectProperty ;
+           rdfs:domain :Recipe ;
+           rdfs:range :Rating .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#produces
+:produces rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Instruction
+                                      :Recipe
+                                    )
+                      ] ;
+          rdfs:range <https://www.wikidata.org/wiki/Q2095> .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#requiresEquipment
+:requiresEquipment rdf:type owl:ObjectProperty ;
+                   rdfs:domain [ rdf:type owl:Class ;
+                                 owl:unionOf ( :Instruction
+                                               :Recipe
+                                             )
+                               ] ;
+                   rdfs:range <http://www.wikidata.org/entity/Q1521410> .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#usingMethod
+:usingMethod rdf:type owl:ObjectProperty ;
+             rdfs:domain :Instruction ;
+             rdfs:range <http://www.wikidata.org/entity/Q1039303> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#belongsToCategory
+:belongsToCategory rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Recipe ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasCookTime
+:hasCookTime rdf:type owl:DatatypeProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Instruction
+                                         :Recipe
+                                       )
+                         ] ;
+             rdfs:range xsd:duration .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasCount
+:hasCount rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Mass ;
+          rdfs:range xsd:double .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasDescription
+:hasDescription rdf:type owl:DatatypeProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( :Instruction
+                                            :Recipe
+                                          )
+                            ] ;
+                rdfs:range xsd:string .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasEndPoint
+:hasEndPoint rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Instruction ;
+             rdfs:range xsd:string .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasMetricQuantity
+:hasMetricQuantity rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Mass ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:string .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasNumberOfPortion
+:hasNumberOfPortion rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Recipe ;
+                    rdfs:range xsd:integer .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasRatingValue
+:hasRatingValue rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Rating ;
+                rdfs:range xsd:double .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#hasReviewAspect
+:hasReviewAspect rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Rating ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#needsTemperature
+:needsTemperature rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Instruction ;
+                  rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#Ingredient
+:Ingredient rdf:type owl:Class .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#Instruction
+:Instruction rdf:type owl:Class .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#Mass
+:Mass rdf:type owl:Class .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#Rating
+:Rating rdf:type owl:Class .
+
+
+###  http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#Recipe
+:Recipe rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q1039303
+<http://www.wikidata.org/entity/Q1039303> rdf:type owl:Class ;
+                                          rdfs:label "cooking method" .
+
+
+###  http://www.wikidata.org/entity/Q1521410
+<http://www.wikidata.org/entity/Q1521410> rdf:type owl:Class ;
+                                          rdfs:label "kitchenware" .
+
+
+###  http://www.wikidata.org/entity/Q1778821
+<http://www.wikidata.org/entity/Q1778821> rdf:type owl:Class ;
+                                          rdfs:label "cuisine" .
+
+
+###  https://www.wikidata.org/wiki/Q2095
+<https://www.wikidata.org/wiki/Q2095> rdf:type owl:Class ;
+                                      rdfs:label "food" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
