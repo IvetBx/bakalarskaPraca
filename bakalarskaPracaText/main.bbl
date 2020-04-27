@@ -25,6 +25,10 @@
 Ontotext AD.
 \newblock What is rdf triplestore?, 2019.
 
+\bibitem{jena}
+The Apache~Software Foundation.
+\newblock Apache jena, 2020.
+
 \bibitem{schema}
 Ramanathan Guha and Dan Brickley.
 \newblock {RDF} schema {1.1}.

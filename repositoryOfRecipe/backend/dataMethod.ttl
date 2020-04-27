@@ -1,0 +1,203 @@
+<http://www.wikidata.org/entity/Q5533694>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gentle frying"@en .
+
+<http://www.wikidata.org/entity/Q803889>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bain-marie"@en .
+
+<http://www.wikidata.org/entity/Q1417461>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sous-vide"@en .
+
+<http://www.wikidata.org/entity/Q461696>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "barbecue"@en .
+
+<http://www.wikidata.org/entity/Q263588>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "poaching"@en .
+
+<http://www.wikidata.org/entity/Q350990>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "meat carving"@en .
+
+<http://www.wikidata.org/entity/Q784148>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "braising"@en .
+
+<http://www.wikidata.org/entity/Q784688>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spherification"@en .
+
+<http://www.wikidata.org/entity/Q16525404>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "agemono"@en .
+
+<http://www.wikidata.org/entity/Q20074315>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "boiling"@en .
+
+<http://www.wikidata.org/entity/Q1415859>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "steaming"@en .
+
+<http://www.wikidata.org/entity/Q1104399>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "karaage"@en .
+
+<http://www.wikidata.org/entity/Q1412833>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gratin"@en .
+
+<http://www.wikidata.org/entity/Q720398>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "baking"@en .
+
+<http://www.wikidata.org/entity/Q73185>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "caramelization"@en .
+
+<http://www.wikidata.org/entity/Q60749401>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "salt crust"@en .
+
+<http://www.wikidata.org/entity/Q3895837>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jalea"@en .
+
+<http://www.wikidata.org/entity/Q2760809>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Browning"@en .
+
+<http://www.wikidata.org/entity/Q1971485>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "reduction"@en .
+
+<http://www.wikidata.org/entity/Q11697651>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "En papillote"@en .
+
+<http://www.wikidata.org/entity/Q3309953>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "steeping"@en .
+
+<http://www.wikidata.org/entity/Q745361>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "stuffing"@en .
+
+<http://www.wikidata.org/entity/Q22847>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "rotisserie"@en .
+
+<http://www.wikidata.org/entity/Q791790>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fricassee"@en .
+
+<http://www.wikidata.org/entity/Q56377247>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Fruit Confit"@en .
+
+<http://www.wikidata.org/entity/Q854618>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "deep frying"@en .
+
+<http://www.wikidata.org/entity/Q7198568>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pit barbecue"@en .
+
+<http://www.wikidata.org/entity/Q386003>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "flambé"@en .
+
+<http://www.wikidata.org/entity/Q1521462>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sautéing"@en .
+
+<http://www.wikidata.org/entity/Q6305202>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "juicing"@en .
+
+<http://www.wikidata.org/entity/Q506763>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "blanching"@en .
+
+<http://www.wikidata.org/entity/Q322444>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "deglazing"@en .
+
+<http://www.wikidata.org/entity/Q569426>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sweating"@en .
+
+<http://www.wikidata.org/entity/Q5306852>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dredging"@en .
+
+<http://www.wikidata.org/entity/Q6723260>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "maceration"@en .
+
+<http://www.wikidata.org/entity/Q2425803>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "basting"@en .
+
+<http://www.wikidata.org/entity/Q1409247>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fried dough food"@en .
+
+<http://www.wikidata.org/entity/Q4865573>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "roasting"@en .
+
+<http://www.wikidata.org/entity/Q1186334>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hangi"@en .
+
+<http://www.wikidata.org/entity/Q1039303>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cooking method"@en .
+
+<http://www.wikidata.org/entity/Q909700>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "jorim"@en .
+
+<http://www.wikidata.org/entity/Q193713>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "smoking"@en .
+
+<http://www.wikidata.org/entity/Q8980672>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "stir frying"@en .
+
+<http://www.wikidata.org/entity/Q9660609>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bolinho caipira"@en .
+
+<http://www.wikidata.org/entity/Q264619>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "grilling"@en .
+
+<http://www.wikidata.org/entity/Q725668>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "marinating"@en .
+
+<http://www.wikidata.org/entity/Q300472>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Frying"@en .
+
+<http://www.wikidata.org/entity/Q7547269>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "snap freezing"@en .
+
+<http://www.wikidata.org/entity/Q1483514>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Searing"@en .
+
+<http://www.wikidata.org/entity/Q240164>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Simmering"@en .
+
+<http://www.wikidata.org/entity/Q1393428>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Salmis"@en .

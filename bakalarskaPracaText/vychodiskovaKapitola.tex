@@ -262,6 +262,32 @@ RDF Triplestore je podľa \cite{triplestore} typ grafovej databázy, v ktorej s�
 fakty. Triplestory sú uprednostňované na manažovanie prepojených dát, sú fexibilnejšie
 a lacnejšie ako relačná databáza. Zvládajú sémantické dopyty a používanie odvodzovania na zistenie nových informácií z už existujúcich vzťahov.
 
+\section{Použité technológie} \label{secTechnologie}
+Pre túto prácu sú kľúčové technológie Java, pričom sú využívané frameworky Apache Jena a SpringBoot, a React, ktorý je knižnicou JavaScriptu.
+
+\subsection{Apache Jena} \label{secJena}
+Apache Jena {\cite{jena}} je voľne dostupným Java frameworkom, ktorý umožňuje budovať sémantický web (Sémantický web \ref{secSemanticWeb}) a aplikácie, využívajúce prepojené dáta(Linked data \ref{secLinkedData}). Poskytuje API rozhrania, ktoré umožňujú prácu s RDF dátami. Nižšie sú uvedené tie časti frameworku, ktoré sú v práci použité.
+\subsubsection{Fuseki}
+Apache Jena Fuseki je SPARQL server. Podporuje dopyty a aktualizácie RDF dát a môže byť spustený ako samostatný server, služba operačného systému a ako webová aplikácia. Server je integrovaný s TDB, pričom poskytujú trvalú transakčnú ukladaciu vrstvu. 
+
+\subsubsection{TDB}
+TDB je komponent Jeny, ktorý umožňuje ukladať RDF dáta a vytvárať nad nimi dopyty. Podporuje celú škálu Jena API rozhraní. Pri prístupe pomocou transakcií sú súbory dát chránené pred poškodením, neočakávaným ukončením procesu alebo zlyhaním systému. Server Fuseki poskytuje SPARQL server, ktorý používa TDB na trvalé uskladnenie dát a poskytuje protokol SPARQL pre dopytovanie a
+update cez HTTP.
+
+\subsubsection{RDF API}
+RDF API je hlavné API rozhranie, ktoré slúži na vytvorenie, čítanie a zápis do RDF grafov. RDF grafy sú v Jene označované ako Modely (trieda Model). Model poskytuje veľké množstvo metód, ktoré uľahčujú vytváranie aplikácií pracujúcich s RDF dátami. Model môže byť na začiatku prázdny alebo vytvorený z dát nachádzajúcich sa v súboroch, databázach, či URL adresách. Keďže Model predstavuje RDF graf, tak pozostáva z tvrdení, pričom každé tvrdenie je vyjadrené vo forme trojice. Tvrdenie v Jene reprezentuje trieda Statement. Dodržaním RDF špecifikácie môže ako subjekt v inštancií triedy Statement vystupovať iba inštancia triedy Resource, ako predikát iba inštancia triedy Property, pričom ide o podtriedu triedy Resource. V prípade objektu ide o inštanciu triedy RDFNode, tá je nadtriedou triedy Resource a triedy Literal, keďže hodnotou vlastnosti, teda objektom, môže byť buď ďalší zdroj alebo literál. 
+
+\subsubsection{Ontology API}
+Ontology API umožňuje vývoj ontológií, pričom je jazykovo neutrálny, teda napríklad OntClass môže predstavovať OWL  triedu aleboRDFS triedu. OntModel je rozšírením základnej Jena triedy Model. Umožňuje vytvárať triedy, vlastnosti, či inštancie (Individuals) tried z ontológií. Jednou z hlavných výhod na budovaní aplikácie založenej na ontológií je následná možnosť využitia nástrojov na odvodzovanie.
+
+\subsubsection{ARQ}
+ARQ je dopytovací nástroj pre Jenu, ktorý podporuje SPARQL ({\ref{secSparql}}). Nachádza sa v balíčku org.apache.jena.query, pričom ten obsahuje triedy ako QueryExecution, QueryExecutionFactory, QuerySolution, atď., ktoré umožňujú robiť dopyty nad RDF dátami. Sú podporované SELECT, CONSTRUCT, DESCRIBE a ASK dopyty.
+
+\subsection{Spring Boot} \label{secSpringBoot}
+
+\subsection{React} \label{secReact}
+React je JavaScript-ová knižnica na vytváranie používateľských rozhraní. Používa sa na vytváranie jednostránkových alebo mobilných aplikácií, keďže  a umožňuje nám vytvárať opakovane použiteľné komponenty používateľského rozhrania. 
+
 
 \section{Existujúce riešenia} 
 Táto kapitola sa venuje už existujúcim riešeniam daného problému. Uvádzam bakalársku prácu, ktorá sa touto témou zaoberala minulý rok a vybrala som si jednu slovenskú
@@ -338,3 +364,5 @@ osobných a verejných dát.
 kategória alebo zásoby. Ďalej je možné pridávať ingrediencie do chladničky, vytvárať
 nákupný zoznam, vytvárať a upravovať recepty, a reagovať na ne, teda hodnotiť ich, exportovať do pdf, označovať ako obľúbené a podobne. Niektoré časti funkcionality sú
 prístupné len prihláseným používateľom.
+
+

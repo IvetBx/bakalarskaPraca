@@ -1,6 +1,16 @@
-package com.balintova.repositoryOfRecipe.controllers.models;
+package com.balintova.repositoryOfRecipe.models;
 
-public class Mass {
+import com.balintova.repositoryOfRecipe.config.Ontology;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.vocabulary.RDF;
+
+import java.util.List;
+import java.util.Map;
+
+
+public class Mass extends ModelOfEntity{
 
     String hasMetricQuantity;
     Double hasCount;
@@ -20,4 +30,40 @@ public class Mass {
     public void setHasCount(Double hasCount) {
         this.hasCount = hasCount;
     }
+
+    @Override
+    public boolean stopSearching(){
+        if(hasCount != null && hasMetricQuantity != null){
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void checkPredicate(Map<Resource, Map<Resource, List<RDFNode>>> result, String predicate, RDFNode object){
+
+        if(predicate.equals(Ontology.hasMetricQuantity.getURI())){
+            setHasMetricQuantity(object.asLiteral().getString());
+
+        } else if(predicate.equals(Ontology.hasCount.getURI())){
+            setHasCount(object.asLiteral().getDouble());
+        }
+
+    }
+
+    @Override
+    public org.apache.jena.rdf.model.Model addAllPropertiesToModel(Resource resource){
+        org.apache.jena.rdf.model.Model model = ModelFactory.createDefaultModel();
+
+        model.add(resource, RDF.type, Ontology.massClass);
+        if(getHasMetricQuantity() != null){
+            model.addLiteral(resource, Ontology.hasMetricQuantity, getHasMetricQuantity());
+        }
+        if(getHasCount() != null){
+            model.addLiteral(resource, Ontology.hasCount, getHasCount());
+        }
+
+        return model;
+    }
+
 }

@@ -1,0 +1,2483 @@
+<http://www.wikidata.org/entity/Q2453931>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "piyāla"@en .
+
+<http://www.wikidata.org/entity/Q60693447>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "alms dish"@en .
+
+<http://www.wikidata.org/entity/Q6453403>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "rummer"@en .
+
+<http://www.wikidata.org/entity/Q642861>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "holy water font"@en .
+
+<http://www.wikidata.org/entity/Q3643463>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Olympics cauldron"@en .
+
+<http://www.wikidata.org/entity/Q13360095>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cruet"@en .
+
+<http://www.wikidata.org/entity/Q907209>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pestle"@en .
+
+<http://www.wikidata.org/entity/Q18395120>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Usherette tray"@en .
+
+<http://www.wikidata.org/entity/Q81727>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cup"@en .
+
+<http://www.wikidata.org/entity/Q332009>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Abschlagmesser"@en .
+
+<http://www.wikidata.org/entity/Q19392038>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tea glass"@en .
+
+<http://www.wikidata.org/entity/Q1105343>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cocktail glass"@en .
+
+<http://www.wikidata.org/entity/Q6118233>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jacob's ladder"@en .
+
+<http://www.wikidata.org/entity/Q1521410>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kitchenware"@en .
+
+<http://www.wikidata.org/entity/Q7540405>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sliding knife"@en .
+
+<http://www.wikidata.org/entity/Q5948399>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hurricane glass"@en .
+
+<http://www.wikidata.org/entity/Q3006806>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "olive spoon"@en .
+
+<http://www.wikidata.org/entity/Q15615747>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hay knife"@en .
+
+<http://www.wikidata.org/entity/Q1003167>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bujo"@en .
+
+<http://www.wikidata.org/entity/Q3130638>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "table knife"@en .
+
+<http://www.wikidata.org/entity/Q6798451>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mazer"@en .
+
+<http://www.wikidata.org/entity/Q7623712>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Strider SMF"@en .
+
+<http://www.wikidata.org/entity/Q3294449>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lip"@en .
+
+<http://www.wikidata.org/entity/Q3006796>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "wedding spoon"@en .
+
+<http://www.wikidata.org/entity/Q64008239>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "double-edge safety razor"@en .
+
+<http://www.wikidata.org/entity/Q1249996>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "navaja"@en .
+
+<http://www.wikidata.org/entity/Q50215856>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Activity tray"@en .
+
+<http://www.wikidata.org/entity/Q1743850>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "KitchenAid"@en .
+
+<http://www.wikidata.org/entity/Q66364418>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sauce tureen"@en .
+
+<http://www.wikidata.org/entity/Q2426230>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "measuring spoon"@en .
+
+<http://www.wikidata.org/entity/Q4327038>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "grapefruit knife"@en .
+
+<http://www.wikidata.org/entity/Q820889>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "berkemeyer"@en .
+
+<http://www.wikidata.org/entity/Q382924>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pastry brush"@en .
+
+<http://www.wikidata.org/entity/Q18451251>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chalice"@en .
+
+<http://www.wikidata.org/entity/Q3933432>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Resolza"@en .
+
+<http://www.wikidata.org/entity/Q1537820>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "shell bowl"@en .
+
+<http://www.wikidata.org/entity/Q1269199>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nbouet"@en .
+
+<http://www.wikidata.org/entity/Q2534652>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "collins glass"@en .
+
+<http://www.wikidata.org/entity/Q47454497>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "soup pot"@en .
+
+<http://www.wikidata.org/entity/Q3503126>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Suiban"@en .
+
+<http://www.wikidata.org/entity/Q3126674>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hanap"@en .
+
+<http://www.wikidata.org/entity/Q56242185>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kohl spoon"@en .
+
+<http://www.wikidata.org/entity/Q2320437>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Frosting spatula"@en .
+
+<http://www.wikidata.org/entity/Q13034048>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "juicer"@en .
+
+<http://www.wikidata.org/entity/Q87714281>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cake tin"@en .
+
+<http://www.wikidata.org/entity/Q19372949>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fish knife"@en .
+
+<http://www.wikidata.org/entity/Q107444>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kettle"@en .
+
+<http://www.wikidata.org/entity/Q5674268>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Heat sources for cooking"@en .
+
+<http://www.wikidata.org/entity/Q196816>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "zester"@en .
+
+<http://www.wikidata.org/entity/Q950375>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "muddler"@en .
+
+<http://www.wikidata.org/entity/Q17457835>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "electric razor"@en .
+
+<http://www.wikidata.org/entity/Q48680>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maß"@en .
+
+<http://www.wikidata.org/entity/Q2295077>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cheese knife"@en .
+
+<http://www.wikidata.org/entity/Q86864852>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wallpaper Knife"@en .
+
+<http://www.wikidata.org/entity/Q7230377>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "porringer"@en .
+
+<http://www.wikidata.org/entity/Q1260235>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Droop Cup"@en .
+
+<http://www.wikidata.org/entity/Q5180241>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "crab fork"@en .
+
+<http://www.wikidata.org/entity/Q7525838>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sippy cup"@en .
+
+<http://www.wikidata.org/entity/Q1746957>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Little-Master Cup"@en .
+
+<http://www.wikidata.org/entity/Q3006801>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dessert spoon"@en .
+
+<http://www.wikidata.org/entity/Q3828032>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lavec"@en .
+
+<http://www.wikidata.org/entity/Q26877149>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "copper mug"@en .
+
+<http://www.wikidata.org/entity/Q23736>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "butterfly knife"@en .
+
+<http://www.wikidata.org/entity/Q3267901>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bamboo steamer"@en .
+
+<http://www.wikidata.org/entity/Q3748930>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Forò"@en .
+
+<http://www.wikidata.org/entity/Q2049293>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chinois"@en .
+
+<http://www.wikidata.org/entity/Q3038087>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Douk-Douk"@en .
+
+<http://www.wikidata.org/entity/Q574487>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "simpulum"@en .
+
+<http://www.wikidata.org/entity/Q1121690>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beverage can"@en .
+
+<http://www.wikidata.org/entity/Q668349>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kylix"@en .
+
+<http://www.wikidata.org/entity/Q5152183>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Commander"@en .
+
+<http://www.wikidata.org/entity/Q1151042>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "paper towel"@en .
+
+<http://www.wikidata.org/entity/Q1516861>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "snifter"@en .
+
+<http://www.wikidata.org/entity/Q11692319>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pastry blender"@en .
+
+<http://www.wikidata.org/entity/Q2621538>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maastricht silver"@en .
+
+<http://www.wikidata.org/entity/Q21777907>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "covered beaker"@en .
+
+<http://www.wikidata.org/entity/Q192848>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "grater"@en .
+
+<http://www.wikidata.org/entity/Q2981255>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cochlearium"@en .
+
+<http://www.wikidata.org/entity/Q153059>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "deep fryer"@en .
+
+<http://www.wikidata.org/entity/Q1421416>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maguro bōchō"@en .
+
+<http://www.wikidata.org/entity/Q66309876>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cheese grater"@en .
+
+<http://www.wikidata.org/entity/Q89833816>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cobbler shaker"@en .
+
+<http://www.wikidata.org/entity/Q12872>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "potato masher"@en .
+
+<http://www.wikidata.org/entity/Q21551060>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "toasting glass"@en .
+
+<http://www.wikidata.org/entity/Q55627337>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "type B kylix"@en .
+
+<http://www.wikidata.org/entity/Q5002460>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "butcher knife"@en .
+
+<http://www.wikidata.org/entity/Q14973>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beverage coaster"@en .
+
+<http://www.wikidata.org/entity/Q2573526>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dessert spoon"@en .
+
+<http://www.wikidata.org/entity/Q391728>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tastevin"@en .
+
+<http://www.wikidata.org/entity/Q198976>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "charger"@en .
+
+<http://www.wikidata.org/entity/Q1738316>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kelly Kettle"@en .
+
+<http://www.wikidata.org/entity/Q261107>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Unagisaki hōcho"@en .
+
+<http://www.wikidata.org/entity/Q208364>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "wok"@en .
+
+<http://www.wikidata.org/entity/Q271997>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pressure cooker"@en .
+
+<http://www.wikidata.org/entity/Q1501968>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "salt and pepper shakers"@en .
+
+<http://www.wikidata.org/entity/Q1364042>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "electric kettle"@en .
+
+<http://www.wikidata.org/entity/Q7258290>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pudding basin"@en .
+
+<http://www.wikidata.org/entity/Q55626444>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "overlap Siana cup"@en .
+
+<http://www.wikidata.org/entity/Q15711817>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "stock pot"@en .
+
+<http://www.wikidata.org/entity/Q2453629>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "drinking vessel"@en .
+
+<http://www.wikidata.org/entity/Q2990690>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "compote bowl"@en .
+
+<http://www.wikidata.org/entity/Q175959>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "khytra"@en .
+
+<http://www.wikidata.org/entity/Q29944791>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dolsot"@en .
+
+<http://www.wikidata.org/entity/Q26703516>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Whistling kettle"@en .
+
+<http://www.wikidata.org/entity/Q199380>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cigar cutter"@en .
+
+<http://www.wikidata.org/entity/Q3347452>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bolo"@en .
+
+<http://www.wikidata.org/entity/Q60614446>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cruet tray"@en .
+
+<http://www.wikidata.org/entity/Q40287877>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "water basin"@en .
+
+<http://www.wikidata.org/entity/Q81895>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spoon"@en .
+
+<http://www.wikidata.org/entity/Q1264081>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "censer"@en .
+
+<http://www.wikidata.org/entity/Q2383211>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "basin"@en .
+
+<http://www.wikidata.org/entity/Q1412822>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Beer stein"@en .
+
+<http://www.wikidata.org/entity/Q519715>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "grapefruit spoon"@en .
+
+<http://www.wikidata.org/entity/Q1317634>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cauldron"@en .
+
+<http://www.wikidata.org/entity/Q5984607>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Japanese kitchen knife"@en .
+
+<http://www.wikidata.org/entity/Q954087>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mixer"@en .
+
+<http://www.wikidata.org/entity/Q662620>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "thymiaterion"@en .
+
+<http://www.wikidata.org/entity/Q14880>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "nutcracker"@en .
+
+<http://www.wikidata.org/entity/Q1762390>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "wooden spoon"@en .
+
+<http://www.wikidata.org/entity/Q43203929>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pan"@en .
+
+<http://www.wikidata.org/entity/Q41133758>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Solo Cup"@en .
+
+<http://www.wikidata.org/entity/Q3219606>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "safety razor"@en .
+
+<http://www.wikidata.org/entity/Q2916366>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Passover Seder Plate"@en .
+
+<http://www.wikidata.org/entity/Q806610>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bank"@en .
+
+<http://www.wikidata.org/entity/Q1676810>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "jebena"@en .
+
+<http://www.wikidata.org/entity/Q951389>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "case knife"@en .
+
+<http://www.wikidata.org/entity/Q84439827>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Taco Shell Pan"@en .
+
+<http://www.wikidata.org/entity/Q3847817>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bottle scraper"@en .
+
+<http://www.wikidata.org/entity/Q4412786>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cocaine spoon"@en .
+
+<http://www.wikidata.org/entity/Q501862>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "blender"@en .
+
+<http://www.wikidata.org/entity/Q3294507>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cast-iron cookware"@en .
+
+<http://www.wikidata.org/entity/Q175922>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Okapi"@en .
+
+<http://www.wikidata.org/entity/Q3006808>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "demitasse spoon"@en .
+
+<http://www.wikidata.org/entity/Q7940070>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "volcano bowl"@en .
+
+<http://www.wikidata.org/entity/Q62592958>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tea cup"@en .
+
+<http://www.wikidata.org/entity/Q2974333>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sugar nips"@en .
+
+<http://www.wikidata.org/entity/Q4095889>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bratina"@en .
+
+<http://www.wikidata.org/entity/Q8352359>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bread knife"@en .
+
+<http://www.wikidata.org/entity/Q798428>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bread pan"@en .
+
+<http://www.wikidata.org/entity/Q5101568>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chip pan"@en .
+
+<http://www.wikidata.org/entity/Q1137500>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "rice cooker"@en .
+
+<http://www.wikidata.org/entity/Q1131992>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "paper cup"@en .
+
+<http://www.wikidata.org/entity/Q15120950>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fandging"@en .
+
+<http://www.wikidata.org/entity/Q15075189>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "soup spoon"@en .
+
+<http://www.wikidata.org/entity/Q4257913>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Embossing mat"@en .
+
+<http://www.wikidata.org/entity/Q19258673>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Akelei covered beaker"@en .
+
+<http://www.wikidata.org/entity/Q87478722>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Knife sharpener"@en .
+
+<http://www.wikidata.org/entity/Q2571478>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dish drainer"@en .
+
+<http://www.wikidata.org/entity/Q1151252>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "phiale"@en .
+
+<http://www.wikidata.org/entity/Q373066>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "thurible"@en .
+
+<http://www.wikidata.org/entity/Q7388753>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SARK"@en .
+
+<http://www.wikidata.org/entity/Q321482>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Stripping knife"@en .
+
+<http://www.wikidata.org/entity/Q2086527>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "green bean slicer"@en .
+
+<http://www.wikidata.org/entity/Q7541441>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "slotted spoon"@en .
+
+<http://www.wikidata.org/entity/Q4979811>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Brustolina"@en .
+
+<http://www.wikidata.org/entity/Q592408>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cherry pitter"@en .
+
+<http://www.wikidata.org/entity/Q760376>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "eye-cup"@en .
+
+<http://www.wikidata.org/entity/Q4046133>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "P-38 can opener"@en .
+
+<http://www.wikidata.org/entity/Q675073>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fish plate"@en .
+
+<http://www.wikidata.org/entity/Q153988>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bowl"@en .
+
+<http://www.wikidata.org/entity/Q4003271>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ultramicrotomy"@en .
+
+<http://www.wikidata.org/entity/Q30108140>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Spoon and chopstick rest"@en .
+
+<http://www.wikidata.org/entity/Q3579073>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bowl"@en .
+
+<http://www.wikidata.org/entity/Q2198722>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "baking stone"@en .
+
+<http://www.wikidata.org/entity/Q7811420>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "toast rack"@en .
+
+<http://www.wikidata.org/entity/Q15148>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spatula"@en .
+
+<http://www.wikidata.org/entity/Q3400987>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lovespoon"@en .
+
+<http://www.wikidata.org/entity/Q2831521>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "jakobakannetje"@en .
+
+<http://www.wikidata.org/entity/Q3046824>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ginsu"@en .
+
+<http://www.wikidata.org/entity/Q17083959>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Knife bayonet"@en .
+
+<http://www.wikidata.org/entity/Q16271688>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "puukko"@en .
+
+<http://www.wikidata.org/entity/Q2602569>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "higonokami"@en .
+
+<http://www.wikidata.org/entity/Q23752>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chef's knife"@en .
+
+<http://www.wikidata.org/entity/Q674910>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Caquelon"@en .
+
+<http://www.wikidata.org/entity/Q1501252>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mandoline"@en .
+
+<http://www.wikidata.org/entity/Q2524795>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Heatproof mat"@en .
+
+<http://www.wikidata.org/entity/Q1636861>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "serving knife"@en .
+
+<http://www.wikidata.org/entity/Q3080056>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pastry fork"@en .
+
+<http://www.wikidata.org/entity/Q1541241>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coffee filter"@en .
+
+<http://www.wikidata.org/entity/Q1105339>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cocktail shaker"@en .
+
+<http://www.wikidata.org/entity/Q1684287>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "liner lock"@en .
+
+<http://www.wikidata.org/entity/Q1410862>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "herb grinder"@en .
+
+<http://www.wikidata.org/entity/Q11813459>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cake stand"@en .
+
+<http://www.wikidata.org/entity/Q7724780>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "saucepan"@en .
+
+<http://www.wikidata.org/entity/Q2425869>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kitchen sink"@en .
+
+<http://www.wikidata.org/entity/Q23664>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "vacuum flask"@en .
+
+<http://www.wikidata.org/entity/Q7409410>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sami knife"@en .
+
+<http://www.wikidata.org/entity/Q1398027>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Incense clock"@en .
+
+<http://www.wikidata.org/entity/Q972351>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "switchblade"@en .
+
+<http://www.wikidata.org/entity/Q1331726>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oshibori"@en .
+
+<http://www.wikidata.org/entity/Q3565067>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Waguan"@en .
+
+<http://www.wikidata.org/entity/Q2204021>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Claw beaker"@en .
+
+<http://www.wikidata.org/entity/Q1934490>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "immersion blender"@en .
+
+<http://www.wikidata.org/entity/Q3006816>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "egg spoon"@en .
+
+<http://www.wikidata.org/entity/Q3595636>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Karahi"@en .
+
+<http://www.wikidata.org/entity/Q1754550>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mezzaluna"@en .
+
+<http://www.wikidata.org/entity/Q279290>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Egg piercer"@en .
+
+<http://www.wikidata.org/entity/Q2094867>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "square ceramic bowl with handle for embers or fruit"@en .
+
+<http://www.wikidata.org/entity/Q23719>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Swiss Army knife"@en .
+
+<http://www.wikidata.org/entity/Q1204499>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ding"@en .
+
+<http://www.wikidata.org/entity/Q1246179>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lekanides"@en .
+
+<http://www.wikidata.org/entity/Q55626446>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "double-decker Siana cup"@en .
+
+<http://www.wikidata.org/entity/Q24531891>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lid pokal"@en .
+
+<http://www.wikidata.org/entity/Q14520187>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wok brush"@en .
+
+<http://www.wikidata.org/entity/Q1650825>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Merrythought Cup"@en .
+
+<http://www.wikidata.org/entity/Q28054788>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "melon fork"@en .
+
+<http://www.wikidata.org/entity/Q3446398>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tankard"@en .
+
+<http://www.wikidata.org/entity/Q3183852>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Boston shaker"@en .
+
+<http://www.wikidata.org/entity/Q444536>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Survival knife"@en .
+
+<http://www.wikidata.org/entity/Q798625>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chawan"@en .
+
+<http://www.wikidata.org/entity/Q3476935>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sebenza"@en .
+
+<http://www.wikidata.org/entity/Q22984540>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "honey dipper"@en .
+
+<http://www.wikidata.org/entity/Q597040>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "straight razor"@en .
+
+<http://www.wikidata.org/entity/Q1109404>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "patera"@en .
+
+<http://www.wikidata.org/entity/Q19388605>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chocolate cup"@en .
+
+<http://www.wikidata.org/entity/Q174295>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "penknife"@en .
+
+<http://www.wikidata.org/entity/Q8031803>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wonderbag"@en .
+
+<http://www.wikidata.org/entity/Q5118242>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "church key"@en .
+
+<http://www.wikidata.org/entity/Q619925>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "apostle spoon"@en .
+
+<http://www.wikidata.org/entity/Q192771>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "drinking horn"@en .
+
+<http://www.wikidata.org/entity/Q3001592>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fish knife"@en .
+
+<http://www.wikidata.org/entity/Q1366877>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Eschara"@en .
+
+<http://www.wikidata.org/entity/Q612218>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lakaina"@en .
+
+<http://www.wikidata.org/entity/Q390409>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gridiron"@en .
+
+<http://www.wikidata.org/entity/Q1562441>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "welcome cup"@en .
+
+<http://www.wikidata.org/entity/Q2911846>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schick"@en .
+
+<http://www.wikidata.org/entity/Q516844>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beer glassware"@en .
+
+<http://www.wikidata.org/entity/Q1683099>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "silverware"@en .
+
+<http://www.wikidata.org/entity/Q17105018>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dough scraper"@en .
+
+<http://www.wikidata.org/entity/Q21550372>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "aspersorium"@en .
+
+<http://www.wikidata.org/entity/Q1057060>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "colander"@en .
+
+<http://www.wikidata.org/entity/Q3494285>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spurtle"@en .
+
+<http://www.wikidata.org/entity/Q2383535>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "caviar spoon"@en .
+
+<http://www.wikidata.org/entity/Q3089098>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "plastic cup"@en .
+
+<http://www.wikidata.org/entity/Q2277026>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fruit bowl"@en .
+
+<http://www.wikidata.org/entity/Q81980>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chopsticks"@en .
+
+<http://www.wikidata.org/entity/Q654077>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tantō"@en .
+
+<http://www.wikidata.org/entity/Q1312265>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "FP Class"@en .
+
+<http://www.wikidata.org/entity/Q1059778>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chalcidianising cup"@en .
+
+<http://www.wikidata.org/entity/Q5590679>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Grabit"@en .
+
+<http://www.wikidata.org/entity/Q62592928>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "milk pot"@en .
+
+<http://www.wikidata.org/entity/Q1073056>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Skull cup"@en .
+
+<http://www.wikidata.org/entity/Q3235198>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coffee cup"@en .
+
+<http://www.wikidata.org/entity/Q23727>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Laguiole knife"@en .
+
+<http://www.wikidata.org/entity/Q2561443>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "butter knife"@en .
+
+<http://www.wikidata.org/entity/Q297216>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "wax paper"@en .
+
+<http://www.wikidata.org/entity/Q5184291>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "crepulja"@en .
+
+<http://www.wikidata.org/entity/Q5049502>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cassolette"@en .
+
+<http://www.wikidata.org/entity/Q732054>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "oven glove"@en .
+
+<http://www.wikidata.org/entity/Q12715923>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Junge"@en .
+
+<http://www.wikidata.org/entity/Q26877108>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Irish coffee glass"@en .
+
+<http://www.wikidata.org/entity/Q23773>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "combat knife"@en .
+
+<http://www.wikidata.org/entity/Q1516575>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wedung"@en .
+
+<http://www.wikidata.org/entity/Q2151369>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Microplane"@en .
+
+<http://www.wikidata.org/entity/Q29913179>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "egg poacher"@en .
+
+<http://www.wikidata.org/entity/Q3391771>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "plate"@en .
+
+<http://www.wikidata.org/entity/Q4131010>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "highball glass"@en .
+
+<http://www.wikidata.org/entity/Q13422881>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "razor"@en .
+
+<http://www.wikidata.org/entity/Q25222579>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "growler"@en .
+
+<http://www.wikidata.org/entity/Q354386>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sač"@en .
+
+<http://www.wikidata.org/entity/Q54472787>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trefoil Oinochoe"@en .
+
+<http://www.wikidata.org/entity/Q3557783>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coin tray"@en .
+
+<http://www.wikidata.org/entity/Q63346875>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "place spoon"@en .
+
+<http://www.wikidata.org/entity/Q16294897>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cartridge safety razor"@en .
+
+<http://www.wikidata.org/entity/Q2100893>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cup with stem"@en .
+
+<http://www.wikidata.org/entity/Q649317>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tako hiki"@en .
+
+<http://www.wikidata.org/entity/Q474075>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "combi steamer"@en .
+
+<http://www.wikidata.org/entity/Q56147393>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "serving spoon"@en .
+
+<http://www.wikidata.org/entity/Q63436240>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "casserole"@en .
+
+<http://www.wikidata.org/entity/Q263057>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "whisk"@en .
+
+<http://www.wikidata.org/entity/Q1619772>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "milk frother"@en .
+
+<http://www.wikidata.org/entity/Q798457>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Backlock"@en .
+
+<http://www.wikidata.org/entity/Q1191080>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Shamoji"@en .
+
+<http://www.wikidata.org/entity/Q1546715>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pizza cutter"@en .
+
+<http://www.wikidata.org/entity/Q1191255>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "table set"@en .
+
+<http://www.wikidata.org/entity/Q56369598>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "drinking glass"@en .
+
+<http://www.wikidata.org/entity/Q154038>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cookware and bakeware"@en .
+
+<http://www.wikidata.org/entity/Q5309598>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dry pasta line"@en .
+
+<http://www.wikidata.org/entity/Q1893641>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tureen"@en .
+
+<http://www.wikidata.org/entity/Q755706>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kantharos"@en .
+
+<http://www.wikidata.org/entity/Q2602774>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "marmite"@en .
+
+<http://www.wikidata.org/entity/Q81707>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "teacup"@en .
+
+<http://www.wikidata.org/entity/Q19903869>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Columbine cup"@en .
+
+<http://www.wikidata.org/entity/Q502335>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sheet pan"@en .
+
+<http://www.wikidata.org/entity/Q898823>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steam digester"@en .
+
+<http://www.wikidata.org/entity/Q20181361>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spit"@en .
+
+<http://www.wikidata.org/entity/Q2838713>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gas lighter"@en .
+
+<http://www.wikidata.org/entity/Q2159492>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Yard of glass"@en .
+
+<http://www.wikidata.org/entity/Q31840650>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "wine cooler"@en .
+
+<http://www.wikidata.org/entity/Q12360>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bottle opener"@en .
+
+<http://www.wikidata.org/entity/Q381155>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sieve"@en .
+
+<http://www.wikidata.org/entity/Q14913>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "apple peeler"@en .
+
+<http://www.wikidata.org/entity/Q1722790>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chalice"@en .
+
+<http://www.wikidata.org/entity/Q7496111>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Shichirin"@en .
+
+<http://www.wikidata.org/entity/Q2662432>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "water board, or waterschap glass"@en .
+
+<http://www.wikidata.org/entity/Q26877471>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "champagne coupe"@en .
+
+<http://www.wikidata.org/entity/Q32489>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "knife"@en .
+
+<http://www.wikidata.org/entity/Q18131125>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fish slice"@en .
+
+<http://www.wikidata.org/entity/Q382747>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "apple corer"@en .
+
+<http://www.wikidata.org/entity/Q24530942>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pokal"@en .
+
+<http://www.wikidata.org/entity/Q6373553>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kartika"@en .
+
+<http://www.wikidata.org/entity/Q3085692>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Duralex Picardie"@en .
+
+<http://www.wikidata.org/entity/Q1546300>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "yard of ale"@en .
+
+<http://www.wikidata.org/entity/Q2262229>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sautoir"@en .
+
+<http://www.wikidata.org/entity/Q306821>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Snap-off utility knife"@en .
+
+<http://www.wikidata.org/entity/Q25896976>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mug"@en .
+
+<http://www.wikidata.org/entity/Q32057279>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steilrandschale"@en .
+
+<http://www.wikidata.org/entity/Q38110559>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coffee mug"@en .
+
+<http://www.wikidata.org/entity/Q22553>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dubbeglas"@en .
+
+<http://www.wikidata.org/entity/Q26877162>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "white wine glass"@en .
+
+<http://www.wikidata.org/entity/Q7191331>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pie bird"@en .
+
+<http://www.wikidata.org/entity/Q18544869>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cake plate"@en .
+
+<http://www.wikidata.org/entity/Q1796586>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tea glass"@en .
+
+<http://www.wikidata.org/entity/Q2226954>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Handi"@en .
+
+<http://www.wikidata.org/entity/Q4851915>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ballpoint pen knife"@en .
+
+<http://www.wikidata.org/entity/Q7681478>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tamis"@en .
+
+<http://www.wikidata.org/entity/Q13049520>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "billycan"@en .
+
+<http://www.wikidata.org/entity/Q1432049>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mold"@en .
+
+<http://www.wikidata.org/entity/Q3699080>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sugar spoon"@en .
+
+<http://www.wikidata.org/entity/Q13437048>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "goblet holder"@en .
+
+<http://www.wikidata.org/entity/Q4618677>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "paring knife"@en .
+
+<http://www.wikidata.org/entity/Q5454642>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fish kettle"@en .
+
+<http://www.wikidata.org/entity/Q87718085>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "soup plate"@en .
+
+<http://www.wikidata.org/entity/Q498703>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Udon kiri"@en .
+
+<http://www.wikidata.org/entity/Q5561803>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gilhoolie"@en .
+
+<http://www.wikidata.org/entity/Q18812395>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "wine cooler"@en .
+
+<http://www.wikidata.org/entity/Q17370233>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beaker"@en .
+
+<http://www.wikidata.org/entity/Q1018066>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "butter dish"@en .
+
+<http://www.wikidata.org/entity/Q520049>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "honing steel"@en .
+
+<http://www.wikidata.org/entity/Q3388175>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "boning knife"@en .
+
+<http://www.wikidata.org/entity/Q808337>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bar spoon"@en .
+
+<http://www.wikidata.org/entity/Q66087914>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Egyptian kohl spoon"@en .
+
+<http://www.wikidata.org/entity/Q23716>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Opinel knife"@en .
+
+<http://www.wikidata.org/entity/Q81881>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fork"@en .
+
+<http://www.wikidata.org/entity/Q57216>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "plate"@en .
+
+<http://www.wikidata.org/entity/Q1972462>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tomato slicer"@en .
+
+<http://www.wikidata.org/entity/Q21400448>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Escargot pincers"@en .
+
+<http://www.wikidata.org/entity/Q11573632>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ryukyu glass"@en .
+
+<http://www.wikidata.org/entity/Q6918985>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mouli grater"@en .
+
+<http://www.wikidata.org/entity/Q19600260>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vessyl"@en .
+
+<http://www.wikidata.org/entity/Q41331>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "toothpick"@en .
+
+<http://www.wikidata.org/entity/Q26879931>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cream skimmers"@en .
+
+<http://www.wikidata.org/entity/Q56631645>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kiddush cup"@en .
+
+<http://www.wikidata.org/entity/Q2685412>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "egg separator"@en .
+
+<http://www.wikidata.org/entity/Q7571535>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "souvenir spoon"@en .
+
+<http://www.wikidata.org/entity/Q16916838>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Māripi"@en .
+
+<http://www.wikidata.org/entity/Q2569925>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "trivet"@en .
+
+<http://www.wikidata.org/entity/Q67689491>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "paper plate"@en .
+
+<http://www.wikidata.org/entity/Q16639345>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "disposable cup"@en .
+
+<http://www.wikidata.org/entity/Q5013793>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CQC-6"@en .
+
+<http://www.wikidata.org/entity/Q390383>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pocket knife"@en .
+
+<http://www.wikidata.org/entity/Q3541431>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "glass goblet"@en .
+
+<http://www.wikidata.org/entity/Q28948056>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gemellions"@en .
+
+<http://www.wikidata.org/entity/Q446578>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "arrosticini"@en .
+
+<http://www.wikidata.org/entity/Q6084975>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sini"@en .
+
+<http://www.wikidata.org/entity/Q2121388>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beer skimmer"@en .
+
+<http://www.wikidata.org/entity/Q3537296>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trencher"@en .
+
+<http://www.wikidata.org/entity/Q7259950>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "punch bowl"@en .
+
+<http://www.wikidata.org/entity/Q29531732>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hand beater"@en .
+
+<http://www.wikidata.org/entity/Q1430265>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "food mill"@en .
+
+<http://www.wikidata.org/entity/Q2096978>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pisau raut"@en .
+
+<http://www.wikidata.org/entity/Q505584>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Siana Cup"@en .
+
+<http://www.wikidata.org/entity/Q2972369>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cignus"@en .
+
+<http://www.wikidata.org/entity/Q12031840>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rybička"@en .
+
+<http://www.wikidata.org/entity/Q907099>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "measuring cup"@en .
+
+<http://www.wikidata.org/entity/Q22295012>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ollae"@en .
+
+<http://www.wikidata.org/entity/Q10436882>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "snap-off blade"@en .
+
+<http://www.wikidata.org/entity/Q55627962>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Stemless cups"@en .
+
+<http://www.wikidata.org/entity/Q28598503>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Callus shaver"@en .
+
+<http://www.wikidata.org/entity/Q14917337>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gamasot"@en .
+
+<http://www.wikidata.org/entity/Q13032685>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dwojaki"@en .
+
+<http://www.wikidata.org/entity/Q1111908>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Deba bōchō"@en .
+
+<http://www.wikidata.org/entity/Q1409661>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bogrács"@en .
+
+<http://www.wikidata.org/entity/Q7234586>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pot glass"@en .
+
+<http://www.wikidata.org/entity/Q5502339>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "french sauce spoon"@en .
+
+<http://www.wikidata.org/entity/Q388428>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "skimmer"@en .
+
+<http://www.wikidata.org/entity/Q1805615>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lanx"@en .
+
+<http://www.wikidata.org/entity/Q938509>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cleaver"@en .
+
+<http://www.wikidata.org/entity/Q625960>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Old Fashioned glass"@en .
+
+<http://www.wikidata.org/entity/Q1083265>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ceramic knife"@en .
+
+<http://www.wikidata.org/entity/Q4879375>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bedourie oven"@en .
+
+<http://www.wikidata.org/entity/Q806364>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "band cup"@en .
+
+<http://www.wikidata.org/entity/Q30336065>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "caviar box"@en .
+
+<http://www.wikidata.org/entity/Q7432736>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "schooner"@en .
+
+<http://www.wikidata.org/entity/Q7164463>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Penny knife"@en .
+
+<http://www.wikidata.org/entity/Q379443>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cocotte"@en .
+
+<http://www.wikidata.org/entity/Q744849>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "scoop"@en .
+
+<http://www.wikidata.org/entity/Q1323569>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "skewer"@en .
+
+<http://www.wikidata.org/entity/Q4207627>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kazan"@en .
+
+<http://www.wikidata.org/entity/Q65621611>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "red wine glass"@en .
+
+<http://www.wikidata.org/entity/Q14902>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lemon squeezer"@en .
+
+<http://www.wikidata.org/entity/Q23788>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "botijo"@en .
+
+<http://www.wikidata.org/entity/Q7107659>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Osterizer"@en .
+
+<http://www.wikidata.org/entity/Q5733262>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Herb chopper"@en .
+
+<http://www.wikidata.org/entity/Q3006797>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "absinthe spoon"@en .
+
+<http://www.wikidata.org/entity/Q915110>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "paper knife"@en .
+
+<http://www.wikidata.org/entity/Q2374722>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mangal"@en .
+
+<http://www.wikidata.org/entity/Q5512062>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "G.I. pocket stove"@en .
+
+<http://www.wikidata.org/entity/Q1316639>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "feeding cup"@en .
+
+<http://www.wikidata.org/entity/Q7577147>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spife"@en .
+
+<http://www.wikidata.org/entity/Q1258900>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pythagorean cup"@en .
+
+<http://www.wikidata.org/entity/Q540224>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ramekin"@en .
+
+<http://www.wikidata.org/entity/Q1569661>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pastry bag"@en .
+
+<http://www.wikidata.org/entity/Q178664>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bowie knife"@en .
+
+<http://www.wikidata.org/entity/Q7106634>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "oshizushihako"@en .
+
+<http://www.wikidata.org/entity/Q23668>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beer bottle"@en .
+
+<http://www.wikidata.org/entity/Q14624645>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "terrine"@en .
+
+<http://www.wikidata.org/entity/Q831869>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "oenochoe"@en .
+
+<http://www.wikidata.org/entity/Q448190>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cage cup"@en .
+
+<http://www.wikidata.org/entity/Q21400456>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fish cutlery"@en .
+
+<http://www.wikidata.org/entity/Q2941222>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "nutcracker doll"@en .
+
+<http://www.wikidata.org/entity/Q29574754>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "roaster"@en .
+
+<http://www.wikidata.org/entity/Q9371017>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "disposable chopstick"@en .
+
+<http://www.wikidata.org/entity/Q1891952>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "napkin ring"@en .
+
+<http://www.wikidata.org/entity/Q4447493>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sushi machine"@en .
+
+<http://www.wikidata.org/entity/Q7406010>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "salt spoon"@en .
+
+<http://www.wikidata.org/entity/Q1454117>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Makiyakinabe"@en .
+
+<http://www.wikidata.org/entity/Q81944>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cutlery"@en .
+
+<http://www.wikidata.org/entity/Q14915>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tomato knife"@en .
+
+<http://www.wikidata.org/entity/Q7901521>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Uruli"@en .
+
+<http://www.wikidata.org/entity/Q7228470>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pony glass"@en .
+
+<http://www.wikidata.org/entity/Q3840887>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lusikkahaarukka"@en .
+
+<http://www.wikidata.org/entity/Q2366864>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cooking pot"@en .
+
+<http://www.wikidata.org/entity/Q23769>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "utility knife"@en .
+
+<http://www.wikidata.org/entity/Q1987186>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spork"@en .
+
+<http://www.wikidata.org/entity/Q899260>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "meat grinder"@en .
+
+<http://www.wikidata.org/entity/Q12011824>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beer bowl"@en .
+
+<http://www.wikidata.org/entity/Q10863986>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "disposable tableware"@en .
+
+<http://www.wikidata.org/entity/Q1869755>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lopas"@en .
+
+<http://www.wikidata.org/entity/Q3045539>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "play crockery"@en .
+
+<http://www.wikidata.org/entity/Q454781>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Räuchermann"@en .
+
+<http://www.wikidata.org/entity/Q193358>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ladle"@en .
+
+<http://www.wikidata.org/entity/Q2342885>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coffee percolator"@en .
+
+<http://www.wikidata.org/entity/Q2550543>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wasp knife"@en .
+
+<http://www.wikidata.org/entity/Q66467265>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "claret glass"@en .
+
+<http://www.wikidata.org/entity/Q4950050>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bounty"@en .
+
+<http://www.wikidata.org/entity/Q616204>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "portable stove"@en .
+
+<http://www.wikidata.org/entity/Q13587386>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Laser microtome"@en .
+
+<http://www.wikidata.org/entity/Q1040088>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Demitasse"@en .
+
+<http://www.wikidata.org/entity/Q5002461>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Butcher paper"@en .
+
+<http://www.wikidata.org/entity/Q71119090>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sink"@en .
+
+<http://www.wikidata.org/entity/Q15698243>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "scraper"@en .
+
+<http://www.wikidata.org/entity/Q386215>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mug"@en .
+
+<http://www.wikidata.org/entity/Q11916277>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Culter"@en .
+
+<http://www.wikidata.org/entity/Q21855686>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "foam cup"@en .
+
+<http://www.wikidata.org/entity/Q2082349>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Splatter guard"@en .
+
+<http://www.wikidata.org/entity/Q7049636>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nontron knife"@en .
+
+<http://www.wikidata.org/entity/Q10475927>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Baptismal bowl"@en .
+
+<http://www.wikidata.org/entity/Q961867>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "nef"@en .
+
+<http://www.wikidata.org/entity/Q8031765>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wonder Pot"@en .
+
+<http://www.wikidata.org/entity/Q4809069>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Assisted-opening knife"@en .
+
+<http://www.wikidata.org/entity/Q15840551>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mushroom knife"@en .
+
+<http://www.wikidata.org/entity/Q23764>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Santoku"@en .
+
+<http://www.wikidata.org/entity/Q1058776>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chafing dish"@en .
+
+<http://www.wikidata.org/entity/Q1427909>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "meat tenderizer"@en .
+
+<http://www.wikidata.org/entity/Q1601459>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kothon"@en .
+
+<http://www.wikidata.org/entity/Q14854076>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Passglass"@en .
+
+<http://www.wikidata.org/entity/Q26879523>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "double cocktail glass"@en .
+
+<http://www.wikidata.org/entity/Q6481648>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lame"@en .
+
+<http://www.wikidata.org/entity/Q89140425>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Class of Palmette-eye-cups"@en .
+
+<http://www.wikidata.org/entity/Q216425>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "teaspoon"@en .
+
+<http://www.wikidata.org/entity/Q12256299>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "throwing knife"@en .
+
+<http://www.wikidata.org/entity/Q652502>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Beveled rim bowl"@en .
+
+<http://www.wikidata.org/entity/Q1543308>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cooking pot"@en .
+
+<http://www.wikidata.org/entity/Q15706902>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Witches'-caldron"@en .
+
+<http://www.wikidata.org/entity/Q5382109>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Epergne"@en .
+
+<http://www.wikidata.org/entity/Q7859825>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tyg"@en .
+
+<http://www.wikidata.org/entity/Q21550533>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dessert plates"@en .
+
+<http://www.wikidata.org/entity/Q14909>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "egg slicer"@en .
+
+<http://www.wikidata.org/entity/Q14920412>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "stemware"@en .
+
+<http://www.wikidata.org/entity/Q1423766>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "African Arm-Ring"@en .
+
+<http://www.wikidata.org/entity/Q62033192>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "beer mat"@en .
+
+<http://www.wikidata.org/entity/Q1254441>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cezve"@en .
+
+<http://www.wikidata.org/entity/Q5169536>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fish fork"@en .
+
+<http://www.wikidata.org/entity/Q780757>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pint glass"@en .
+
+<http://www.wikidata.org/entity/Q38132106>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "soup bowl"@en .
+
+<http://www.wikidata.org/entity/Q6137415>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tenmoku"@en .
+
+<http://www.wikidata.org/entity/Q14899>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "melon baller"@en .
+
+<http://www.wikidata.org/entity/Q48628631>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mixing bowl"@en .
+
+<http://www.wikidata.org/entity/Q920179>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gordion Cup"@en .
+
+<http://www.wikidata.org/entity/Q1566385>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nakiri bōchō"@en .
+
+<http://www.wikidata.org/entity/Q1358695>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mbusi"@en .
+
+<http://www.wikidata.org/entity/Q26877158>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "champagne flute"@en .
+
+<http://www.wikidata.org/entity/Q64853395>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cole slaw board"@en .
+
+<http://www.wikidata.org/entity/Q28942718>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "organic drinking vessels"@en .
+
+<http://www.wikidata.org/entity/Q67689548>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Disposable plate"@en .
+
+<http://www.wikidata.org/entity/Q5184231>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "crepe maker"@en .
+
+<http://www.wikidata.org/entity/Q1885230>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "maigelein"@en .
+
+<http://www.wikidata.org/entity/Q851782>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tableware"@en .
+
+<http://www.wikidata.org/entity/Q7691120>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tea draining tray"@en .
+
+<http://www.wikidata.org/entity/Q6818054>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mercator K55K"@en .
+
+<http://www.wikidata.org/entity/Q925577>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hair clipper"@en .
+
+<http://www.wikidata.org/entity/Q493504>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "trammel hook"@en .
+
+<http://www.wikidata.org/entity/Q207763>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "rolling pin"@en .
+
+<http://www.wikidata.org/entity/Q12337>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "corkscrew"@en .
+
+<http://www.wikidata.org/entity/Q2053713>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "parmesan knife"@en .
+
+<http://www.wikidata.org/entity/Q953459>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "quaich"@en .
+
+<http://www.wikidata.org/entity/Q6457156>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "LAWKS"@en .
+
+<http://www.wikidata.org/entity/Q1721055>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coffeepot"@en .
+
+<http://www.wikidata.org/entity/Q52063359>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Food carrier"@en .
+
+<http://www.wikidata.org/entity/Q7339910>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Roasting pan"@en .
+
+<http://www.wikidata.org/entity/Q55992766>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tajine"@en .
+
+<http://www.wikidata.org/entity/Q3247051>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Peel"@en .
+
+<http://www.wikidata.org/entity/Q16977287>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "citrus reamer"@en .
+
+<http://www.wikidata.org/entity/Q10385865>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bath towel"@en .
+
+<http://www.wikidata.org/entity/Q127666>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "frying pan"@en .
+
+<http://www.wikidata.org/entity/Q331001>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Thermomix"@en .
+
+<http://www.wikidata.org/entity/Q49054068>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "silver spoon"@en .
+
+<http://www.wikidata.org/entity/Q6931617>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "muddling spoon"@en .
+
+<http://www.wikidata.org/entity/Q195813>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kinmen knife"@en .
+
+<http://www.wikidata.org/entity/Q1545569>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mastos"@en .
+
+<http://www.wikidata.org/entity/Q67690823>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Plastic plates"@en .
+
+<http://www.wikidata.org/entity/Q14894>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "peeler"@en .
+
+<http://www.wikidata.org/entity/Q19825902>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "t'ala cup"@en .
+
+<http://www.wikidata.org/entity/Q3296567>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Frigărui"@en .
+
+<http://www.wikidata.org/entity/Q1406259>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oroshigane"@en .
+
+<http://www.wikidata.org/entity/Q7812225>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Today sponge"@en .
+
+<http://www.wikidata.org/entity/Q8061360>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "yunomi"@en .
+
+<http://www.wikidata.org/entity/Q1486592>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kassel Cup"@en .
+
+<http://www.wikidata.org/entity/Q2929872>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "home stoup"@en .
+
+<http://www.wikidata.org/entity/Q2733787>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "napkin holder"@en .
+
+<http://www.wikidata.org/entity/Q2608022>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "contraceptive sponge"@en .
+
+<http://www.wikidata.org/entity/Q1411787>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "egg timer"@en .
+
+<http://www.wikidata.org/entity/Q505913>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "shot glass"@en .
+
+<http://www.wikidata.org/entity/Q5159469>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cone top"@en .
+
+<http://www.wikidata.org/entity/Q3043353>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chinese spoon"@en .
+
+<http://www.wikidata.org/entity/Q1139048>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coffee grinder"@en .
+
+<http://www.wikidata.org/entity/Q80799998>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "confectioner's knife"@en .
+
+<http://www.wikidata.org/entity/Q1424205>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ulu"@en .
+
+<http://www.wikidata.org/entity/Q7126968>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "palayok"@en .
+
+<http://www.wikidata.org/entity/Q3006804>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chashaku"@en .
+
+<http://www.wikidata.org/entity/Q79033922>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "disposable razor"@en .
+
+<http://www.wikidata.org/entity/Q6721600>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mabkhara"@en .
+
+<http://www.wikidata.org/entity/Q7070464>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nutmeg grater"@en .
+
+<http://www.wikidata.org/entity/Q17061421>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Yanagi ba"@en .
+
+<http://www.wikidata.org/entity/Q63346874>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ice cream spoon"@en .
+
+<http://www.wikidata.org/entity/Q1932496>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tazza"@en .
+
+<http://www.wikidata.org/entity/Q3399907>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "crock"@en .
+
+<http://www.wikidata.org/entity/Q708852>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "billhook"@en .
+
+<http://www.wikidata.org/entity/Q5167102>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cookie press"@en .
+
+<http://www.wikidata.org/entity/Q3528008>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "French tian"@en .
+
+<http://www.wikidata.org/entity/Q6932019>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Muffin tin"@en .
+
+<http://www.wikidata.org/entity/Q47454772>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "soup terrin"@en .
+
+<http://www.wikidata.org/entity/Q839143>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cataplana"@en .
+
+<http://www.wikidata.org/entity/Q2999756>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bowl of Hygieia"@en .
+
+<http://www.wikidata.org/entity/Q7605246>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "steak knife"@en .
+
+<http://www.wikidata.org/entity/Q3274349>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "griddle"@en .
+
+<http://www.wikidata.org/entity/Q25377459>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Duralex Gigogne"@en .
+
+<http://www.wikidata.org/entity/Q57502493>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Fichtelgebirgehumpen"@en .
+
+<http://www.wikidata.org/entity/Q10563755>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "flagon"@en .
+
+<http://www.wikidata.org/entity/Q2356786>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sugar bowl"@en .
+
+<http://www.wikidata.org/entity/Q429755>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chip fork"@en .
+
+<http://www.wikidata.org/entity/Q1959209>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coin drinking vessel"@en .
+
+<http://www.wikidata.org/entity/Q20820315>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "roaster"@en .
+
+<http://www.wikidata.org/entity/Q12603909>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "siru"@en .
+
+<http://www.wikidata.org/entity/Q981230>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lip Cup"@en .
+
+<http://www.wikidata.org/entity/Q1254139>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "rocket stove"@en .
+
+<http://www.wikidata.org/entity/Q7579157>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Spoon rest"@en .
+
+<http://www.wikidata.org/entity/Q15847011>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "scyphus"@en .
+
+<http://www.wikidata.org/entity/Q3343650>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Norelco"@en .
+
+<http://www.wikidata.org/entity/Q2227860>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sauteuse"@en .
+
+<http://www.wikidata.org/entity/Q7540872>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "slipjoint"@en .
+
+<http://www.wikidata.org/entity/Q1645376>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kakkabe"@en .
+
+<http://www.wikidata.org/entity/Q7323087>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rice polisher"@en .
+
+<http://www.wikidata.org/entity/Q7578441>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "splayd"@en .
+
+<http://www.wikidata.org/entity/Q73094330>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bread-and-butter plate"@en .
+
+<http://www.wikidata.org/entity/Q12034064>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Loštice pottery"@en .
+
+<http://www.wikidata.org/entity/Q775674>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cake and pie server"@en .
+
+<http://www.wikidata.org/entity/Q2932630>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "caddy spoon"@en .
+
+<http://www.wikidata.org/entity/Q47486870>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "salt shaker"@en .
+
+<http://www.wikidata.org/entity/Q887602>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "springform pan"@en .
+
+<http://www.wikidata.org/entity/Q16185915>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "paring knife"@en .
+
+<http://www.wikidata.org/entity/Q210723>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chalice"@en .
+
+<http://www.wikidata.org/entity/Q1462000>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Makisu"@en .
+
+<http://www.wikidata.org/entity/Q5103457>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "serving scoop"@en .
+
+<http://www.wikidata.org/entity/Q1934514>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "milk watcher"@en .
+
+<http://www.wikidata.org/entity/Q1147545>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "French press"@en .
+
+<http://www.wikidata.org/entity/Q3080052>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "snail fork"@en .
+
+<http://www.wikidata.org/entity/Q1036735>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spider"@en .
+
+<http://www.wikidata.org/entity/Q4878889>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fries cutter"@en .
+
+<http://www.wikidata.org/entity/Q16889903>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Marjacq"@en .
+
+<http://www.wikidata.org/entity/Q1104430>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "carafe"@en .
+
+<http://www.wikidata.org/entity/Q1540760>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "trench knife"@en .
+
+<http://www.wikidata.org/entity/Q1821340>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Leutel"@en .
+
+<http://www.wikidata.org/entity/Q1473090>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Usuba bōchō"@en .
+
+<http://www.wikidata.org/entity/Q36932521>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pickle lifter"@en .
+
+<http://www.wikidata.org/entity/Q55627335>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "type C kylix"@en .
+
+<http://www.wikidata.org/entity/Q5180238>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "crab cracker"@en .
+
+<http://www.wikidata.org/entity/Q1758181>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lekanide"@en .
+
+<http://www.wikidata.org/entity/Q1394659>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gravity knife"@en .
+
+<http://www.wikidata.org/entity/Q55627524>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "type A kylix"@en .
+
+<http://www.wikidata.org/entity/Q1116813>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pintchen/Pintje"@en .
+
+<http://www.wikidata.org/entity/Q7881728>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Umnumzaan"@en .
+
+<http://www.wikidata.org/entity/Q7131874>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pantographic knife"@en .
+
+<http://www.wikidata.org/entity/Q22236245>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mounted corkscrew"@en .
+
+<http://www.wikidata.org/entity/Q809596>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "moustache cup"@en .
+
+<http://www.wikidata.org/entity/Q5068369>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chakla"@en .
+
+<http://www.wikidata.org/entity/Q2158156>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "butter curler"@en .
+
+<http://www.wikidata.org/entity/Q19754913>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lebrillo"@en .
+
+<http://www.wikidata.org/entity/Q2003929>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nshaal"@en .
+
+<http://www.wikidata.org/entity/Q3064622>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "faisselle"@en .
+
+<http://www.wikidata.org/entity/Q3303056>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mazagran"@en .
+
+<http://www.wikidata.org/entity/Q7646268>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Suribachi"@en .
+
+<http://www.wikidata.org/entity/Q617239>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cutting board"@en .
+
+<http://www.wikidata.org/entity/Q26877110>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coffee glass"@en .
+
+<http://www.wikidata.org/entity/Q18341850>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mortar and pestle"@en .
+
+<http://www.wikidata.org/entity/Q2597000>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "brew kettle"@en .
+
+<http://www.wikidata.org/entity/Q10934224>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tatung rice cooker"@en .
+
+<http://www.wikidata.org/entity/Q447349>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "aluminium foil"@en .
+
+<http://www.wikidata.org/entity/Q54423622>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mustard pot"@en .
+
+<http://www.wikidata.org/entity/Q86058871>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "black-handled knife"@en .
+
+<http://www.wikidata.org/entity/Q20853378>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kiwi spoon"@en .
+
+<http://www.wikidata.org/entity/Q14906>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "garlic press"@en .
+
+<http://www.wikidata.org/entity/Q17221579>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hibashi"@en .
+
+<http://www.wikidata.org/entity/Q485647>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pineapple cutter"@en .
+
+<http://www.wikidata.org/entity/Q599312>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kitchen knife"@en .
+
+<http://www.wikidata.org/entity/Q586319>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ice pick"@en .
+
+<http://www.wikidata.org/entity/Q32177017>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "klokje"@en .
+
+<http://www.wikidata.org/entity/Q5447945>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fighting knife"@en .
+
+<http://www.wikidata.org/entity/Q898419>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Microtome"@en .
+
+<http://www.wikidata.org/entity/Q613972>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tray"@en .

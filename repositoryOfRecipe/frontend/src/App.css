@@ -1,0 +1,22 @@
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+
+.navigation{
+    font-size: medium;
+}
+
+.but{
+    width: 3rem;
+    height: 3rem;
+    padding: 0 0 0 0;
+}
+
+.but p{
+    font-size: x-large;
+    font-weight: 900;
+    margin: 0 0 0 0;
+}
+
+
+
+
+

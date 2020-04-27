@@ -1,0 +1,226 @@
+@prefix : <http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ownOnt: <http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl> .
+@base <http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3> .
+
+<http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3> rdf:type owl:Ontology ;
+                                                                          owl:imports <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26> .
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#alt1
+:alt1 rdf:type owl:NamedIndividual ,
+               rdf:Alt ;
+      <http://xmlns.com/foaf/0.1/member> :in1 .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#alt2
+:alt2 rdf:type owl:NamedIndividual ,
+               rdf:Alt ;
+      <http://xmlns.com/foaf/0.1/member> :in2 .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#cont1
+:cont1 rdf:type owl:NamedIndividual ,
+                rdf:Seq ;
+       <http://xmlns.com/foaf/0.1/member> :in1_1 ,
+                                          :in1_2 ,
+                                          :in1_3 .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#cont2
+:cont2 rdf:type owl:NamedIndividual ,
+                rdf:Seq ;
+       <http://xmlns.com/foaf/0.1/member> :in2_1 ,
+                                          :in2_2 ,
+                                          :in2_3 .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in1
+:in1 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+     <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasInstructions> :cont1 .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in1_1
+:in1_1 rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+       <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasDescription> "Line a cutting board with parchment paper. Unfold puff pastry onto cutting board. Cut each sheet into 4 equal squares."^^xsd:string .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in1_2
+:in1_2 rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+       <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasDescription> "Preheat a waffle iron according to manufacturer's instructions. Grease with cooking spray."^^xsd:string .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in1_3
+:in1_3 rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+       <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasDescription> "Place one puff pastry square in the preheated waffle iron; cook until golden brown, 3 to 5 minutes. Repeat with remaining puff pastry squares."^^xsd:string .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in2
+:in2 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+     <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasInstructions> :cont2 .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in2_1
+:in2_1 rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+       <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasDescription> "Pound chicken breasts if they are too thick. Place a cheese and ham slice on each breast within 1/2 inch of the edges. Fold the edges of the chicken over the filling, and secure with toothpicks. Mix the flour and paprika in a small bowl, and coat the chicken pieces."^^xsd:string .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in2_2
+:in2_2 rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+       <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasDescription> "Heat the butter in a large skillet over medium-high heat, and cook the chicken until browned on all sides. Add the wine and bouillon. Reduce heat to low, cover, and simmer for 30 minutes, until chicken is no longer pink and juices run clear."^^xsd:string .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#in2_3
+:in2_3 rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Instruction> ;
+       <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasDescription> "Remove the toothpicks, and transfer the breasts to a warm platter. Blend the cornstarch with the cream in a small bowl, and whisk slowly into the skillet. Cook, stirring until thickened, and pour over the chicken. Serve warm."^^xsd:string .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing1_1
+:ing1_1 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "package frozen puff pastry, thawed"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing1_2
+:ing1_2 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "cooking spray"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_1
+:ing2_1 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "skinless, boneless chicken breast halves"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_10
+:ing2_10 rdf:type owl:NamedIndividual ,
+                  <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+         rdfs:label "heavy whipping cream"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_2
+:ing2_2 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "Swiss cheese"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_3
+:ing2_3 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "ham"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_4
+:ing2_4 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "all-purpose flour"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_5
+:ing2_5 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "paprika"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_6
+:ing2_6 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "butter"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_7
+:ing2_7 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "dry white wine"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_8
+:ing2_8 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "cornstarch"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#ing2_9
+:ing2_9 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Ingredient> ;
+        rdfs:label "chicken bouillon granules"^^rdf:langString .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#1
+<http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#1> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Recipe> ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasIngredient> :ing1_2 ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasInstructions> :alt1 ,
+                                                                                                                                                                     :ing1_1 ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasCookTime> "T8M"^^xsd:duration ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasDescription> "\"Add puff pastry to the list of good things you can snackify in your waffle iron. Although they don't puff up as much as oven-baked puff pastry, they turn out crispy on the outside and tender on the inside, and they take only minutes to make. Serve hot or at room temperature with syrup, fruit, Nutella®, fruit preserves, or nut butter.\""^^xsd:string ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasNumberOfPortion> 8 ;
+                                                                           rdfs:label "Puff Pastry Waffles" .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#2
+<http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#2> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Recipe> ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasIngredient> :ing2_1 ,
+                                                                                                                                                                   :ing2_10 ,
+                                                                                                                                                                   :ing2_2 ,
+                                                                                                                                                                   :ing2_3 ,
+                                                                                                                                                                   :ing2_4 ,
+                                                                                                                                                                   :ing2_5 ,
+                                                                                                                                                                   :ing2_6 ,
+                                                                                                                                                                   :ing2_7 ,
+                                                                                                                                                                   :ing2_8 ,
+                                                                                                                                                                   :ing2_9 ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasCookTime> "T1H"^^xsd:duration ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasNumberOfPortion> 6 ;
+                                                                           rdfs:label "Chicken Cordon Bleu II" .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#3
+<http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#3> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Recipe> ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasCookTime> "T1H35M"^^xsd:duration ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasNumberOfPortion> 15 ;
+                                                                           rdfs:label "Honey Glazed Ham" .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#4
+<http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#4> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Recipe> ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasNumberOfPortion> 6 ;
+                                                                           rdfs:label "Whoopie Pies I" .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#5
+<http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#5> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Recipe> ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasCookTime> "T1H15M"^^xsd:duration ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasNumberOfPortion> 8 ;
+                                                                           rdfs:label "The Best Chili" .
+
+
+###  http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#6
+<http://www.semanticweb.org/iveta/ontologies/2020/3/untitled-ontology-3#6> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#Recipe> ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasCookTime> "T43M"^^xsd:duration ;
+                                                                           <http://www.semanticweb.org/iveta/ontologies/2020/1/untitled-ontology-26#hasNumberOfPortion> 8 ;
+                                                                           rdfs:label "Easy Creamy Vegan Macaroni and Cheese" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
