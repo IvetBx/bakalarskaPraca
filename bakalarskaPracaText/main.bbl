@@ -21,6 +21,13 @@
 \newblock {W3C} recommendation, W3C, March 2013.
 \newblock http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/.
 
+\bibitem{reduxThunk}
+redux thunk, 2020.
+
+\bibitem{redux}
+Dan Abramov and the Redux~documentation authors.
+\newblock redux, 2020.
+
 \bibitem{triplestore}
 Ontotext AD.
 \newblock What is rdf triplestore?, 2019.
@@ -38,6 +45,10 @@ Ramanathan Guha and Dan Brickley.
 \bibitem{linkedData5star}
 Michael Hausenblas.
 \newblock 5 star open data, 2020.
+
+\bibitem{react}
+Facebook Inc.
+\newblock React, 2020.
 
 \bibitem{semanticWebLayer2}
 Craig Knoblock.
@@ -71,6 +82,14 @@ Guus Schreiber and Yves Raimond.
 \newblock {RDF} 1.1 primer.
 \newblock {W3C} note, W3C, June 2014.
 \newblock http://www.w3.org/TR/2014/NOTE-rdf11-primer-20140624/.
+
+\bibitem{axios}
+Bootstrap team.
+\newblock axios, 2020.
+
+\bibitem{bootstrap}
+Bootstrap team.
+\newblock Bootstrap, 2020.
 
 \bibitem{scientificAmerican}
 James~Hendler Tim Berners-Lee and Ora Lassila.

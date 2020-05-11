@@ -15,21 +15,26 @@
 \contentsline {section}{\numberline {1.2}Pou\IeC {\v z}it\IeC {\'e} technol\IeC {\'o}gie}{10}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Apache Jena}{10}{subsection.1.2.1}
 \contentsline {subsubsection}{Fuseki}{10}{section*.6}
-\contentsline {subsubsection}{TDB}{10}{section*.7}
+\contentsline {subsubsection}{TDB2}{10}{section*.7}
 \contentsline {subsubsection}{RDF API}{10}{section*.8}
 \contentsline {subsubsection}{Ontology API}{11}{section*.9}
 \contentsline {subsubsection}{ARQ}{11}{section*.10}
-\contentsline {subsection}{\numberline {1.2.2}Spring Boot}{11}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}React}{11}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Existuj\IeC {\'u}ce rie\IeC {\v s}enia}{11}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Varecha}{11}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Yummly}{12}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Bakal\IeC {\'a}rska pr\IeC {\'a}ca Inteligentn\IeC {\'y} recept\IeC {\'a}r na b\IeC {\'a}ze prepojen\IeC {\'y}ch d\IeC {\'a}t}{13}{subsection.1.3.3}
-\contentsline {chapter}{\numberline {2}N\IeC {\'a}vrh rie\IeC {\v s}enia}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}N\IeC {\'a}vrh ontol\IeC {\'o}gie}{15}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Prot\IeC {\'e}g\IeC {\'e}}{16}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Existuj\IeC {\'u}ca ontol\IeC {\'o}gia}{16}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Navrhnut\IeC {\'a} ontol\IeC {\'o}gia}{16}{subsection.2.1.3}
-\contentsline {subsubsection}{Popis tried existuj\IeC {\'u}cich v predch\IeC {\'a}dzaj\IeC {\'u}cej ontol\IeC {\'o}gi\IeC {\'\i }}{16}{section*.11}
-\contentsline {subsubsection}{Popis triedy Instruction}{17}{section*.12}
-\contentsline {section}{\numberline {2.2}Funkcionalita syst\IeC {\'e}mu}{18}{section.2.2}
+\contentsline {subsubsection}{RDF Connection}{11}{section*.11}
+\contentsline {subsubsection}{Query Builder}{11}{section*.12}
+\contentsline {subsection}{\numberline {1.2.2}Spring Boot}{12}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}React}{12}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Redux}{12}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Axios}{13}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Bootstrap}{13}{subsection.1.2.6}
+\contentsline {section}{\numberline {1.3}Existuj\IeC {\'u}ce rie\IeC {\v s}enia}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Varecha}{14}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Yummly}{15}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Bakal\IeC {\'a}rska pr\IeC {\'a}ca Inteligentn\IeC {\'y} recept\IeC {\'a}r na b\IeC {\'a}ze prepojen\IeC {\'y}ch d\IeC {\'a}t}{15}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {2}N\IeC {\'a}vrh rie\IeC {\v s}enia}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}N\IeC {\'a}vrh ontol\IeC {\'o}gie}{17}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Prot\IeC {\'e}g\IeC {\'e}}{18}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Existuj\IeC {\'u}ca ontol\IeC {\'o}gia}{18}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Navrhnut\IeC {\'a} ontol\IeC {\'o}gia}{18}{subsection.2.1.3}
+\contentsline {subsubsection}{Popis tried existuj\IeC {\'u}cich v predch\IeC {\'a}dzaj\IeC {\'u}cej ontol\IeC {\'o}gi\IeC {\'\i }}{18}{section*.13}
+\contentsline {subsubsection}{Popis triedy Instruction}{19}{section*.14}
+\contentsline {section}{\numberline {2.2}Funkcionalita syst\IeC {\'e}mu}{20}{section.2.2}

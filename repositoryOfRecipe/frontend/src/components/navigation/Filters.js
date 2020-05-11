@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import {Button, ButtonToolbar, Row, Col} from "react-bootstrap";
-import FilterModalAuthors from "./modals/FilterModalAuthors";
-import FilterModalCategories from "./modals/FilterModalCategories"
-import FilterModalCookingMethods from "./modals/FilterModalCookingMethods"
-import FilterModalCookingTime from "./modals/FilterModalCookingTime"
-import FilterModalCuisines from "./modals/FilterModalCuisines"
-import FilterModalKitchenware from "./modals/FilterModalKitchenware"
-import FilterModalIngredients from "./modals/FilterModalIngredients"
-import FilterModalRatings from "./modals/FilterModalRatings"
+import FilterModalExcludedIncluded from "../modals/FilterModalExcludedIncluded"
+import FilterModalRatings from "../modals/FilterModalRatings"
+import FilterModalCookingTime from "../modals/FilterModalCookingTime"
+import { connect } from 'react-redux'
+import { fetchRecipesWithFilters, removeFilters } from "../../redux"
 
-export default class Filters extends Component{
+class Filters extends Component{
 
   constructor(props){
     super(props);
@@ -27,25 +24,31 @@ export default class Filters extends Component{
         <div className="row bg-dark justify-content-md-center pt-3">
             <ButtonToolbar className="col-md-auto">
               <Button variant="dark"  className="text-uppercase" onClick={()=> this.setState({ModalAuthorsShow:true})}> Authors </Button>
-              <FilterModalAuthors 
+              <FilterModalExcludedIncluded 
                     show={this.state.ModalAuthorsShow}
                     onHide={addModalClose}
+                    singular="author"
+                    plural="authors"
                     />  
             </ButtonToolbar>
 
             <ButtonToolbar className="col-md-auto">
               <Button variant="dark" className="text-uppercase" onClick={()=> this.setState({ModalCategoriesShow:true})}> Categories </Button>
-              <FilterModalCategories 
+              <FilterModalExcludedIncluded 
                     show={this.state.ModalCategoriesShow}
                     onHide={addModalClose}
+                    singular="category"
+                    plural="categories"
                     />  
             </ButtonToolbar>
 
             <ButtonToolbar className="col-md-auto">
               <Button variant="dark" className="text-uppercase" onClick={()=> this.setState({ModalCookingMethodsShow : true})}> Cooking methods </Button>
-              <FilterModalCookingMethods
+              <FilterModalExcludedIncluded 
                     show={this.state.ModalCookingMethodsShow}
                     onHide={addModalClose}
+                    singular="cooking method"
+                    plural="cooking methods"
                     />  
             </ButtonToolbar>
 
@@ -59,25 +62,31 @@ export default class Filters extends Component{
 
             <ButtonToolbar className="col-md-auto">
               <Button variant="dark" className="text-uppercase" onClick={()=> this.setState({ModalCuisinesShow:true})}> Cuisines </Button>
-              <FilterModalCuisines 
+              <FilterModalExcludedIncluded 
                     show={this.state.ModalCuisinesShow}
                     onHide={addModalClose}
-                    />  
+                    singular="cuisine"
+                    plural="cuisines"
+                    />   
             </ButtonToolbar>
 
             <ButtonToolbar className="col-md-auto">
               <Button variant="dark" className="text-uppercase" onClick={()=> this.setState({ModalKitchenwareShow:true})}> Kitchenware </Button>
-              <FilterModalKitchenware 
+              <FilterModalExcludedIncluded 
                     show={this.state.ModalKitchenwareShow}
                     onHide={addModalClose}
+                    singular="kitchenware"
+                    plural="kitchenware"
                     />  
             </ButtonToolbar>
 
             <ButtonToolbar className="col-md-auto">
               <Button variant="dark" className="text-uppercase" onClick={()=> this.setState({ModalIngredientsShow:true})}> Ingredients </Button>
-              <FilterModalIngredients 
+              <FilterModalExcludedIncluded 
                     show={this.state.ModalIngredientsShow}
                     onHide={addModalClose}
+                    singular="ingredient"
+                    plural="ingredients"
                     />  
             </ButtonToolbar>
 
@@ -94,16 +103,38 @@ export default class Filters extends Component{
             <Col></Col>
             <Col xs={9}>
               <div className="d-flex justify-content-center">
-                <Button variant="info" size="sm  mr-2 mt-2" className="font-weight-bold"> Apply filters together </Button>{' '}
+                <Button variant="info" size="sm  mr-2 mt-2" className="font-weight-bold"
+                onClick={()=> this.props.fetch_recipes_with_filters(this.props.recipes_data.minTime, this.props.recipes_data.maxTime, this.props.recipes_data.minRating, this.props.recipes_data.maxRating, this.props.recipes_data.inAuthors, this.props.recipes_data.exAuthors, 
+                  this.props.recipes_data.inCategories, this.props.recipes_data.exCategories, this.props.recipes_data.inMethods, this.props.recipes_data.exMethods, this.props.recipes_data.inCuisines, this.props.recipes_data.exCuisines, 
+                  this.props.recipes_data.inKitchenware, this.props.recipes_data.exKitchenware, this.props.recipes_data.inIngredients, this.props.recipes_data.exIngredients)}> Apply filters together </Button>{' '}
                 <Button variant="info" size="sm  mr-2 mt-2" className="font-weight-bold"> Apply filters individually </Button>{' '}
-                <Button variant="danger" size="sm  mr-2 mt-2" className="font-weight-bold"> Remove filters </Button>
+                <Button variant="danger" size="sm  mr-2 mt-2" className="font-weight-bold" onClick={()=> this.props.removeFilters()}> Remove filters </Button>
             </div>
             </Col>
             <Col></Col>
           </Row>
       </div>
-)
+    )
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    recipes_data: state.recipes
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+      fetch_recipes_with_filters: (minTime, maxTime, minRating, maxRating, inAuthors, exAuthors, inCategories, exCategories, inMethods, exMethods,
+        inCuisines, exCuisines, inKitchenware, exKitchenware, inIngredients, exIngredients) => 
+      dispatch(fetchRecipesWithFilters(minTime, maxTime, minRating, maxRating, inAuthors, exAuthors, inCategories, exCategories, inMethods, exMethods,
+        inCuisines, exCuisines, inKitchenware, exKitchenware, inIngredients, exIngredients)),
+
+      removeFilters: () => dispatch(removeFilters())
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Filters)
 
 

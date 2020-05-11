@@ -9,6 +9,7 @@ import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
 import org.springframework.stereotype.Service;
+import org.apache.jena.arq.querybuilder.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -78,6 +79,12 @@ public class ServiceOfEntity {
                         String.format(Constant.formatTRIPLE_0, "?s", "?p", "?o") +
                         "}"
         );
+
+        SelectBuilder sb = new SelectBuilder()
+                .addVar( "*" )
+                .addWhere( "?s", "?p", "?o" );
+
+        Query q = sb.build() ;
 
         QueryExecution qExec = Fuseki.getConnection().query(query) ;
         ResultSet rs = qExec.execSelect() ;

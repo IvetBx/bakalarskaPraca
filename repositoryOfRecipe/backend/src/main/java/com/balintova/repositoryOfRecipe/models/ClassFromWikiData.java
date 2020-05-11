@@ -39,7 +39,7 @@ public class ClassFromWikiData extends ModelOfEntity{
 
     @Override
     public Model addAllPropertiesToModel(Resource resource){
-        org.apache.jena.rdf.model.Model model = ModelFactory.createDefaultModel();
+        Model model = ModelFactory.createDefaultModel();
 
         model.addLiteral(resource, RDFS.label, getLabel());
 

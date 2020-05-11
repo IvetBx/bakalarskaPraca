@@ -1,84 +1,91 @@
-import React, {Component} from "react";
-import  { withFormik } from "formik"
+import React from "react";
+import  { Formik } from "formik"
 import { Modal, Col, Button, Form} from "react-bootstrap"
+import { connect } from 'react-redux'
+import {setMinRating, setMaxRating} from "../../redux"
 
-const FormRating = ({
-  handleSubmit,
-  handleChange,
-  values,
-  }) => (
-    <Form noValidate onSubmit={handleSubmit}>
-    <Form.Row>
-        <Form.Group as={Col} controlId="minRating">
-        <Form.Label>Minumum rating value:</Form.Label>
-        <Form.Control as="select" value={values.minRating} onChange={handleChange} custom>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </Form.Control>
-      </Form.Group>
+function FilterModalCookingTime (props) {
 
-      <Form.Group as={Col} controlId="maxRating" >
-        <Form.Label>Maximum rating value:</Form.Label>
-        <Form.Control as="select" value={values.maxRating} onChange={handleChange} custom>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </Form.Control>
-      </Form.Group>
-    </Form.Row>
-    <div className="d-flex justify-content-end">
-      <Button variant="success" type="submit">Save</Button>
-    </div>
-  </Form>
-  )
+  const createFormular = () => {
+    return (
+      <div>
+        <Formik
+            validateOnChange={false}
+            initialValues={{
+              minRating:(props && props.min_rating) || "", 
+              maxRating:(props && props.max_rating) || ""
+            }}
+            onSubmit={(data, { setSubmitting }) => {
+              setSubmitting(true);
+                props.set_min_rating(data.minRating)
+                props.set_max_rating(data.maxRating)
+              setSubmitting(false);
+            }}
+        >
+            {({ values, handleSubmit, handleChange }) => 
+                <Form onSubmit={handleSubmit}>
+                <Form.Row>
+                      <Form.Group as={Col} md="6" controlId="minRating">
+                          <Form.Label>Minumum rating value:</Form.Label>
+                          <Form.Control as="select" value={values.minRating} onChange={handleChange} custom>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </Form.Control>
+                      </Form.Group>
+            
+                      <Form.Group as={Col} md="6" controlId="maxRating">
+                          <Form.Label>Maximum rating value:</Form.Label>
+                          <Form.Control as="select" value={values.maxRating} onChange={handleChange} custom>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </Form.Control>
+                      </Form.Group>
+                </Form.Row>
+                <div className="d-flex justify-content-center">
+                  <Button variant="success" type="submit"  className="button2 mt-2 w-25"><p>Save</p></Button>
+                </div>
+              </Form>
+            }
+          </Formik>
+        </div>
+        )}
 
-const FormRatingFormik = withFormik({
-  mapPropsToValues({minRating, maxRating}) {
-    return {
-      minRating:minRating || "1",
-      maxRating:maxRating || "5"
-    }
-  },
-  handleSubmit(values){
-    console.log(values)
-  }
-})(FormRating)
-
-export default class FilterModalRatings extends Component{
-
-    render(){
         return(
-            <Modal
-                {...this.props}
-                size="lg"
-                aria-labelledby="contained-modal-title-vcenter"
-                centered
-            >
+            <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
 
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-              Assign a filter to ratings
-        </Modal.Title>
-      </Modal.Header>
+              <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter"> Assign a filter to ratings </Modal.Title>
+              </Modal.Header>
 
-      <Modal.Body>
+              <Modal.Body>
+                  <div className="container"> {createFormular()} </div>
+              </Modal.Body>
 
-            <div className="container">
-              <FormRatingFormik />
-            </div>
-
-      </Modal.Body>
-
-      <Modal.Footer>
-      </Modal.Footer>
-
-    </Modal>
+              <Modal.Footer>
+              </Modal.Footer>
+            </Modal>
         )
-    }
-} 
+  }
+
+const mapStateToProps = state => {
+  return {
+      min_rating: state.recipes.minRating,
+      max_rating: state.recipes.maxRating
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+      set_min_rating: (rating) => dispatch(setMinRating(rating)),
+      set_max_rating: (rating) => dispatch(setMaxRating(rating))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FilterModalCookingTime)
 

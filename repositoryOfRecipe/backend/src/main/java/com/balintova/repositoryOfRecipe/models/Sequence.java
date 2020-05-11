@@ -2,10 +2,7 @@ package com.balintova.repositoryOfRecipe.models;
 
 import com.balintova.repositoryOfRecipe.config.Constant;
 import com.balintova.repositoryOfRecipe.config.Ontology;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.ResourceFactory;
+import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.RDF;
 
 import java.util.ArrayList;
@@ -35,8 +32,8 @@ public class Sequence extends ModelOfEntity {
     }
 
     @Override
-    public org.apache.jena.rdf.model.Model addAllPropertiesToModel(Resource resource){
-        org.apache.jena.rdf.model.Model model = ModelFactory.createDefaultModel();
+    public Model addAllPropertiesToModel(Resource resource){
+        Model model = ModelFactory.createDefaultModel();
 
         model.add(resource, RDF.type, RDF.Seq);
         for(Object instruction : getLi()){

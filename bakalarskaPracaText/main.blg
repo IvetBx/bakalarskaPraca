@@ -23,6 +23,16 @@ Warning--entry type for "yummly" isn't style-file defined
 --line 147 of file literatura.bib
 Warning--entry type for "jena" isn't style-file defined
 --line 155 of file literatura.bib
+Warning--entry type for "bootstrap" isn't style-file defined
+--line 164 of file literatura.bib
+Warning--entry type for "axios" isn't style-file defined
+--line 172 of file literatura.bib
+Warning--entry type for "redux" isn't style-file defined
+--line 180 of file literatura.bib
+Warning--entry type for "reduxThunk" isn't style-file defined
+--line 188 of file literatura.bib
+Warning--entry type for "react" isn't style-file defined
+--line 196 of file literatura.bib
 Warning--to sort, need author, editor, or key in linkedData
 Warning--to sort, need author, editor, or key in rdf2
 Name 1 in "Markus Krötzsch, Sebastian Rudolph, Peter Patel-Schneider, Bijan Parsia, and Pascal Hitzler" has a comma at the end for entry owl
@@ -33,6 +43,7 @@ Too many commas in name 1 of "MIT, ERCIM, Keio, Beihang" for entry vocabularies
 while executing---line 1049 of file plain.bst
 Warning--to sort, need author or key in sparql
 Warning--to sort, need author, editor, or key in sparql2
+Warning--to sort, need author or key in reduxThunk
 Warning--empty author and editor in rdf2
 Warning--empty author and editor in sparql2
 Warning--empty author and editor in linkedData
@@ -43,45 +54,45 @@ Too many commas in name 1 of "Markus Krötzsch, Sebastian Rudolph, Peter Patel-S
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "MIT, ERCIM, Keio, Beihang" for entry vocabularies
 while executing---line 1090 of file plain.bst
-You've used 17 entries,
+You've used 22 entries,
             2118 wiz_defined-function locations,
-            573 strings with 5760 characters,
-and the built_in function-call counts, 3528 in all, are:
-= -- 325
-> -- 119
+            585 strings with 5903 characters,
+and the built_in function-call counts, 4504 in all, are:
+= -- 409
+> -- 154
 < -- 0
-+ -- 53
-- -- 34
-* -- 161
-:= -- 586
-add.period$ -- 42
-call.type$ -- 17
-change.case$ -- 69
++ -- 68
+- -- 44
+* -- 195
+:= -- 735
+add.period$ -- 51
+call.type$ -- 22
+change.case$ -- 89
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 145
-empty$ -- 357
-format.name$ -- 34
-if$ -- 755
+cite$ -- 31
+duplicate$ -- 180
+empty$ -- 468
+format.name$ -- 44
+if$ -- 972
 int.to.chr$ -- 0
-int.to.str$ -- 17
+int.to.str$ -- 22
 missing$ -- 4
-newline$ -- 80
-num.names$ -- 26
-pop$ -- 116
+newline$ -- 99
+num.names$ -- 34
+pop$ -- 162
 preamble$ -- 2
-purify$ -- 51
+purify$ -- 66
 quote$ -- 0
-skip$ -- 119
+skip$ -- 160
 stack$ -- 0
-substring$ -- 102
-swap$ -- 13
+substring$ -- 127
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 62
-warning$ -- 8
-while$ -- 27
-width$ -- 19
-write$ -- 160
+type$ -- 82
+warning$ -- 9
+while$ -- 35
+width$ -- 24
+write$ -- 198
 (There were 6 error messages)

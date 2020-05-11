@@ -1,290 +1,240 @@
 package com.balintova.repositoryOfRecipe.services;
-
 import com.balintova.repositoryOfRecipe.config.Constant;
 import com.balintova.repositoryOfRecipe.config.Fuseki;
+import com.balintova.repositoryOfRecipe.config.Ontology;
+import com.balintova.repositoryOfRecipe.models.ModelOfEntity;
 import com.balintova.repositoryOfRecipe.models.Recipe;
+import org.apache.jena.arq.querybuilder.ExprFactory;
+import org.apache.jena.arq.querybuilder.SelectBuilder;
+import org.apache.jena.arq.querybuilder.WhereBuilder;
+import org.apache.jena.datatypes.xsd.XSDDatatype;
+import org.apache.jena.datatypes.xsd.XSDDuration;
 import org.apache.jena.query.*;
-import org.apache.jena.rdf.model.Literal;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdfconnection.RDFConnection;
-import org.apache.jena.rdfconnection.RDFConnectionFuseki;
-import org.apache.jena.rdfconnection.SparqlQueryConnection;
-import org.apache.jena.rdfconnection.SparqlUpdateConnection;
+import org.apache.jena.rdf.model.*;
+import org.apache.jena.sparql.expr.*;
+import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 import org.springframework.stereotype.Service;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
+import java.util.*;
+import java.text.SimpleDateFormat;
 
 @Service
 public class RecipeService extends ServiceOfEntity{
 
+    private SelectBuilder createBasicBuilderForDislayAllRecipes(){
+        SelectBuilder builder = new SelectBuilder()
+                .addPrefix( "rdfs",  Constant.rdfs )
+                .addPrefix( "", Constant.ontRecipes )
+                .setDistinct(true)
+                .addVar( "?recipe").addVar( "?desc" ).addVar( "?lab" )
+                .addWhere( "?recipe", RDF.type, ":Recipe" )
+                .addWhere( "?recipe", ":hasDescription", "?desc")
+                .addWhere( "?recipe", RDFS.label, "?lab");
+        return builder;
+    }
+
+    public static void time() {
+        Calendar cal = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        System.out.println( sdf.format(cal.getTime()) );
+    }
+
+    private Recipe createBasicRecipe(QuerySolution qs){
+        Resource recipe = qs.getResource("recipe");
+        Literal desc = qs.getLiteral("desc");
+        Literal lab = qs.getLiteral("lab");
+
+        Recipe recipe1 = new Recipe();
+        recipe1.setUri(recipe.getURI());
+        recipe1.setLabel(lab.getString());
+        recipe1.setHasDescription(desc.getString());
+        return recipe1;
+    }
+
     public List<Recipe> findAll(){
 
-		Query query = QueryFactory.create(
-                "" + Constant.prefixes +
-                        "SELECT DISTINCT ?recipe ?desc ?lab { " +
-                        "?recipe a :Recipe;" +
-                        "        :hasDescription ?desc;" +
-                        "        rdfs:label ?lab." +
-                        "}"
-        );
+        SelectBuilder builder = createBasicBuilderForDislayAllRecipes();
 
 		List<Recipe> recipes = new ArrayList<>();
 
-		QueryExecution qExec = Fuseki.getConnection().query(query) ;
+		QueryExecution qExec = Fuseki.getConnection().query(builder.build()) ;
         ResultSet rs = qExec.execSelect() ;
         while(rs.hasNext()) {
-            QuerySolution qs = rs.next() ;
+            recipes.add(createBasicRecipe(rs.next()));
+        }
+        qExec.close() ;
+        return recipes;
+    }
 
-            Resource recipe = qs.getResource("recipe");
-            Literal desc = qs.getLiteral("desc");
-            Literal lab = qs.getLiteral("lab");
+    public List<Recipe> findByName(String recipeName){
 
-            Recipe recipe1 = new Recipe();
-            recipe1.setUri(recipe.getURI());
-            recipe1.setLabel(lab.getString());
-            recipe1.setHasDescription(desc.getString());
-            recipes.add(recipe1);
+        ExprFactory exprFactory = new ExprFactory();
+        SelectBuilder builder = createBasicBuilderForDislayAllRecipes();
+                builder.addFilter(exprFactory.regex("?lab", recipeName,"i"));
+
+        List<Recipe> recipes = new ArrayList<>();
+
+        QueryExecution qExec = Fuseki.getConnection().query(builder.build()) ;
+        ResultSet rs = qExec.execSelect() ;
+        while(rs.hasNext()) {
+            recipes.add(createBasicRecipe(rs.next()));
         }
         qExec.close() ;
 
         return recipes;
     }
 
-    public void pokus4() throws IOException {
+    private E_LogicalOr createFilterWithRegex(List<String> elements, Property property) {
+        ExprFactory exprFactory = new ExprFactory();
 
-        RDFConnection builder = RDFConnectionFuseki.create()
-                .destination("https://query.wikidata.org/sparql")
-                .build();
-
-        QueryExecution qe = builder.query("SELECT DISTINCT ?b ?lab\n" +
-                "WHERE\n" +
-                "{  \n" +
-                "{\n" +
-                "  ?b wdt:P279* wd:Q1521410.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "  FILTER NOT EXISTS {?b wdt:P31 wd:Q18593264}.\n" +
-                "  FILTER NOT EXISTS {?b wdt:P31 wd:Q220659}\n" +
-                "  FILTER NOT EXISTS {?b wdt:P31 wd:Q3643463}\n" +
-                "  FILTER NOT EXISTS {?b wdt:P276 ?y}\n" +
-                "  FILTER NOT EXISTS {?b wdt:P195 ?x}\n" +
-                "\n" +
-                "}\n" +
-                "  \n" +
-                "  UNION \n" +
-                "  {\n" +
-                "  ?b wdt:P31 wd:Q1521410.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "  FILTER NOT EXISTS {?b wdt:P31 wd:Q18593264}.\n" +
-                "  FILTER NOT EXISTS {?b wdt:P31 wd:Q220659}\n" +
-                "  FILTER NOT EXISTS {?b wdt:P31 wd:Q3643463}\n" +
-                "  FILTER NOT EXISTS {?b wdt:P276 ?y}\n" +
-                "  FILTER NOT EXISTS {?b wdt:P195 ?x}\n" +
-                "\n" +
-                "}\n" +
-                "}\n" +
-                "ORDER BY ?lab" +
-
-                "");
-
-        Model model = ModelFactory.createDefaultModel();
-        FileWriter out = new FileWriter("dataKitchenware.ttl");
-
-
-        ResultSet rs = qe.execSelect();
-        while(rs.hasNext()){
-            QuerySolution qs = rs.next() ;
-            Resource subject = qs.getResource("b");
-            Literal object = qs.getLiteral("lab");
-            model.add(subject, RDFS.label, object);
+        E_LogicalOr oldRegex = null;
+        if(elements != null){
+            for (int i = 0; i < elements.size(); i++ ){
+                E_Regex newRegex = exprFactory.regex("?objectLab" + property.getLocalName(), elements.get(i), "i");
+                if(i == 0) {
+                    E_LogicalNot bound = exprFactory.not(exprFactory.bound("?objectLab" + property.getLocalName()));
+                    oldRegex = exprFactory.or(bound, newRegex);
+                } else {
+                    oldRegex = exprFactory.or(oldRegex, newRegex);
+                }
+            }
         }
-        qe.close();
-        builder.close();
+        return oldRegex;
+    }
 
-        model.write(out, "TTL");
-        out.close();
+    private SelectBuilder createElementOfSubQuery(List<String> filter, SelectBuilder builder, Property property) {
+        if(filter != null && filter.size() != 0){
+            builder.addOptional(new WhereBuilder().addPrefix(":", Constant.ontRecipes).addWhere("?recipe", ":" + property.getLocalName(), "?object" + property.getLocalName())
+                    .addWhere("?object" + property.getLocalName(), RDFS.label, "?objectLab" + property.getLocalName()));
 
-        System.out.println("KONIEC");
+            E_LogicalOr allRegex = createFilterWithRegex(filter, property);
+            if(allRegex != null) builder.addFilter(allRegex);
+        }
+        return builder;
+    }
+
+    private SelectBuilder createElementOfSubQuery1(List<String> filter, Property property) {
+        if(filter != null && filter.size() != 0){
+            SelectBuilder builder = new SelectBuilder().addOptional(new WhereBuilder().addPrefix(":", Constant.ontRecipes).addWhere("?recipe", ":" + property.getLocalName(), "?object" + property.getLocalName())
+                    .addWhere("?object" + property.getLocalName(), RDFS.label, "?objectLab" + property.getLocalName()));
+
+            E_LogicalOr allRegex = createFilterWithRegex(filter, property);
+            if(allRegex != null) builder.addFilter(allRegex);
+            return builder;
+        }
+        return null;
+    }
+
+    public List<Recipe> findByFilterFromUser(List<String> inA, List<String> exA,
+                                             List<String> inCa, List<String> exCa,
+                                             List<String> inCM, List<String> exCM,
+                                             List<String> inCu, List<String> exCu,
+                                             List<String> inK, List<String> exK,
+                                             List<String> inI, List<String> exI,
+                                             String minTime, String maxTime, Double minRating, Double maxRating){
+
+        ExprFactory exprFactory = new ExprFactory();
+
+        SelectBuilder firstSubQuery = createBasicBuilderForDislayAllRecipes();
+        firstSubQuery = createElementOfSubQuery(inI, firstSubQuery, Ontology.hasIngredient);
+        firstSubQuery = createElementOfSubQuery(inCu, firstSubQuery, Ontology.belongsToCuisine);
+        firstSubQuery = createElementOfSubQuery(inA, firstSubQuery, Ontology.hasAuthor);
+        firstSubQuery = createElementOfSubQuery(inCa, firstSubQuery, Ontology.belongsToCategory);
+        firstSubQuery = createElementOfSubQuery(inCM, firstSubQuery, Ontology.usingMethod);
+        firstSubQuery = createElementOfSubQuery(inK, firstSubQuery, Ontology.requiresEquipment);
+
+        SelectBuilder secondSubQuery = new SelectBuilder();
+            if(exI.size() != 0) secondSubQuery.addUnion(createElementOfSubQuery1(exI, Ontology.hasIngredient));
+            if(exCu.size() != 0) secondSubQuery.addUnion(createElementOfSubQuery1(exCu, Ontology.belongsToCuisine));
+            if(exA.size() != 0) secondSubQuery.addUnion(createElementOfSubQuery1(exA, Ontology.hasAuthor));
+            if(exCa.size() != 0) secondSubQuery.addUnion(createElementOfSubQuery1(exCa,  Ontology.belongsToCategory));
+            if(exCM.size() != 0) secondSubQuery.addUnion(createElementOfSubQuery1(exCM,  Ontology.usingMethod));
+            if(exK.size() != 0) secondSubQuery.addUnion(createElementOfSubQuery1(exK,  Ontology.requiresEquipment));
+            if(minRating > 1 || maxRating < 5){
+                secondSubQuery.addUnion(new SelectBuilder().addOptional(new WhereBuilder().addPrefix(":", Constant.ontRecipes).addWhere("?recipe", ":" + Ontology.hasRating.getLocalName(), "?object" + Ontology.hasRating.getLocalName()))
+                        .addFilter(exprFactory.or(exprFactory.lt("?object" + Ontology.hasRating.getLocalName(), minRating), exprFactory.gt("?object" + Ontology.hasRating.getLocalName(), maxRating))));
+            }
+
+            if(!minTime.isEmpty() && !maxTime.isEmpty()){
+                XSDDuration minTimeDur = (XSDDuration)ResourceFactory.createTypedLiteral("PT" + minTime + "M", XSDDatatype.XSDduration).getValue();
+                XSDDuration maxTimeDur = (XSDDuration)ResourceFactory.createTypedLiteral("PT" + maxTime + "M", XSDDatatype.XSDduration).getValue();
+                secondSubQuery.addUnion(new SelectBuilder().addOptional(new WhereBuilder().addPrefix(":", Constant.ontRecipes).addWhere("?recipe", ":" + Ontology.hasCookTime.getLocalName(), "?object" + Ontology.hasCookTime.getLocalName()))
+                        .addFilter(exprFactory.or(exprFactory.lt("?object" + Ontology.hasCookTime.getLocalName(), minTimeDur), exprFactory.gt("?object" + Ontology.hasCookTime.getLocalName(), maxTimeDur))));
+            } else if(!minTime.isEmpty()){
+                XSDDuration minTimeDur = (XSDDuration)ResourceFactory.createTypedLiteral("PT" + minTime + "M", XSDDatatype.XSDduration).getValue();
+                secondSubQuery.addUnion(new SelectBuilder().addOptional(new WhereBuilder().addPrefix(":", Constant.ontRecipes).addWhere("?recipe", ":" + Ontology.hasCookTime.getLocalName(), "?object" + Ontology.hasCookTime.getLocalName()))
+                        .addFilter(exprFactory.lt("?object" + Ontology.hasCookTime.getLocalName(), minTimeDur)));
+
+            } else if(!maxTime.isEmpty()){
+                XSDDuration maxTimeDur = (XSDDuration)ResourceFactory.createTypedLiteral("PT" + maxTime + "M", XSDDatatype.XSDduration).getValue();
+                secondSubQuery.addUnion(new SelectBuilder().addOptional(new WhereBuilder().addPrefix(":", Constant.ontRecipes).addWhere("?recipe", ":" + Ontology.hasCookTime.getLocalName(), "?object" + Ontology.hasCookTime.getLocalName()))
+                        .addFilter(exprFactory.gt("?object" + Ontology.hasCookTime.getLocalName(), maxTimeDur)));
+            }
+
+        SelectBuilder builder = new SelectBuilder();
+        builder.addPrefix( "rdfs",  Constant.rdfs )
+                .addPrefix( "", Constant.ontRecipes )
+                .setDistinct(true)
+                .addVar( "?recipe").addVar( "?desc" ).addVar( "?lab" )
+                .addSubQuery(firstSubQuery);
+        if(secondSubQuery != null) builder.addMinus(secondSubQuery);
+
+        System.out.println(builder);
+
+        List<Recipe> recipes = new ArrayList<>();
+
+        QueryExecution qExec = Fuseki.getConnection().query(builder.build()) ;
+        ResultSet rs = qExec.execSelect() ;
+        while(rs.hasNext()) {
+            recipes.add(createBasicRecipe(rs.next()));
+        }
+        qExec.close() ;
+        return recipes;
+    }
+
+    public Recipe findOne(String uri){
+
+        String creatingUri =  Constant.dbRecipesPref + uri;
+
+        SelectBuilder builder = new SelectBuilder()
+                .addPrefix( "rdfs",  Constant.rdfs )
+                .addPrefix( "", Constant.ontRecipes )
+                .setDistinct(true)
+                .addVar( "?s").addVar( "?p" ).addVar( "?o" )
+                .addWhere( "<" + creatingUri + ">","(<>|!<>)*", "?s" )
+                .addWhere( "?s", "?p", "?o");
+
+        Query query = builder.build() ;
+
+        QueryExecution qExec = Fuseki.getConnection().query(query) ;
+        ResultSet rs = qExec.execSelect() ;
+
+        Map<Resource, Map<Resource, List<RDFNode>>> result = new HashMap<>();
+
+        while(rs.hasNext()){
+            QuerySolution qs = rs.next();
+
+            Resource subject = qs.getResource("s");
+            Resource predicate = qs.getResource("p");
+            RDFNode object = qs.get("o");
+
+            result = checkMap(result, subject, predicate, object);
+        }
+
+        Recipe recipe = new Recipe();
+        Resource resource = ResourceFactory.createResource(creatingUri);
+        recipe.setProperty(result, resource);
+
+        qExec.close() ;
+
+        return recipe;
     }
 
 
-    public void pokus3() throws IOException {
-
-        RDFConnection builder = RDFConnectionFuseki.create()
-                .destination("https://query.wikidata.org/sparql")
-                .build();
-
-        QueryExecution qe = builder.query("" +
-                "SELECT DISTINCT ?b ?lab\n" +
-                "WHERE\n" +
-                "  {\n" +
-                "{\n" +
-                "  ?b wdt:P279* wd:Q1039303.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "}\n" +
-                "  UNION\n" +
-                "  {\n" +
-                "  ?b wdt:P279 wd:Q1039303.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "\n" +
-                "}\n" +
-                "  UNION\n" +
-                "  {\n" +
-                "  ?b wdt:P31 wd:Q1039303.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "\n" +
-                "}\n" +
-                "\n" +
-                "  }" +
-                "ORDER BY ?lab" +
-                "");
-
-        Model model = ModelFactory.createDefaultModel();
-        FileWriter out = new FileWriter("dataMethod.ttl");
 
 
-        ResultSet rs = qe.execSelect();
-        while(rs.hasNext()){
-            QuerySolution qs = rs.next() ;
-            Resource subject = qs.getResource("b");
-            Literal object = qs.getLiteral("lab");
-            model.add(subject, RDFS.label, object);
-        }
-        qe.close();
-        builder.close();
 
-        model.write(out, "TTL");
-        out.close();
-
-        System.out.println("KONIEC");
-    }
-
-
-    public void pokus2() throws IOException {
-
-        RDFConnection builder = RDFConnectionFuseki.create()
-                .destination("https://query.wikidata.org/sparql")
-                .build();
-
-        QueryExecution qe = builder.query("" +
-                "\n" +
-                "SELECT DISTINCT ?b ?lab\n" +
-                "WHERE{\n" +
-                "  \n" +
-                "{\n" +
-                "  ?b wdt:P279* wd:Q1778821.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "\n" +
-                "}\n" +
-                "  UNION\n" +
-                "  {\n" +
-                "  ?b wdt:P279 wd:Q1778821.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "\n" +
-                "}\n" +
-                "  UNION\n" +
-                "  {\n" +
-                "  ?b wdt:P31 wd:Q1778821.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "\n" +
-                "}\n" +
-                "\n" +
-                "  }\n" +
-                "ORDER BY ?lab" +
-                "");
-
-        Model model = ModelFactory.createDefaultModel();
-        FileWriter out = new FileWriter("dataCuisine.ttl");
-
-
-        ResultSet rs = qe.execSelect();
-        while(rs.hasNext()){
-            QuerySolution qs = rs.next() ;
-            Resource subject = qs.getResource("b");
-            Literal object = qs.getLiteral("lab");
-            model.add(subject, RDFS.label, object);
-        }
-        qe.close();
-        builder.close();
-
-        model.write(out, "TTL");
-        out.close();
-
-        System.out.println("KONIEC");
-    }
-
-
-    public void pokus() throws IOException {
-
-        RDFConnection builder = RDFConnectionFuseki.create()
-                .destination("https://query.wikidata.org/sparql")
-                .build();
-
-        QueryExecution qe = builder.query("" +
-                "SELECT DISTINCT ?b ?lab\n" +
-                "WHERE{\n" +
-                "{\n" +
-                "  ?b wdt:P279* wd:Q2095.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "      FILTER NOT EXISTS {?b wdt:P31 wd:Q11173}\n" +
-                "\n" +
-                "}\n" +
-                "     UNION\n" +
-                "  {\n" +
-                "  ?b wdt:P31 wd:Q2095.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "      FILTER NOT EXISTS {?b wdt:P31 wd:Q11173}\n" +
-                "\n" +
-                "}\n" +
-                "    UNION\n" +
-                "  {\n" +
-                "  ?b wdt:P279 wd:Q2095.\n" +
-                "  ?b rdfs:label ?lab\n" +
-                "  filter(lang(?lab) = \"en\").\n" +
-                "      FILTER NOT EXISTS {?b wdt:P31 wd:Q11173}\n" +
-                "}\n" +
-                "\n" +
-                "\n" +
-                "\n" +
-                "}\n" +
-                "ORDER BY ?lab" +
-                "");
-
-        Model model = ModelFactory.createDefaultModel();
-        FileWriter out = new FileWriter("dataFood.ttl");
-
-
-        ResultSet rs = qe.execSelect();
-        while(rs.hasNext()){
-            QuerySolution qs = rs.next() ;
-            Resource subject = qs.getResource("b");
-            Literal object = qs.getLiteral("lab");
-            model.add(subject, RDFS.label, object);
-        }
-        qe.close();
-        builder.close();
-
-        model.write(out, "TTL");
-        out.close();
-
-        System.out.println("KONIEC");
-    }
 
 
 

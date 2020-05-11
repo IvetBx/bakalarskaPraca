@@ -1,5 +1,6 @@
 package com.balintova.repositoryOfRecipe.models;
 
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 
@@ -35,7 +36,7 @@ public class ModelOfEntity {
         }
     }
 
-    public org.apache.jena.rdf.model.Model addAllPropertiesToModel(Resource resource){
+    public Model addAllPropertiesToModel(Resource resource){
         return null;
     }
 

@@ -1,39 +1,35 @@
 import React, { Component } from 'react';
-import ListRecipes from '../components/ListRecipes';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import RecipeComponent from '../components/Recipe';
-import ListOf from "../components/ListOf"
-import InformationAbout from '../components/InformationAbout';
-import User from "../components/users/User"
-import CreateRecipe from "../components/CreateRecipe"
+import ListRecipes from '../components/recipes/ListRecipes';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import RecipeCard from '../components/recipes/RecipeCard';
+import ListOfEntityFromWikidata from "../components/entitiesWikidata/ListOfEntityFromWikidata"
+import InformationAbout from '../components/entitiesWikidata/InformationAbout';
+import CreateRecipe from "../components/recipes/CreateRecipe"
+import LogIn from "../components/users/LogIn"
 
 export default class RepositoryApp extends Component {
 
+
     render() {
         return (
-        <Router>
-              <React.Fragment>
+        <BrowserRouter>
               <Switch>
                   
                         <Route path="/" exact component={ListRecipes} />
                         <Route path="/recipes" exact component={ListRecipes} />
-                        <Route path="/recipes/:id" component={RecipeComponent} />
-                        <Route path="/listOf/ingredients" exact render={(props) => <ListOf {...props} name="ingredients" url="ingredients"/>}/>
-                        <Route path="/listOf/kitchenware" exact render={(props) => <ListOf {...props} name="kitchenware" url="kitchenware"/>}/>
-                        <Route path="/listOf/cookingMethods" exact render={(props) => <ListOf {...props} name="cooking methods" url="cookingMethods"/>}/>
-                        <Route path="/listOf/cuisines" exact render={(props) => <ListOf {...props} name="cuisines" url="cuisines"/>}/>
-                        <Route path="/listOf/ingredients/:id" exact render={(props) => <InformationAbout {...props} name="itemIngr" />}/>
-                        <Route path="/listOf/kitchenware/:id" exact render={(props) => <InformationAbout {...props} name="itemKitchen" />}/>
-                        <Route path="/listOf/cookingMethods/:id" exact render={(props) => <InformationAbout {...props} name="itemMethod" />}/>
-                        <Route path="/listOf/cuisines/:id" exact render={(props) => <InformationAbout {...props} name="itemCuisine" />}/>
-                        <Route path="/users/:id" exact render={(props) => <User {...props} />}/>
+                        <Route path="/recipes/:id" component={RecipeCard} />
+                        <Route path="/listOf/cookingMethod" exact render={(props) => <ListOfEntityFromWikidata {...props} entity="cookingMethod" entitySingular="cooking method" entityPlural="cooking methods"/>}/>
+                        <Route path="/listOf/cuisine" exact render={(props) => <ListOfEntityFromWikidata {...props} entity="cuisine" entitySingular="cuisine" entityPlural="cuisines"/>}/>
+                        <Route path="/listOf/kitchenware" exact render={(props) => <ListOfEntityFromWikidata {...props} entity="kitchenware" entitySingular="kitchenware" entityPlural="kitchenware"/>}/>
+                        <Route path="/listOf/food" exact render={(props) => <ListOfEntityFromWikidata {...props} entity="food" entitySingular="food" entityPlural="food" />}/>
+                        <Route path="/listOf/:entity/:id" exact render={(props) => <InformationAbout {...props} />}/>
+
                         <Route path="/myRecipes" exact component={ListRecipes}/>
                         <Route path="/createRecipe" exact component={CreateRecipe}/>
+                        <Route path="/logIn" exact component={LogIn} />
 
                 </Switch>              
-                </React.Fragment>
-
-            </Router>
+            </BrowserRouter>
 
         )
     }

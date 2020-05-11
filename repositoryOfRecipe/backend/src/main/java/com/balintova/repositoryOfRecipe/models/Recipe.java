@@ -2,10 +2,7 @@ package com.balintova.repositoryOfRecipe.models;
 
 import com.balintova.repositoryOfRecipe.config.Ontology;
 import org.apache.jena.datatypes.xsd.XSDDuration;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.ResourceFactory;
+import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 
@@ -19,7 +16,7 @@ public class Recipe extends ModelOfEntity{
     ClassFromWikiData produces;
     Sequence hasInstructions;
     //Image hasImage;
-    //Person hasAuthor;
+    Person hasAuthor;
     List<Ingredient> hasIngredient = new ArrayList<>();
     List<Rating> hasRating = new ArrayList<>();
     XSDDuration hasCookTime;
@@ -168,8 +165,8 @@ public class Recipe extends ModelOfEntity{
     }
 
     @Override
-    public org.apache.jena.rdf.model.Model addAllPropertiesToModel(Resource resource){
-        org.apache.jena.rdf.model.Model model = ModelFactory.createDefaultModel();
+    public Model addAllPropertiesToModel(Resource resource){
+        Model model = ModelFactory.createDefaultModel();
 
         model.add(resource, RDF.type, Ontology.recipeClass);
         model.add(resource, RDFS.label, getLabel());

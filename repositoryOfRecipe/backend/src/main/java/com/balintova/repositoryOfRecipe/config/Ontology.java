@@ -68,4 +68,7 @@ public class Ontology {
     public static Property hasRatingValue = getModel().getOntProperty(Constant.ontRecipes + "hasRatingValue");
 
     public static Property li = getModel().createOntProperty(Constant.rdf + "li");
+
+    public static Property password = getModel().createOntProperty(Constant.ontRecipes + "password");
+
 }

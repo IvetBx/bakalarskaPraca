@@ -25,21 +25,11 @@ public class Constant {
                                     String.format(formatPrefix, "rdfs", rdfs) +
                                     String.format(formatPrefix, "owl", owl);
 
-    public static String formatURI = "<%s> ";
-
-    public static String formatOPTIONAL = "OPTIONAL { %s } ";
-
     public static String formatTRIPLE_0 = "%s %s %s.";
 
     public static String formatTRIPLE_1 = "<%s> %s %s.";
 
-    public static String formatTRIPLE_2 = "<%s> <%s> %s.";
 
-    public static String formatTRIPLE_3 = "<%s> <%s> <%s>.";
-
-    public static String formatTRIPLE_5 = "%s %s %s.";
-
-    public static String uriKey = "uri";
 
 
 }

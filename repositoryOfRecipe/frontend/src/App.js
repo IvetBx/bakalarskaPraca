@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from './components/Navigation';
-import ListRecipes from './components/ListRecipes';
+import Navigation from './components/navigation/Navigation';
 import RepositoryApp from './config/RepositoryApp';
-
 
 
 class App extends Component {

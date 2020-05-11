@@ -4,15 +4,27 @@
     font-size: medium;
 }
 
-.but{
+.button{
     width: 3rem;
     height: 3rem;
     padding: 0 0 0 0;
 }
 
-.but p{
+.buttton p{
     font-size: x-large;
     font-weight: 900;
+    margin: 0 0 0 0;
+}
+
+.button2{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0 0 0 0;
+}
+
+.button2 p{
+    font-size: medium;
+    font-weight: 800;
     margin: 0 0 0 0;
 }
 

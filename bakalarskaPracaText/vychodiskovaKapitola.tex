@@ -268,26 +268,63 @@ Pre túto prácu sú kľúčové technológie Java, pričom sú využívané fra
 \subsection{Apache Jena} \label{secJena}
 Apache Jena {\cite{jena}} je voľne dostupným Java frameworkom, ktorý umožňuje budovať sémantický web (Sémantický web \ref{secSemanticWeb}) a aplikácie, využívajúce prepojené dáta(Linked data \ref{secLinkedData}). Poskytuje API rozhrania, ktoré umožňujú prácu s RDF dátami. Nižšie sú uvedené tie časti frameworku, ktoré sú v práci použité.
 \subsubsection{Fuseki}
-Apache Jena Fuseki je SPARQL server. Podporuje dopyty a aktualizácie RDF dát a môže byť spustený ako samostatný server, služba operačného systému a ako webová aplikácia. Server je integrovaný s TDB, pričom poskytujú trvalú transakčnú ukladaciu vrstvu. 
-
-\subsubsection{TDB}
-TDB je komponent Jeny, ktorý umožňuje ukladať RDF dáta a vytvárať nad nimi dopyty. Podporuje celú škálu Jena API rozhraní. Pri prístupe pomocou transakcií sú súbory dát chránené pred poškodením, neočakávaným ukončením procesu alebo zlyhaním systému. Server Fuseki poskytuje SPARQL server, ktorý používa TDB na trvalé uskladnenie dát a poskytuje protokol SPARQL pre dopytovanie a
+Apache Jena Fuseki je SPARQL server. Podporuje dopyty a aktualizácie RDF dát a môže byť spustený ako samostatný server, služba operačného systému a ako webová aplikácia. Server je integrovaný s TDB, pričom poskytujú trvalú transakčnú ukladaciu vrstvu. Poskytuje protokol SPARQL pre dopytovanie a
 update cez HTTP.
+
+\subsubsection{TDB2}
+TDB2 je komponent Jeny, ktorý umožňuje ukladať RDF dáta a vytvárať nad nimi dopyty. Podporuje celú škálu Jena API rozhraní. Pri prístupe pomocou transakcií sú súbory dát chránené pred poškodením, neočakávaným ukončením procesu alebo zlyhaním systému. TDB2 nie je kompatibilná s TDB1. Líšia sa napr. v tom, že TDB2 poskytuje neobmedzenú veľkosť transakcií, prenášanie modelov a grafov cez transakcie, či lepšiu kontrolu transakcií. 
 
 \subsubsection{RDF API}
 RDF API je hlavné API rozhranie, ktoré slúži na vytvorenie, čítanie a zápis do RDF grafov. RDF grafy sú v Jene označované ako Modely (trieda Model). Model poskytuje veľké množstvo metód, ktoré uľahčujú vytváranie aplikácií pracujúcich s RDF dátami. Model môže byť na začiatku prázdny alebo vytvorený z dát nachádzajúcich sa v súboroch, databázach, či URL adresách. Keďže Model predstavuje RDF graf, tak pozostáva z tvrdení, pričom každé tvrdenie je vyjadrené vo forme trojice. Tvrdenie v Jene reprezentuje trieda Statement. Dodržaním RDF špecifikácie môže ako subjekt v inštancií triedy Statement vystupovať iba inštancia triedy Resource, ako predikát iba inštancia triedy Property, pričom ide o podtriedu triedy Resource. V prípade objektu ide o inštanciu triedy RDFNode, tá je nadtriedou triedy Resource a triedy Literal, keďže hodnotou vlastnosti, teda objektom, môže byť buď ďalší zdroj alebo literál. 
 
 \subsubsection{Ontology API}
-Ontology API umožňuje vývoj ontológií, pričom je jazykovo neutrálny, teda napríklad OntClass môže predstavovať OWL  triedu aleboRDFS triedu. OntModel je rozšírením základnej Jena triedy Model. Umožňuje vytvárať triedy, vlastnosti, či inštancie (Individuals) tried z ontológií. Jednou z hlavných výhod na budovaní aplikácie založenej na ontológií je následná možnosť využitia nástrojov na odvodzovanie.
+Ontology API umožňuje vývoj ontológií, pričom je jazykovo neutrálny, teda napríklad OntClass môže predstavovať OWL  triedu alebo RDFS triedu. OntModel je rozšírením základnej Jena triedy Model. Umožňuje vytvárať triedy, vlastnosti, či inštancie (Individuals) tried z ontológií. Jednou z hlavných výhod na budovaní aplikácie založenej na ontológií je následná možnosť využitia nástrojov na odvodzovanie.
 
 \subsubsection{ARQ}
-ARQ je dopytovací nástroj pre Jenu, ktorý podporuje SPARQL ({\ref{secSparql}}). Nachádza sa v balíčku org.apache.jena.query, pričom ten obsahuje triedy ako QueryExecution, QueryExecutionFactory, QuerySolution, atď., ktoré umožňujú robiť dopyty nad RDF dátami. Sú podporované SELECT, CONSTRUCT, DESCRIBE a ASK dopyty.
+ARQ je dopytovací nástroj pre Jenu, ktorý podporuje SPARQL ({\ref{secSparql}}). Sú v ňom podporované SELECT, CONSTRUCT, DESCRIBE a ASK dopyty. Nachádza sa v balíčku org.apache.jena.query, pričom ten obsahuje kľúčové triedy, ktorými sú Query, kontainer pre všetky podrobnosti o dopyte.  QueryExecution a QueryExecutionFactory sú triedy, ktoré reprezentujú vykonanie dopytu. Triedami, ktoré pracujú s dátami, ktoré na základe dopytu dostaneme sú QuerySolution, reprezentujúca jeden z vrátených výsledkov, ResultSet, ktorá je iterátorom a máme prostredníctvom nej prístup k množine všetkých QuerySolution a ResultSetFormatter, ktorý umožňuje vrátiť výsledok v forme napr. JSON, text alebo XML. 
+
+\subsubsection{RDF Connection}
+RDF Connection poskytuje jednotný súbor operácií pre prácu s RDF dátami prostredníctvom SPARQL. Rozhranie je jednotné, teda rovnaké rozhranie sa vzťahuje na lokálne údaje aj na vzdialené údaje.
+
+\subsubsection{Query Builder}
+Query Builder umožňuje vytvárať Ask, Construct, Select a Update dopyty.  Používateľ teda nie je nútený využívať StringBuilder alebo podobné spôsoby na tvorbu dopytov. Builder pre každý druh dopytu má skupinu metód na jeho vytvorenie, pričom každá metóda vracia builder, kvôli čomu je jednoduché zreťazovať jednotlivé metódy.
+
 
 \subsection{Spring Boot} \label{secSpringBoot}
 
 \subsection{React} \label{secReact}
-React je JavaScript-ová knižnica na vytváranie používateľských rozhraní. Používa sa na vytváranie jednostránkových alebo mobilných aplikácií, keďže  a umožňuje nám vytvárať opakovane použiteľné komponenty používateľského rozhrania. 
+React je knižnica JavaScriptu na vytváranie používateľských rozhraní. Používa sa na vytváranie webových alebo mobilných "single-page" aplikácií.  Umožňuje nám vytvárať opakovane použiteľné komponenty používateľského rozhrania. 
 
+Komponent v Reacte môže byť definovaný ako funkcia, čo sa pokladá za najjednoduchší spôsob definovania komponentu, alebo ako trieda. Každý komponent má props, čo sú dáta ktoré mu boli posunuté pri vytváraní. Ďalej má stav, čo je jednoduchý objekt, ktorý sa zvyčajne označuje ako state. V prípade potreby zmeniť stav, musíme využiť funkciu setState(), keďže stav sa priamo meniť nesmie. Pri každej zmene stavu dochádza k opätovnému volaniu funkcie render(), ktorá zodpovedá za zobrazenie komponentu. V prípade, ak ide o komponent vo forme funkcie, potom takýto komponent funkciu render nezahŕňa, ale iba v časti return vracia potrebné časti na jeho vykreslenie. 
+
+Výhodou Reactu je virtual DOM (virtuálna reprezentácia objektového modelu dokumentu). Všetky zmeny sa najskôr aplikujú na virtuálny DOM a potom pomocou algoritmu sa vypočíta minimálny rozsah potrebných operácií. Na základe toho sa nakoniec aktualizuje skutočný DOM. Takýmto spôsobom sa zabezpečí minimálna časová náročnosť, keďže prerenderujú sa iba prvky, ktoré sa skutočne zmenili.
+
+\subsection{Redux}
+Redux {\cite{redux}} je knižnica JavaSciptu, ktorá umožňuje spravovať stav našej aplikácie, pričom pod stavom aplikácie si môžeme predstaviť globálny objekt, ktorý uchováva informácie, ktoré v aplikácie používame, napr. pri vykresľovaní komponentov. 
+Troma hlavnými časťami Reduxu sú:
+\begin{enumerate}
+\item Actions (akcie) - jednoduché JavaScript objekty, ktoré musia mať vlastnosť type. Type je definovaný ako string konštanta a vyjadruje typ vykonávanej akcie. Action creator sú funkcie, ktoré vytvárajú akcie. Akcie sú jediným zdrojom informácií pre náš store a umožňujú nám do neho posielať tieto informácie využitím príkazu store.dispatch().
+\item Reducer - špecifikuje ako sa stav aplikácie zmení v dôsledku jednotlivých akcií(actions), ktoré sú poslané do storu. Počet reducerov môže byť ľubovoľný, každý môže spravovať ľubovoľnú časť globálneho statu, avšak nakoniec ich musíme spojiť pomocou funkcie combineReducers().
+\item Store - objekt, v ktorom sú uložené informácie, pričom tento stav je jeden pre celú aplikáciu. Tento stav sa nedá priamo meniť, a preto sa vždy vytvorí nový objekt, prepočítame nový stav aplikácie a pôvodný stav aktualizujeme novo vytvoreným objektom.
+\end{enumerate}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{images/reduxDataFlow}
+\caption{Tok dát v Reduxe}
+\label{reduxFlow}
+\end{figure}
+
+Dátový tok v Reduxe môžeme vidieť na obr.\ref{reduxFlow}.
+V našej aplikácií najprv niečím (napr. stlačením tlačidla) vyvoláme akciu pomocou store.dispatch(). Táto akcia je ďalej posunutá reduceru, ktorý vytvorí nový stav, ktorý si následne store uloží. Na zmenu storu zareaguje aj naša aplikácia a aktualizuje používateľské rozhranie.
+
+\textbf{Redux Thunk} - je middleware {\cite{reduxThunk}}, ktorý umožňuje vytvárať asynchrónne akcie a komunikovať so storom, keďže štandardné akcie v Reduxe sú odosielané synchrónne.
+
+\subsection{Axios}
+Axios {\cite{axios} je promise-based HTTP klient, ktorý poskytuje ľahko použiteľné rozhranie API. Umožňuje nám jednoducho vytvárať requesty (požiadavky), ako sú napr. GET, PUT, POST a DELETE. Response (odpoveď) je objekt, ktorý dostávame na našu požiadavku a obsahuje data, status, statusText, headers, config a request. Zachytenie požiadaviek a odpovedí sa vykonáva prostredníctvom then alebo catch. Pri použití catch bude odpoveď dostupná prostredníctvom error objektu. Axios štandardne serializuje objekty JavaScriptu na JSON.
+
+\subsection{Bootstrap}
+Bootstrap {\cite{bootstrap}} patrí k voľne dostupným front-end knižniciam. Bol vytvorený spoločnosťou Twitter v roku 2011. Obsahuje šablóny založené na HTML a CSS, ktoré slúžia na úpravu typografie, formulárov, tlačidiel, navigácie a rôznych ďalších komponentov.  Hlavnou výhodou je zjednošenie spracovania ľubovoľného používateľkého rozhrania webovej aplikácie. Popdporuje aj responzívny design, čo znamená, že rozloženie stránky sa dynamicky prispôsobuje s ohľadom na zariadenie, ktoré práve používame.
 
 \section{Existujúce riešenia} 
 Táto kapitola sa venuje už existujúcim riešeniam daného problému. Uvádzam bakalársku prácu, ktorá sa touto témou zaoberala minulý rok a vybrala som si jednu slovenskú

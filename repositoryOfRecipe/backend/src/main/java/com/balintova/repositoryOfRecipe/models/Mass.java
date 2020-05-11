@@ -1,6 +1,7 @@
 package com.balintova.repositoryOfRecipe.models;
 
 import com.balintova.repositoryOfRecipe.config.Ontology;
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
@@ -52,8 +53,8 @@ public class Mass extends ModelOfEntity{
     }
 
     @Override
-    public org.apache.jena.rdf.model.Model addAllPropertiesToModel(Resource resource){
-        org.apache.jena.rdf.model.Model model = ModelFactory.createDefaultModel();
+    public Model addAllPropertiesToModel(Resource resource){
+        Model model = ModelFactory.createDefaultModel();
 
         model.add(resource, RDF.type, Ontology.massClass);
         if(getHasMetricQuantity() != null){
