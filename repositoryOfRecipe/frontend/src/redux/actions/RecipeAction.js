@@ -4,8 +4,9 @@ import { FETCH_RECIPES_REQUEST, FETCH_RECIPES_SUCCESS, FETCH_RECIPES_FAILURE,
     SET_INCLUDED_INGREDIENTS, SET_EXCLUDED_INGREDIENTS, SET_EXCLUDED_AUTHORS, SET_INCLUDED_AUTHORS, 
     SET_EXCLUDED_CATEGORIES, SET_INCLUDED_CATEGORIES, SET_EXCLUDED_CUISINES, SET_INCLUDED_CUISINES,
     SET_EXCLUDED_KITCHENWARE, SET_INCLUDED_KITCHENWARE, SET_EXCLUDED_METHODS, SET_INCLUDED_METHODS,
-    SET_MIN_TIME,  SET_MAX_TIME, SET_MAX_RATING, SET_MIN_RATING, FETCH_RECIPES_WITH_FILTERS_SUCCESS, FETCH_RECIPES_WITH_FILTERS_FAILURE,
-    REMOVE_FILTERS, FETCH_DETAIL_ABOUT_RECIPE_REQUEST, FETCH_DETAIL_ABOUT_RECIPE_SUCCESS, FETCH_DETAIL_ABOUT_RECIPE_FAILURE} from "../types/recipeTypes"
+    SET_MIN_TIME,  SET_MAX_TIME, FETCH_RECIPES_WITH_FILTERS_SUCCESS, FETCH_RECIPES_WITH_FILTERS_FAILURE,
+    REMOVE_FILTERS, FETCH_DETAIL_ABOUT_RECIPE_REQUEST, FETCH_DETAIL_ABOUT_RECIPE_SUCCESS, FETCH_DETAIL_ABOUT_RECIPE_FAILURE, 
+    CREATE_RECIPE_REQUEST, CREATE_RECIPE_FAILURE, CREATE_RECIPE_SUCCESS, SET_RECIPE_DETAIL} from "../types/RecipeTypes"
 import {recipesURL, URL} from "../../config/Constant"
 
 export const fetchRecipesRequest = () => {
@@ -64,10 +65,11 @@ export const fetchRecipesWithFiltersFailure = error => {
     }
 }
 
-export const setIncludedIngredients = (payload) => {
+export const setIncludedIngredients = (payload, all) => {
     return{
         type: SET_INCLUDED_INGREDIENTS, 
-        payload: payload
+        payload: payload,
+        all: all
     }
 }
 
@@ -78,10 +80,11 @@ export const setExcludedIngredients = (payload) => {
     }
 }
 
-export const setIncludedAuthors = (payload) => {
+export const setIncludedAuthors = (payload, all) => {
     return{
         type: SET_INCLUDED_AUTHORS, 
-        payload: payload
+        payload: payload,
+        all: all
     }
 }
 
@@ -92,10 +95,11 @@ export const setExcludedAuthors = (payload) => {
     }
 }
 
-export const setIncludedCategories = (payload) => {
+export const setIncludedCategories = (payload, all) => {
     return{
         type: SET_INCLUDED_CATEGORIES, 
-        payload: payload
+        payload: payload,
+        all: all
     }
 }
 
@@ -106,10 +110,11 @@ export const setExcludedCategories = (payload) => {
     }
 }
 
-export const setIncludedCuisines = (payload) => {
+export const setIncludedCuisines = (payload, all) => {
     return{
         type: SET_INCLUDED_CUISINES, 
-        payload: payload
+        payload: payload,
+        all: all
     }
 }
 
@@ -120,10 +125,11 @@ export const setExcludedCuisines = (payload) => {
     }
 }
 
-export const setIncludedKitchenware = (payload) => {
+export const setIncludedKitchenware = (payload, all) => {
     return{
         type: SET_INCLUDED_KITCHENWARE, 
-        payload: payload
+        payload: payload,
+        all: all
     }
 }
 
@@ -134,10 +140,11 @@ export const setExcludedKitchenware = (payload) => {
     }
 }
 
-export const setIncludedMethods = (payload) => {
+export const setIncludedMethods = (payload, all) => {
     return{
         type: SET_INCLUDED_METHODS, 
-        payload: payload
+        payload: payload,
+        all: all
     }
 }
 
@@ -158,20 +165,6 @@ export const setMinTime = (payload) => {
 export const setMaxTime = (payload) => {
     return{
         type: SET_MAX_TIME, 
-        payload: payload
-    }
-}
-
-export const setMinRating = (payload) => {
-    return{
-        type: SET_MIN_RATING, 
-        payload: payload
-    }
-}
-
-export const setMaxRating = (payload) => {
-    return{
-        type: SET_MAX_RATING, 
         payload: payload
     }
 }
@@ -202,6 +195,33 @@ export const fetchDetailAboutRecipeFailure = error => {
     }
 }
 
+export const createRecipeRequest = recipe => {
+    return {
+        type: CREATE_RECIPE_REQUEST,
+        payload: recipe
+    }
+}
+
+export const createRecipeSuccess = recipe => {
+    return {
+        type: CREATE_RECIPE_SUCCESS, 
+        payload: recipe
+    }
+}
+
+export const createRecipeFailure = error => {
+    return {
+        type: CREATE_RECIPE_FAILURE, 
+        payload: error
+    }
+}
+
+export const setRecipeDetail = recipe => {
+    return {
+        type: SET_RECIPE_DETAIL,
+        payload: recipe
+    }
+}
 
 
 const arrToStr = (array) => {
@@ -210,13 +230,29 @@ const arrToStr = (array) => {
     return array1.join()    
 }
 
-export const fetchRecipesWithFilters = (minTime, maxTime, minRating, maxRating, inA, exA, inCa, exCa,
-                            inCM, exCM, inCu, exCu, inK, exK, inI, exI) => {
+export const fetchRecipesWithFilters = (minTime, maxTime, inA, exA, inCa, exCa,
+                            inCM, exCM, inCu, exCu, inK, exK, inI, exI, Aall, CAall, CMall, CUall, Kall, Iall) => {
     return (dispatch) => {        
-        var urlFINAL = `${recipesURL}/filters/inA=${arrToStr(inA)}&exA=${arrToStr(exA)}&inCa=${arrToStr(inCa)}&exCa=${arrToStr(exCa)}&inCM=${arrToStr(inCM)}&exCM=${arrToStr(exCM)}&inCu=${arrToStr(inCu)}&exCu=${arrToStr(exCu)}&inK=${arrToStr(inK)}&exK=${arrToStr(exK)}&inI=${arrToStr(inI)}&exI=${arrToStr(exI)}&minTime=${minTime}&maxTime=${maxTime}&minRating=${minRating}&maxRating=${maxRating}`
+        var urlFINAL = `${recipesURL}/filters/inA=${arrToStr(inA)}&exA=${arrToStr(exA)}&inCa=${arrToStr(inCa)}&exCa=${arrToStr(exCa)}&inCM=${arrToStr(inCM)}&exCM=${arrToStr(exCM)}&inCu=${arrToStr(inCu)}&exCu=${arrToStr(exCu)}&inK=${arrToStr(inK)}&exK=${arrToStr(exK)}&inI=${arrToStr(inI)}&exI=${arrToStr(exI)}&minTime=${minTime}&maxTime=${maxTime}&Aall=${Aall}&CAall=${CAall}&CMall=${CMall}&CUall=${CUall}&Kall=${Kall}&Iall=${Iall}`
+        console.log(urlFINAL)
         dispatch(fetchRecipesRequest())
         axios
             .get(urlFINAL)
+            .then(response => {
+                const recipes = response.data
+                dispatch(fetchRecipesWithFiltersSuccess(recipes))
+            })
+            .catch(error => {
+                dispatch(fetchRecipesWithFiltersFailure(error.message))
+            })
+    }
+}
+
+export const fetchRecipesFromAuthor = (username) => {
+    return (dispatch) => {        
+        dispatch(fetchRecipesRequest())
+        axios
+            .get(`${recipesURL}/user=${username}`)
             .then(response => {
                 const recipes = response.data
                 dispatch(fetchRecipesWithFiltersSuccess(recipes))
@@ -270,6 +306,21 @@ export const fetchDetailAboutRecipe = (uri) => {
             })
             .catch(error => {
                 dispatch(fetchDetailAboutRecipeFailure(error.message))
+            })
+    }
+}
+
+export const createRecipe = (recipe) => {
+    return (dispatch) => {
+        dispatch(createRecipeRequest(recipe))
+        axios
+            .post(`${URL}/recipes`, recipe)
+            .then(response => {
+                const recipe1 = response.data
+                dispatch(createRecipeSuccess(recipe1))
+            })
+            .catch(error => {
+                dispatch(createRecipeFailure(error.message))
             })
     }
 }

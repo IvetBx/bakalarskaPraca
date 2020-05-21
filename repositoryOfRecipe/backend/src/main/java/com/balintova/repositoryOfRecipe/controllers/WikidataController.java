@@ -2,7 +2,7 @@ package com.balintova.repositoryOfRecipe.controllers;
 
 import com.balintova.repositoryOfRecipe.models.ClassFromWikiData;
 import com.balintova.repositoryOfRecipe.models.InformationAboutWikiClass;
-import com.balintova.repositoryOfRecipe.services.WikidataListService;
+import com.balintova.repositoryOfRecipe.services.WikidataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +15,7 @@ import java.util.List;
 public class WikidataController {
 
     @Autowired
-    private WikidataListService wikidataListService;
+    private WikidataService wikidataListService;
 
     @GetMapping("/listOf/food")
     public List<ClassFromWikiData> getAllFood() {

@@ -16,11 +16,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "rummer"@en .
 
+<http://www.wikidata.org/entity/Q642861>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "holy water font"@en .
+
+<http://www.wikidata.org/entity/Q3643463>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Olympics cauldron"@en .
+
 <http://www.wikidata.org/entity/Q13360095>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cruet"@en .
+
+<http://www.wikidata.org/entity/Q907209>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pestle"@en .
 
 <http://www.wikidata.org/entity/Q18395120>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -28,11 +46,23 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Usherette tray"@en .
 
+<http://www.wikidata.org/entity/Q404998>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "aikuchi"@en .
+
 <http://www.wikidata.org/entity/Q81727>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cup"@en .
+
+<http://www.wikidata.org/entity/Q332009>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Abschlagmesser"@en .
 
 <http://www.wikidata.org/entity/Q19392038>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -46,6 +76,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cocktail glass"@en .
 
+<http://www.wikidata.org/entity/Q6118233>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jacob's ladder"@en .
+
 <http://www.wikidata.org/entity/Q1521410>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -58,11 +94,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "sliding knife"@en .
 
+<http://www.wikidata.org/entity/Q5948399>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hurricane glass"@en .
+
 <http://www.wikidata.org/entity/Q3006806>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "olive spoon"@en .
+
+<http://www.wikidata.org/entity/Q15615747>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hay knife"@en .
+
+<http://www.wikidata.org/entity/Q1003167>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bujo"@en .
 
 <http://www.wikidata.org/entity/Q3130638>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -82,11 +136,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "kezuriki"@en .
 
+<http://www.wikidata.org/entity/Q7623712>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Strider SMF"@en .
+
+<http://www.wikidata.org/entity/Q3294449>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lip"@en .
+
 <http://www.wikidata.org/entity/Q3006796>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "wedding spoon"@en .
+
+<http://www.wikidata.org/entity/Q64008239>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "double-edge safety razor"@en .
 
 <http://www.wikidata.org/entity/Q430627>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -94,11 +166,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "hangiri"@en .
 
+<http://www.wikidata.org/entity/Q1249996>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "navaja"@en .
+
+<http://www.wikidata.org/entity/Q50215856>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Activity tray"@en .
+
 <http://www.wikidata.org/entity/Q1743850>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "KitchenAid"@en .
+
+<http://www.wikidata.org/entity/Q66364418>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sauce tureen"@en .
 
 <http://www.wikidata.org/entity/Q2426230>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -124,11 +214,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "pastry brush"@en .
 
+<http://www.wikidata.org/entity/Q18451251>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chalice"@en .
+
+<http://www.wikidata.org/entity/Q3933432>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Resolza"@en .
+
 <http://www.wikidata.org/entity/Q1537820>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "shell bowl"@en .
+
+<http://www.wikidata.org/entity/Q1269199>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nbouet"@en .
 
 <http://www.wikidata.org/entity/Q2534652>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -141,6 +249,18 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "soup pot"@en .
+
+<http://www.wikidata.org/entity/Q3503126>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Suiban"@en .
+
+<http://www.wikidata.org/entity/Q3126674>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hanap"@en .
 
 <http://www.wikidata.org/entity/Q56242185>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -196,11 +316,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "muddler"@en .
 
+<http://www.wikidata.org/entity/Q17457835>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "electric razor"@en .
+
+<http://www.wikidata.org/entity/Q48680>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maß"@en .
+
 <http://www.wikidata.org/entity/Q2295077>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cheese knife"@en .
+
+<http://www.wikidata.org/entity/Q86864852>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wallpaper Knife"@en .
 
 <http://www.wikidata.org/entity/Q7230377>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -226,11 +364,23 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "sippy cup"@en .
 
+<http://www.wikidata.org/entity/Q1746957>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Little-Master Cup"@en .
+
 <http://www.wikidata.org/entity/Q3006801>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "dessert spoon"@en .
+
+<http://www.wikidata.org/entity/Q3828032>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lavec"@en .
 
 <http://www.wikidata.org/entity/Q26877149>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -250,11 +400,47 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "bamboo steamer"@en .
 
+<http://www.wikidata.org/entity/Q3748930>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Forò"@en .
+
+<http://www.wikidata.org/entity/Q2049293>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chinois"@en .
+
+<http://www.wikidata.org/entity/Q3038087>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Douk-Douk"@en .
+
+<http://www.wikidata.org/entity/Q574487>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "simpulum"@en .
+
 <http://www.wikidata.org/entity/Q1121690>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "beverage can"@en .
+
+<http://www.wikidata.org/entity/Q668349>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kylix"@en .
+
+<http://www.wikidata.org/entity/Q5152183>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Commander"@en .
 
 <http://www.wikidata.org/entity/Q1151042>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -274,6 +460,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "pastry blender"@en .
 
+<http://www.wikidata.org/entity/Q2621538>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maastricht silver"@en .
+
 <http://www.wikidata.org/entity/Q21777907>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -286,11 +478,23 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "grater"@en .
 
+<http://www.wikidata.org/entity/Q2981255>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cochlearium"@en .
+
 <http://www.wikidata.org/entity/Q153059>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "deep fryer"@en .
+
+<http://www.wikidata.org/entity/Q1421416>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maguro bōchō"@en .
 
 <http://www.wikidata.org/entity/Q66309876>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -315,6 +519,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "toasting glass"@en .
+
+<http://www.wikidata.org/entity/Q55627337>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "type B kylix"@en .
 
 <http://www.wikidata.org/entity/Q5002460>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -352,6 +562,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Kelly Kettle"@en .
 
+<http://www.wikidata.org/entity/Q261107>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Unagisaki hōcho"@en .
+
 <http://www.wikidata.org/entity/Q208364>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -382,6 +598,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "pudding basin"@en .
 
+<http://www.wikidata.org/entity/Q55626444>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "overlap Siana cup"@en .
+
 <http://www.wikidata.org/entity/Q15711817>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -400,6 +622,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "compote bowl"@en .
 
+<http://www.wikidata.org/entity/Q175959>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "khytra"@en .
+
 <http://www.wikidata.org/entity/Q29944791>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -412,17 +640,47 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Whistling kettle"@en .
 
+<http://www.wikidata.org/entity/Q3347452>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bolo"@en .
+
 <http://www.wikidata.org/entity/Q60614446>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cruet tray"@en .
 
+<http://www.wikidata.org/entity/Q40287877>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "water basin"@en .
+
 <http://www.wikidata.org/entity/Q81895>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "spoon"@en .
+
+<http://www.wikidata.org/entity/Q1264081>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "censer"@en .
+
+<http://www.wikidata.org/entity/Q2383211>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "basin"@en .
+
+<http://www.wikidata.org/entity/Q1412822>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Beer stein"@en .
 
 <http://www.wikidata.org/entity/Q519715>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -448,6 +706,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "mixer"@en .
 
+<http://www.wikidata.org/entity/Q662620>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "thymiaterion"@en .
+
 <http://www.wikidata.org/entity/Q14880>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -471,6 +735,36 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Solo Cup"@en .
+
+<http://www.wikidata.org/entity/Q3219606>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "safety razor"@en .
+
+<http://www.wikidata.org/entity/Q2916366>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Passover Seder Plate"@en .
+
+<http://www.wikidata.org/entity/Q806610>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bank"@en .
+
+<http://www.wikidata.org/entity/Q1676810>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "jebena"@en .
+
+<http://www.wikidata.org/entity/Q951389>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "case knife"@en .
 
 <http://www.wikidata.org/entity/Q84439827>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -502,6 +796,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cast-iron cookware"@en .
 
+<http://www.wikidata.org/entity/Q175922>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Okapi"@en .
+
 <http://www.wikidata.org/entity/Q3006808>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -525,6 +825,18 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Sugar nips"@en .
+
+<http://www.wikidata.org/entity/Q4095889>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bratina"@en .
+
+<http://www.wikidata.org/entity/Q641206>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vacuum fryer"@en .
 
 <http://www.wikidata.org/entity/Q8352359>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -556,12 +868,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "paper cup"@en .
 
+<http://www.wikidata.org/entity/Q15120950>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fandging"@en .
+
 <http://www.wikidata.org/entity/Q15075189>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "soup spoon"@en .
 
+<http://www.wikidata.org/entity/Q4257913>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Embossing mat"@en .
+
+<http://www.wikidata.org/entity/Q19258673>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Akelei covered beaker"@en .
 
 <http://www.wikidata.org/entity/Q87478722>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -574,6 +903,30 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Dish drainer"@en .
+
+<http://www.wikidata.org/entity/Q1151252>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "phiale"@en .
+
+<http://www.wikidata.org/entity/Q373066>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "thurible"@en .
+
+<http://www.wikidata.org/entity/Q7388753>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SARK"@en .
+
+<http://www.wikidata.org/entity/Q321482>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Stripping knife"@en .
 
 <http://www.wikidata.org/entity/Q2086527>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -599,6 +952,18 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Cherry pitter"@en .
 
+<http://www.wikidata.org/entity/Q760376>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "eye-cup"@en .
+
+<http://www.wikidata.org/entity/Q4046133>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "P-38 can opener"@en .
+
 <http://www.wikidata.org/entity/Q675073>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -610,6 +975,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "bowl"@en .
+
+<http://www.wikidata.org/entity/Q4003271>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ultramicrotomy"@en .
 
 <http://www.wikidata.org/entity/Q30108140>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -647,11 +1018,35 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "lovespoon"@en .
 
+<http://www.wikidata.org/entity/Q2831521>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "jakobakannetje"@en .
+
+<http://www.wikidata.org/entity/Q3046824>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ginsu"@en .
+
+<http://www.wikidata.org/entity/Q17083959>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Knife bayonet"@en .
+
 <http://www.wikidata.org/entity/Q16271688>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "puukko"@en .
+
+<http://www.wikidata.org/entity/Q2602569>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "higonokami"@en .
 
 <http://www.wikidata.org/entity/Q23752>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -701,6 +1096,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cocktail shaker"@en .
 
+<http://www.wikidata.org/entity/Q1684287>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "liner lock"@en .
+
 <http://www.wikidata.org/entity/Q1410862>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -731,6 +1132,42 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "vacuum flask"@en .
 
+<http://www.wikidata.org/entity/Q7409410>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sami knife"@en .
+
+<http://www.wikidata.org/entity/Q1398027>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Incense clock"@en .
+
+<http://www.wikidata.org/entity/Q972351>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "switchblade"@en .
+
+<http://www.wikidata.org/entity/Q1331726>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oshibori"@en .
+
+<http://www.wikidata.org/entity/Q3565067>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Waguan"@en .
+
+<http://www.wikidata.org/entity/Q2204021>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Claw beaker"@en .
+
 <http://www.wikidata.org/entity/Q1934490>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -742,6 +1179,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "egg spoon"@en .
+
+<http://www.wikidata.org/entity/Q3595636>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Karahi"@en .
 
 <http://www.wikidata.org/entity/Q1754550>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -761,11 +1204,47 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "square ceramic bowl with handle for embers or fruit"@en .
 
+<http://www.wikidata.org/entity/Q23719>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Swiss Army knife"@en .
+
+<http://www.wikidata.org/entity/Q1204499>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ding"@en .
+
+<http://www.wikidata.org/entity/Q1246179>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lekanides"@en .
+
+<http://www.wikidata.org/entity/Q55626446>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "double-decker Siana cup"@en .
+
+<http://www.wikidata.org/entity/Q24531891>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lid pokal"@en .
+
 <http://www.wikidata.org/entity/Q14520187>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Wok brush"@en .
+
+<http://www.wikidata.org/entity/Q1650825>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Merrythought Cup"@en .
 
 <http://www.wikidata.org/entity/Q28054788>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -773,11 +1252,23 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "melon fork"@en .
 
+<http://www.wikidata.org/entity/Q3446398>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tankard"@en .
+
 <http://www.wikidata.org/entity/Q3183852>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Boston shaker"@en .
+
+<http://www.wikidata.org/entity/Q444536>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Survival knife"@en .
 
 <http://www.wikidata.org/entity/Q798625>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -785,17 +1276,41 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "chawan"@en .
 
+<http://www.wikidata.org/entity/Q3476935>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sebenza"@en .
+
 <http://www.wikidata.org/entity/Q22984540>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "honey dipper"@en .
 
+<http://www.wikidata.org/entity/Q597040>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "straight razor"@en .
+
+<http://www.wikidata.org/entity/Q1109404>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "patera"@en .
+
 <http://www.wikidata.org/entity/Q19388605>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "chocolate cup"@en .
+
+<http://www.wikidata.org/entity/Q174295>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "penknife"@en .
 
 <http://www.wikidata.org/entity/Q8031803>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -827,6 +1342,36 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "fish knife"@en .
 
+<http://www.wikidata.org/entity/Q1366877>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Eschara"@en .
+
+<http://www.wikidata.org/entity/Q612218>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lakaina"@en .
+
+<http://www.wikidata.org/entity/Q390409>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gridiron"@en .
+
+<http://www.wikidata.org/entity/Q1562441>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "welcome cup"@en .
+
+<http://www.wikidata.org/entity/Q2911846>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schick"@en .
+
 <http://www.wikidata.org/entity/Q516844>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -844,6 +1389,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "dough scraper"@en .
+
+<http://www.wikidata.org/entity/Q21550372>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "aspersorium"@en .
 
 <http://www.wikidata.org/entity/Q1057060>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -887,6 +1438,30 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "chopsticks"@en .
 
+<http://www.wikidata.org/entity/Q654077>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tantō"@en .
+
+<http://www.wikidata.org/entity/Q1312265>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "FP Class"@en .
+
+<http://www.wikidata.org/entity/Q1059778>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chalcidianising cup"@en .
+
+<http://www.wikidata.org/entity/Q5590679>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Grabit"@en .
+
 <http://www.wikidata.org/entity/Q62592928>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -923,17 +1498,47 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "wax paper"@en .
 
+<http://www.wikidata.org/entity/Q5184291>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "crepulja"@en .
+
+<http://www.wikidata.org/entity/Q5049502>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cassolette"@en .
+
 <http://www.wikidata.org/entity/Q732054>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "oven glove"@en .
 
+<http://www.wikidata.org/entity/Q12715923>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Junge"@en .
+
 <http://www.wikidata.org/entity/Q26877108>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Irish coffee glass"@en .
+
+<http://www.wikidata.org/entity/Q23773>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "combat knife"@en .
+
+<http://www.wikidata.org/entity/Q1516575>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wedung"@en .
 
 <http://www.wikidata.org/entity/Q2151369>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -959,6 +1564,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "highball glass"@en .
 
+<http://www.wikidata.org/entity/Q13422881>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "razor"@en .
+
 <http://www.wikidata.org/entity/Q25222579>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -971,6 +1582,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Sač"@en .
 
+<http://www.wikidata.org/entity/Q54472787>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trefoil Oinochoe"@en .
+
 <http://www.wikidata.org/entity/Q3557783>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -982,6 +1599,18 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "place spoon"@en .
+
+<http://www.wikidata.org/entity/Q2497844>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kaiken"@en .
+
+<http://www.wikidata.org/entity/Q16294897>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cartridge safety razor"@en .
 
 <http://www.wikidata.org/entity/Q2100893>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1025,6 +1654,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "milk frother"@en .
 
+<http://www.wikidata.org/entity/Q798457>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Backlock"@en .
+
 <http://www.wikidata.org/entity/Q1191080>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1055,17 +1690,59 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cookware and bakeware"@en .
 
+<http://www.wikidata.org/entity/Q5309598>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dry pasta line"@en .
+
+<http://www.wikidata.org/entity/Q1893641>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tureen"@en .
+
+<http://www.wikidata.org/entity/Q755706>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kantharos"@en .
+
+<http://www.wikidata.org/entity/Q2602774>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "marmite"@en .
+
 <http://www.wikidata.org/entity/Q81707>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "teacup"@en .
 
+<http://www.wikidata.org/entity/Q19903869>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Columbine cup"@en .
+
 <http://www.wikidata.org/entity/Q502335>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "sheet pan"@en .
+
+<http://www.wikidata.org/entity/Q898823>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steam digester"@en .
+
+<http://www.wikidata.org/entity/Q20181361>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spit"@en .
 
 <http://www.wikidata.org/entity/Q2838713>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1103,6 +1780,18 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "apple peeler"@en .
 
+<http://www.wikidata.org/entity/Q1722790>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "chalice"@en .
+
+<http://www.wikidata.org/entity/Q7496111>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Shichirin"@en .
+
 <http://www.wikidata.org/entity/Q2662432>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1133,6 +1822,18 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "apple corer"@en .
 
+<http://www.wikidata.org/entity/Q24530942>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pokal"@en .
+
+<http://www.wikidata.org/entity/Q6373553>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kartika"@en .
+
 <http://www.wikidata.org/entity/Q3085692>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1145,11 +1846,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "yard of ale"@en .
 
+<http://www.wikidata.org/entity/Q2262229>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "sautoir"@en .
+
+<http://www.wikidata.org/entity/Q306821>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Snap-off utility knife"@en .
+
 <http://www.wikidata.org/entity/Q25896976>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "mug"@en .
+
+<http://www.wikidata.org/entity/Q32057279>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steilrandschale"@en .
 
 <http://www.wikidata.org/entity/Q38110559>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1187,11 +1906,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "tea glass"@en .
 
+<http://www.wikidata.org/entity/Q2226954>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Handi"@en .
+
+<http://www.wikidata.org/entity/Q4851915>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ballpoint pen knife"@en .
+
 <http://www.wikidata.org/entity/Q7681478>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Tamis"@en .
+
+<http://www.wikidata.org/entity/Q13049520>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "billycan"@en .
 
 <http://www.wikidata.org/entity/Q1432049>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1277,6 +2014,18 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "bar spoon"@en .
 
+<http://www.wikidata.org/entity/Q66087914>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Egyptian kohl spoon"@en .
+
+<http://www.wikidata.org/entity/Q23716>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Opinel knife"@en .
+
 <http://www.wikidata.org/entity/Q81881>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1313,6 +2062,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Mouli grater"@en .
 
+<http://www.wikidata.org/entity/Q19600260>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vessyl"@en .
+
 <http://www.wikidata.org/entity/Q41331>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1325,6 +2080,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cream skimmers"@en .
 
+<http://www.wikidata.org/entity/Q56631645>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kiddush cup"@en .
+
 <http://www.wikidata.org/entity/Q2685412>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1336,6 +2097,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "souvenir spoon"@en .
+
+<http://www.wikidata.org/entity/Q16916838>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Māripi"@en .
 
 <http://www.wikidata.org/entity/Q2569925>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1354,6 +2121,18 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "disposable cup"@en .
+
+<http://www.wikidata.org/entity/Q5013793>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CQC-6"@en .
+
+<http://www.wikidata.org/entity/Q390383>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pocket knife"@en .
 
 <http://www.wikidata.org/entity/Q3541431>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1385,6 +2164,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "beer skimmer"@en .
 
+<http://www.wikidata.org/entity/Q3537296>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trencher"@en .
+
 <http://www.wikidata.org/entity/Q7259950>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1403,11 +2188,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "food mill"@en .
 
+<http://www.wikidata.org/entity/Q2096978>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pisau raut"@en .
+
+<http://www.wikidata.org/entity/Q505584>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Siana Cup"@en .
+
 <http://www.wikidata.org/entity/Q2972369>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cignus"@en .
+
+<http://www.wikidata.org/entity/Q12031840>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rybička"@en .
 
 <http://www.wikidata.org/entity/Q907099>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1445,11 +2248,23 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "gamasot"@en .
 
+<http://www.wikidata.org/entity/Q13032685>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dwojaki"@en .
+
 <http://www.wikidata.org/entity/Q1111908>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Deba bōchō"@en .
+
+<http://www.wikidata.org/entity/Q1409661>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bogrács"@en .
 
 <http://www.wikidata.org/entity/Q7234586>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1468,6 +2283,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "skimmer"@en .
+
+<http://www.wikidata.org/entity/Q1805615>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "lanx"@en .
 
 <http://www.wikidata.org/entity/Q938509>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1535,6 +2356,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "skewer"@en .
 
+<http://www.wikidata.org/entity/Q4207627>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kazan"@en .
+
 <http://www.wikidata.org/entity/Q65621611>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1583,6 +2410,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "mangal"@en .
 
+<http://www.wikidata.org/entity/Q5512062>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "G.I. pocket stove"@en .
+
 <http://www.wikidata.org/entity/Q1316639>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1595,6 +2428,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "spife"@en .
 
+<http://www.wikidata.org/entity/Q1258900>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pythagorean cup"@en .
+
 <http://www.wikidata.org/entity/Q540224>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1606,6 +2445,18 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Pastry bag"@en .
+
+<http://www.wikidata.org/entity/Q178664>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bowie knife"@en .
+
+<http://www.wikidata.org/entity/Q7106634>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "oshizushihako"@en .
 
 <http://www.wikidata.org/entity/Q23668>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1787,6 +2638,24 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "claret glass"@en .
 
+<http://www.wikidata.org/entity/Q4950050>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bounty"@en .
+
+<http://www.wikidata.org/entity/Q616204>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Portable stove"@en .
+
+<http://www.wikidata.org/entity/Q13587386>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Laser microtome"@en .
+
 <http://www.wikidata.org/entity/Q1040088>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1817,6 +2686,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "mug"@en .
 
+<http://www.wikidata.org/entity/Q11916277>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Culter"@en .
+
 <http://www.wikidata.org/entity/Q21855686>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1835,6 +2710,17 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Nontron knife"@en .
 
+<http://www.wikidata.org/entity/Q1273994>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "yoroi tōshi"@en .
+
+<http://www.wikidata.org/entity/Q10475927>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Baptismal bowl"@en .
 
 <http://www.wikidata.org/entity/Q961867>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1878,6 +2764,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "meat tenderizer"@en .
 
+<http://www.wikidata.org/entity/Q1601459>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kothon"@en .
+
 <http://www.wikidata.org/entity/Q14854076>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1896,6 +2788,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "lame"@en .
 
+<http://www.wikidata.org/entity/Q89140425>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Class of Palmette-eye-cups"@en .
+
 <http://www.wikidata.org/entity/Q216425>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1908,11 +2806,35 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "throwing knife"@en .
 
+<http://www.wikidata.org/entity/Q652502>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Beveled rim bowl"@en .
+
 <http://www.wikidata.org/entity/Q1543308>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cooking pot"@en .
+
+<http://www.wikidata.org/entity/Q15706902>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Witches'-caldron"@en .
+
+<http://www.wikidata.org/entity/Q5382109>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Epergne"@en .
+
+<http://www.wikidata.org/entity/Q7859825>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tyg"@en .
 
 <http://www.wikidata.org/entity/Q21550533>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1932,6 +2854,11 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "stemware"@en .
 
+<http://www.wikidata.org/entity/Q1423766>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "African Arm-Ring"@en .
 
 <http://www.wikidata.org/entity/Q62033192>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1963,6 +2890,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "soup bowl"@en .
 
+<http://www.wikidata.org/entity/Q6137415>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tenmoku"@en .
+
 <http://www.wikidata.org/entity/Q14899>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -1986,6 +2919,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "nakiri bōchō"@en .
+
+<http://www.wikidata.org/entity/Q1358695>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mbusi"@en .
 
 <http://www.wikidata.org/entity/Q26877158>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2035,6 +2974,24 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "tea draining tray"@en .
 
+<http://www.wikidata.org/entity/Q6818054>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mercator K55K"@en .
+
+<http://www.wikidata.org/entity/Q925577>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hair clipper"@en .
+
+<http://www.wikidata.org/entity/Q493504>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "trammel hook"@en .
+
 <http://www.wikidata.org/entity/Q207763>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -2058,6 +3015,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "quaich"@en .
+
+<http://www.wikidata.org/entity/Q6457156>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "LAWKS"@en .
 
 <http://www.wikidata.org/entity/Q1721055>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2083,6 +3046,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Roasting pan"@en .
 
+<http://www.wikidata.org/entity/Q55992766>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tajine"@en .
+
 <http://www.wikidata.org/entity/Q3247051>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -2094,6 +3063,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "citrus reamer"@en .
+
+<http://www.wikidata.org/entity/Q10385865>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bath towel"@en .
 
 <http://www.wikidata.org/entity/Q127666>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2118,6 +3093,18 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "muddling spoon"@en .
+
+<http://www.wikidata.org/entity/Q195813>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kinmen knife"@en .
+
+<http://www.wikidata.org/entity/Q1545569>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mastos"@en .
 
 <http://www.wikidata.org/entity/Q67690823>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2148,6 +3135,30 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Oroshigane"@en .
+
+<http://www.wikidata.org/entity/Q7812225>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Today sponge"@en .
+
+<http://www.wikidata.org/entity/Q8061360>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "yunomi"@en .
+
+<http://www.wikidata.org/entity/Q1486592>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kassel Cup"@en .
+
+<http://www.wikidata.org/entity/Q2929872>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "home stoup"@en .
 
 <http://www.wikidata.org/entity/Q2733787>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2215,6 +3226,18 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "chashaku"@en .
 
+<http://www.wikidata.org/entity/Q79033922>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "disposable razor"@en .
+
+<http://www.wikidata.org/entity/Q6721600>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "mabkhara"@en .
+
 <http://www.wikidata.org/entity/Q17061421>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -2232,6 +3255,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "ice cream spoon"@en .
+
+<http://www.wikidata.org/entity/Q1932496>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tazza"@en .
 
 <http://www.wikidata.org/entity/Q3399907>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2275,6 +3304,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cataplana"@en .
 
+<http://www.wikidata.org/entity/Q2999756>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bowl of Hygieia"@en .
+
 <http://www.wikidata.org/entity/Q7605246>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -2286,6 +3321,18 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "griddle"@en .
+
+<http://www.wikidata.org/entity/Q25377459>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Duralex Gigogne"@en .
+
+<http://www.wikidata.org/entity/Q57502493>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Fichtelgebirgehumpen"@en .
 
 <http://www.wikidata.org/entity/Q10563755>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2305,11 +3352,29 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "chip fork"@en .
 
+<http://www.wikidata.org/entity/Q1959209>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "coin drinking vessel"@en .
+
 <http://www.wikidata.org/entity/Q20820315>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "roaster"@en .
+
+<http://www.wikidata.org/entity/Q12603909>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "siru"@en .
+
+<http://www.wikidata.org/entity/Q981230>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lip Cup"@en .
 
 <http://www.wikidata.org/entity/Q1254139>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2323,11 +3388,35 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Spoon rest"@en .
 
+<http://www.wikidata.org/entity/Q15847011>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "scyphus"@en .
+
+<http://www.wikidata.org/entity/Q3343650>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Norelco"@en .
+
 <http://www.wikidata.org/entity/Q2227860>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "sauteuse"@en .
+
+<http://www.wikidata.org/entity/Q7540872>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "slipjoint"@en .
+
+<http://www.wikidata.org/entity/Q1645376>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kakkabe"@en .
 
 <http://www.wikidata.org/entity/Q7323087>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2346,6 +3435,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "bread-and-butter plate"@en .
+
+<http://www.wikidata.org/entity/Q12034064>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Loštice pottery"@en .
 
 <http://www.wikidata.org/entity/Q775674>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2413,11 +3508,23 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "snail fork"@en .
 
+<http://www.wikidata.org/entity/Q1036735>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "spider"@en .
+
 <http://www.wikidata.org/entity/Q4878889>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "fries cutter"@en .
+
+<http://www.wikidata.org/entity/Q16889903>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Marjacq"@en .
 
 <http://www.wikidata.org/entity/Q1104430>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2430,6 +3537,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "trench knife"@en .
+
+<http://www.wikidata.org/entity/Q1821340>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Leutel"@en .
 
 <http://www.wikidata.org/entity/Q1473090>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2455,11 +3568,41 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "crab cracker"@en .
 
+<http://www.wikidata.org/entity/Q1758181>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lekanide"@en .
+
+<http://www.wikidata.org/entity/Q1394659>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gravity knife"@en .
+
+<http://www.wikidata.org/entity/Q55627524>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "type A kylix"@en .
+
 <http://www.wikidata.org/entity/Q1116813>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Pintchen/Pintje"@en .
+
+<http://www.wikidata.org/entity/Q7881728>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Umnumzaan"@en .
+
+<http://www.wikidata.org/entity/Q7131874>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pantographic knife"@en .
 
 <http://www.wikidata.org/entity/Q22236245>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2479,6 +3622,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "moustache cup"@en .
 
+<http://www.wikidata.org/entity/Q5068369>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chakla"@en .
+
 <http://www.wikidata.org/entity/Q2158156>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "kitchenware" ;
@@ -2490,6 +3639,12 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "lebrillo"@en .
+
+<http://www.wikidata.org/entity/Q2003929>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nshaal"@en .
 
 <http://www.wikidata.org/entity/Q3064622>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -2592,6 +3747,30 @@
                 "kitchenware" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "ice pick"@en .
+
+<http://www.wikidata.org/entity/Q1785788>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kozuka"@en .
+
+<http://www.wikidata.org/entity/Q32177017>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "klokje"@en .
+
+<http://www.wikidata.org/entity/Q5447945>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fighting knife"@en .
+
+<http://www.wikidata.org/entity/Q898419>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "kitchenware" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Microtome"@en .
 
 <http://www.wikidata.org/entity/Q613972>
         <http://www.w3.org/2000/01/rdf-schema#comment>

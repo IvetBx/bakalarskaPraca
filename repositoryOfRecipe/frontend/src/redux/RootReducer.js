@@ -1,7 +1,7 @@
-import recipeReducer from "./reducers/recipeReducer" 
+import recipeReducer from "./reducers/RecipeReducer" 
 import {combineReducers} from "redux"
-import wikidataReducer from "./reducers/wikidataReducer"
-import userReducer from "./reducers/userReducer"
+import wikidataReducer from "./reducers/WikidataReducer"
+import userReducer from "./reducers/UserReducer"
 
 const rootReducer = combineReducers({
     recipes: recipeReducer,

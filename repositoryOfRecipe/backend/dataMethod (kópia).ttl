@@ -46,6 +46,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "spherification"@en .
 
+<http://www.wikidata.org/entity/Q16525404>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "agemono"@en .
+
 <http://www.wikidata.org/entity/Q20074315>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cookingMethod" ;
@@ -76,6 +82,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "baking"@en .
 
+<http://www.wikidata.org/entity/Q24961181>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rehogar"@en .
+
 <http://www.wikidata.org/entity/Q73185>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cookingMethod" ;
@@ -93,6 +105,18 @@
                 "cookingMethod" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "pan frying"@en .
+
+<http://www.wikidata.org/entity/Q3895837>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jalea"@en .
+
+<http://www.wikidata.org/entity/Q2760809>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Browning"@en .
 
 <http://www.wikidata.org/entity/Q1971485>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -202,6 +226,18 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "shallow frying"@en .
 
+<http://www.wikidata.org/entity/Q5306852>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dredging"@en .
+
+<http://www.wikidata.org/entity/Q3509587>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Agemochi"@en .
+
 <http://www.wikidata.org/entity/Q6723260>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cookingMethod" ;
@@ -213,6 +249,12 @@
                 "cookingMethod" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "basting"@en .
+
+<http://www.wikidata.org/entity/Q11498439>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "agemomiji"@en .
 
 <http://www.wikidata.org/entity/Q1409247>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -238,6 +280,12 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "cooking method"@en .
 
+<http://www.wikidata.org/entity/Q909700>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "jorim"@en .
+
 <http://www.wikidata.org/entity/Q193713>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cookingMethod" ;
@@ -249,6 +297,12 @@
                 "cookingMethod" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "stir frying"@en .
+
+<http://www.wikidata.org/entity/Q9660609>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "bolinho caipira"@en .
 
 <http://www.wikidata.org/entity/Q264619>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -267,6 +321,12 @@
                 "cookingMethod" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "frying"@en .
+
+<http://www.wikidata.org/entity/Q336039>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cookingMethod" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aburaage"@en .
 
 <http://www.wikidata.org/entity/Q7547269>
         <http://www.w3.org/2000/01/rdf-schema#comment>

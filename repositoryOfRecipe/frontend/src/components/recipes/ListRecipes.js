@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import RecipeCard from "./RecipeCard"
 import {Container, Row, Col, Spinner} from "react-bootstrap"
-import Filters from "../navigation/Filters"
+import Filters from "./filters/Filters"
 import { connect } from "react-redux"
-import { fetchRecipes } from "../../redux/index"
+import { fetchRecipes } from "../../redux/Index"
 import Recipe from "./Recipe"
 
 

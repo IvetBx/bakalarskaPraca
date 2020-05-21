@@ -1,25 +1,50 @@
 package com.balintova.repositoryOfRecipe.config;
 
 import org.apache.jena.rdfconnection.RDFConnection;
+import org.apache.jena.rdfconnection.RDFConnectionFactory;
 import org.apache.jena.rdfconnection.RDFConnectionFuseki;
 
 public class Fuseki {
 
-    private static RDFConnectionFuseki connectionFuseki;
+    private static RDFConnectionFuseki connectionFusekiRecipes;
+    private static RDFConnectionFuseki connectionFusekiUsers;
+    private static RDFConnection connectionWikidata;
 
-    public static void setConnection(String destination) {
+    public static void setConnectionRecipes(String destination) {
         RDFConnection builder = RDFConnectionFuseki.create()
                 .destination(destination)
                 .build();
-        connectionFuseki = (RDFConnectionFuseki)builder;
+        connectionFusekiRecipes = (RDFConnectionFuseki)builder;
     }
 
-    public static RDFConnectionFuseki getConnection(){
-        return connectionFuseki;
+    public static void setConnectionUsers(String destination) {
+        RDFConnection builder = RDFConnectionFuseki.create()
+                .destination(destination)
+                .build();
+        connectionFusekiUsers = (RDFConnectionFuseki)builder;
+    }
+
+    public static void setConnectionWikidata(String destination) {
+        RDFConnection builder = RDFConnectionFactory.connect(destination);
+        connectionWikidata = builder;
+    }
+
+    public static RDFConnectionFuseki getConnectionRecipes(){
+        return connectionFusekiRecipes;
+    }
+
+    public static RDFConnectionFuseki getConnectionUser() { return connectionFusekiUsers; }
+
+    public static RDFConnection getConnectionWikidata(){
+        return connectionWikidata;
     }
 
     public static void close(){
-        connectionFuseki.close();
+        connectionFusekiUsers.close();
+        connectionFusekiRecipes.close();
+        connectionWikidata.close();
     }
+
+
 
 }

@@ -1,10 +1,9 @@
-import { FETCH_USER_REQUEST, FETCH_USER_SUCCESS, FETCH_USER_FAILURE, LOG_OUT } from "../types/userTypes"
+import { FETCH_USER_REQUEST, FETCH_USER_SUCCESS, FETCH_USER_FAILURE, LOG_OUT } from "../types/UserTypes"
 
 const initState={
     loading:false,
     error:"",
-    username:"",
-    password:""
+    user:"",
 }
 
 
@@ -20,8 +19,7 @@ const userReducer=(state=initState, action) => {
             return {
                 ...state,
                 loading:false,
-                username:action.username,
-                password:action.username,
+                user:action.payload,
                 error:""
             }
 
@@ -30,7 +28,6 @@ const userReducer=(state=initState, action) => {
                 ...state,
                 loading:false,
                 username:"",
-                password:"",
                 error:action.payload
             }
 
@@ -38,7 +35,6 @@ const userReducer=(state=initState, action) => {
             return {
                 ...state,
                 username:"",
-                password:""
             }
 
         default:

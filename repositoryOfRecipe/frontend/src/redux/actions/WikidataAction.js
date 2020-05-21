@@ -1,6 +1,6 @@
 import axios from "axios"
 import { FETCH_WIKIDATA_LIST_FAILURE, FETCH_WIKIDATA_LIST_SUCCESS, FETCH_WIKIDATA_LIST_REQUEST, FETCH_MORE_INFO_ABOUT_WIKIDATA_ENTITY_FAILURE,
-FETCH_MORE_INFO_ABOUT_WIKIDATA_ENTITY_SUCCESS, FETCH_MORE_INFO_ABOUT_WIKIDATA_ENTITY_REQUEST } from "../types/wikidataTypes"
+FETCH_MORE_INFO_ABOUT_WIKIDATA_ENTITY_SUCCESS, FETCH_MORE_INFO_ABOUT_WIKIDATA_ENTITY_REQUEST, FETCH_WIKIDATA2_LIST_SUCCESS, FETCH_WIKIDATA3_LIST_SUCCESS } from "../types/WikidataTypes"
 import {URL} from "../../config/Constant"
 
 export const fetchWikidataListRequest = () => {
@@ -12,6 +12,20 @@ export const fetchWikidataListRequest = () => {
 export const fetchWikidataListSuccess = listOf => {
     return {
         type: FETCH_WIKIDATA_LIST_SUCCESS, 
+        payload: listOf
+    }
+}
+
+export const fetchWikidata2ListSuccess = listOf => {
+    return {
+        type: FETCH_WIKIDATA2_LIST_SUCCESS, 
+        payload: listOf
+    }
+}
+
+export const fetchWikidata3ListSuccess = listOf => {
+    return {
+        type: FETCH_WIKIDATA3_LIST_SUCCESS, 
         payload: listOf
     }
 }
@@ -50,8 +64,42 @@ export const fetchWikidataList = (entity) => {
         axios
             .get(`${URL}/listOf/${entity}`)
             .then(response => {
-                const listOf = response.data
+                const first = [{uri:"", label:""}]
+                const listOf = first.concat(response.data)
                 dispatch(fetchWikidataListSuccess(listOf))
+            })
+            .catch(error => {
+                dispatch(fetchWikidataListFailure(error.message))
+            })
+    }
+}
+
+export const fetchWikidata2List = (entity) => {
+    return (dispatch) => {
+        dispatch(fetchWikidataListRequest())
+        axios
+            .get(`${URL}/listOf/${entity}`)
+            .then(response => {
+                const first = [{uri:"", label:""}]
+                console.log(response.data)
+                const listOf =  first.concat(response.data)
+                dispatch(fetchWikidata2ListSuccess(listOf))
+            })
+            .catch(error => {
+                dispatch(fetchWikidataListFailure(error.message))
+            })
+    }
+}
+
+export const fetchWikidata3List = (entity) => {
+    return (dispatch) => {
+        dispatch(fetchWikidataListRequest())
+        axios
+            .get(`${URL}/listOf/${entity}`)
+            .then(response => {
+                const first = [{uri:"", label:""}]
+                const listOf =  first.concat(response.data)
+                dispatch(fetchWikidata3ListSuccess(listOf))
             })
             .catch(error => {
                 dispatch(fetchWikidataListFailure(error.message))

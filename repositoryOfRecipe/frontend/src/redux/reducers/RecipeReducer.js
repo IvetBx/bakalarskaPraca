@@ -3,8 +3,10 @@ import { FETCH_RECIPES_REQUEST, FETCH_RECIPES_SUCCESS, FETCH_RECIPES_FAILURE,
     SET_EXCLUDED_INGREDIENTS, SET_INCLUDED_INGREDIENTS, SET_EXCLUDED_AUTHORS, SET_INCLUDED_AUTHORS, 
     SET_EXCLUDED_CATEGORIES, SET_INCLUDED_CATEGORIES, SET_EXCLUDED_CUISINES, SET_INCLUDED_CUISINES,
     SET_EXCLUDED_KITCHENWARE, SET_INCLUDED_KITCHENWARE, SET_EXCLUDED_METHODS, SET_INCLUDED_METHODS, SET_MAX_TIME, SET_MIN_TIME, 
-    SET_MAX_RATING, SET_MIN_RATING, FETCH_RECIPES_WITH_FILTERS_FAILURE, FETCH_RECIPES_WITH_FILTERS_SUCCESS, REMOVE_FILTERS, FETCH_DETAIL_ABOUT_RECIPE_FAILURE, 
-    FETCH_DETAIL_ABOUT_RECIPE_SUCCESS, FETCH_DETAIL_ABOUT_RECIPE_REQUEST } from "../types/recipeTypes"
+    FETCH_RECIPES_WITH_FILTERS_FAILURE, FETCH_RECIPES_WITH_FILTERS_SUCCESS, REMOVE_FILTERS, FETCH_DETAIL_ABOUT_RECIPE_FAILURE, 
+    FETCH_DETAIL_ABOUT_RECIPE_SUCCESS, FETCH_DETAIL_ABOUT_RECIPE_REQUEST, CREATE_RECIPE_REQUEST, CREATE_RECIPE_SUCCESS, CREATE_RECIPE_FAILURE, SET_RECIPE_DETAIL } from "../types/RecipeTypes"
+import {structureOfRecipe} from "../../config/Constant"
+
 
 const initState={
     loading: false,
@@ -14,8 +16,6 @@ const initState={
     recipeName: "",
     minTime:"",
     maxTime:"", 
-    minRating:1,
-    maxRating:5,
     inAuthors:[], 
     exAuthors:[],
     inCategories:[],
@@ -28,7 +28,13 @@ const initState={
     exKitchenware:[],
     inIngredients:[], 
     exIngredients:[],
-    recipeDetail: []
+    recipeDetail: "",
+    Aall: false,
+    CAall: false, 
+    Mall : false,
+    CUall :false, 
+    Kall : false, 
+    Iall:false 
 }
 
 const recipeReducer=(state=initState, action) => {
@@ -36,6 +42,7 @@ const recipeReducer=(state=initState, action) => {
         case FETCH_RECIPES_REQUEST:
             return {
                 ...state,
+                recipeDetail:"",
                 loading: true
             }
 
@@ -43,6 +50,7 @@ const recipeReducer=(state=initState, action) => {
             return {
                 ...state,
                 loading: false,
+                recipeDetail:"",
                 recipes: action.payload,
                 error: ""
             }
@@ -51,6 +59,7 @@ const recipeReducer=(state=initState, action) => {
             return {
                 ...state,
                 loading: false,
+                recipeDetail:"",
                 recipes: [],
                 error: action.payload
             }
@@ -81,7 +90,8 @@ const recipeReducer=(state=initState, action) => {
         case SET_INCLUDED_INGREDIENTS:
             return {
                 ...state,
-                inIngredients: action.payload
+                inIngredients: action.payload,
+                Iall:action.all
             }
 
         case SET_EXCLUDED_INGREDIENTS:
@@ -93,7 +103,8 @@ const recipeReducer=(state=initState, action) => {
         case SET_INCLUDED_AUTHORS:
             return {
                 ...state,
-                inAuthors: action.payload
+                inAuthors: action.payload,
+                Aall: action.all
             }
 
         case SET_EXCLUDED_AUTHORS:
@@ -105,7 +116,8 @@ const recipeReducer=(state=initState, action) => {
         case SET_INCLUDED_CATEGORIES:
             return {
                 ...state,
-                inCategories: action.payload
+                inCategories: action.payload,
+                CAall: action.all
             }
 
         case SET_EXCLUDED_CATEGORIES:
@@ -117,7 +129,8 @@ const recipeReducer=(state=initState, action) => {
         case SET_INCLUDED_CUISINES:
             return {
                 ...state,
-                inCuisines: action.payload
+                inCuisines: action.payload,
+                CUall : action.all
             }
 
         case SET_EXCLUDED_CUISINES:
@@ -129,7 +142,8 @@ const recipeReducer=(state=initState, action) => {
         case SET_INCLUDED_KITCHENWARE:
             return {
                 ...state,
-                inKitchenware: action.payload
+                inKitchenware: action.payload,
+                Kall : action.all 
             }
 
         case SET_EXCLUDED_KITCHENWARE:
@@ -141,7 +155,8 @@ const recipeReducer=(state=initState, action) => {
         case SET_INCLUDED_METHODS:
             return {
                 ...state,
-                inMethods: action.payload
+                inMethods: action.payload,
+                Mall : action.all
             }
 
         case SET_EXCLUDED_METHODS:
@@ -160,18 +175,6 @@ const recipeReducer=(state=initState, action) => {
             return {
                 ...state,
                 maxTime: action.payload
-            }
-
-        case SET_MIN_RATING:
-            return {
-                ...state,
-                minRating: action.payload
-            }
-
-        case SET_MAX_RATING:
-            return {
-                ...state,
-                maxRating: action.payload
             }
 
         case FETCH_RECIPES_WITH_FILTERS_SUCCESS:
@@ -194,11 +197,10 @@ const recipeReducer=(state=initState, action) => {
             return {
                 ...state,
                 filterRecipes: null,
+                recipeDetail:"",
                 recipeName: "",
                 minTime:"",
                 maxTime:"", 
-                minRating:1,
-                maxRating:5,
                 inAuthors:[], 
                 exAuthors:[],
                 inCategories:[],
@@ -210,8 +212,43 @@ const recipeReducer=(state=initState, action) => {
                 inKitchenware:[],
                 exKitchenware:[],
                 inIngredients:[], 
-                exIngredients:[]
+                exIngredients:[],
+                Aall: false,
+                CAall: false, 
+                Mall : false,
+                CUall :false, 
+                Kall : false, 
+                Iall:false 
             }
+
+            case SET_RECIPE_DETAIL:
+                return {
+                    ...state,
+                    recipeDetail: action.payload
+                }
+
+            case CREATE_RECIPE_REQUEST:
+                return {
+                    ...state,
+                    loading: true,
+                    recipeDetail: action.payload
+                }
+
+            case CREATE_RECIPE_SUCCESS:
+                return {
+                    ...state,
+                    loading: false,
+                    recipeDetail: action.payload,
+                    error: ""
+                }
+
+            case CREATE_RECIPE_FAILURE:
+                return {
+                    ...state,
+                    loading: false,
+                    error: action.payload
+                }
+            
 
             case FETCH_DETAIL_ABOUT_RECIPE_REQUEST:
                 return {
@@ -230,9 +267,12 @@ const recipeReducer=(state=initState, action) => {
             case FETCH_DETAIL_ABOUT_RECIPE_FAILURE:
                 return {
                     ...state,
+                    loading: false,
                     recipeDetail: [],
                     error: action.payload
                 }
+
+            
 
         default:
             return state

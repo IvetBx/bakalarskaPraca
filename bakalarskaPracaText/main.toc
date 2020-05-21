@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {1.3}Existuj\IeC {\'u}ce rie\IeC {\v s}enia}{14}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Varecha}{14}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Yummly}{15}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Bakal\IeC {\'a}rska pr\IeC {\'a}ca Inteligentn\IeC {\'y} recept\IeC {\'a}r na b\IeC {\'a}ze prepojen\IeC {\'y}ch d\IeC {\'a}t}{15}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Bakal\IeC {\'a}rska pr\IeC {\'a}ca Inteligentn\IeC {\'y} recept\IeC {\'a}r na b\IeC {\'a}ze prepojen\IeC {\'y}ch d\IeC {\'a}t}{16}{subsection.1.3.3}
 \contentsline {chapter}{\numberline {2}N\IeC {\'a}vrh rie\IeC {\v s}enia}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}N\IeC {\'a}vrh ontol\IeC {\'o}gie}{17}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Prot\IeC {\'e}g\IeC {\'e}}{18}{subsection.2.1.1}
@@ -38,3 +38,10 @@
 \contentsline {subsubsection}{Popis tried existuj\IeC {\'u}cich v predch\IeC {\'a}dzaj\IeC {\'u}cej ontol\IeC {\'o}gi\IeC {\'\i }}{18}{section*.13}
 \contentsline {subsubsection}{Popis triedy Instruction}{19}{section*.14}
 \contentsline {section}{\numberline {2.2}Funkcionalita syst\IeC {\'e}mu}{20}{section.2.2}
+\contentsline {section}{\numberline {2.3}N\IeC {\'a}vrh datab\IeC {\'a}zy aplik\IeC {\'a}cie}{23}{section.2.3}
+\contentsline {section}{\numberline {2.4}N\IeC {\'a}vrh backendu aplik\IeC {\'a}cie}{23}{section.2.4}
+\contentsline {section}{\numberline {2.5}N\IeC {\'a}vrh frontendu aplik\IeC {\'a}cie}{24}{section.2.5}
+\contentsline {chapter}{\numberline {3}Implement\IeC {\'a}cia}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Implementa\IeC {\v c}n\IeC {\'y} jazyk}{26}{section.3.1}
+\contentsline {section}{\numberline {3.2}Spr\IeC {\'a}va stavu frontendu aplik\IeC {\'a}cie}{26}{section.3.2}
+\contentsline {section}{\numberline {3.3}Prepojenie frontendu, backendu a datab\IeC {\'a}zy}{27}{section.3.3}

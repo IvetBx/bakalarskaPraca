@@ -2,13 +2,13 @@ import React from "react"
 import {Modal, Button, Row, Col} from "react-bootstrap"
 import FormLabel from 'react-bootstrap/FormLabel'; 
 import FormControl from 'react-bootstrap/FormControl'; 
+import FormCheck from 'react-bootstrap/FormCheck'
 import * as yup from "yup"
 import { connect } from 'react-redux'
-import { Formik, Field, Form, FieldArray} from "formik"
+import { Formik, Field, Form, FieldArray } from "formik"
 import { setIncludedIngredients, setExcludedIngredients, setIncludedAuthors, setExcludedAuthors, 
 setIncludedCategories, setExcludedCategories, setIncludedCuisines, setExcludedCuisines,
-setIncludedKitchenware, setExcludedKitchenware, setIncludedMethods, setExcludedMethods  } from "../../redux"
-
+setIncludedKitchenware, setExcludedKitchenware, setIncludedMethods, setExcludedMethods  } from "../../../redux/Index"
 
 const validationSchema = yup.object({
   listEntities: yup.array().of(
@@ -17,7 +17,6 @@ const validationSchema = yup.object({
     })
   )
 });
-
 
 function FilterModalExcludedIncluded (props) {
 
@@ -35,43 +34,74 @@ function FilterModalExcludedIncluded (props) {
         <Formik
             validateOnChange={false}
             initialValues={{
-              listEntities: initVal
+              listEntities: initVal,
+              allTogether: props.allTogether
             }}
-
             validationSchema={validationSchema}
-            onSubmit={(data, { setSubmitting }) => {
-              setSubmitting(true);
-              if(included){
-                props.set_included(data.listEntities)
-              } else {
-                props.set_excluded(data.listEntities)
-              }
-              setSubmitting(false);
-            }}
         >
-            {({ values, errors, isSubmitting }) => (
+            {({ values, errors, isSubmitting, handleBlur, handleChange}) => (
       
             <Form>
-              {included ? <FormLabel className="text-info font-weight-bold">Include {props.singular}:</FormLabel> : <FormLabel className="text-info font-weight-bold">Exclude {props.singular}:</FormLabel>}
+              {included ? 
+                <Row><FormLabel className="text-info font-weight-bold">Include {props.singular}:</FormLabel></Row>         
+          : <FormLabel className="text-info font-weight-bold">Exclude {props.singular}:</FormLabel>}
               <FieldArray name="listEntities">
                 {arrayHelpers => (
                   <div>
                     {values.listEntities.map((elem, index) => {
                       return (
-                        <div key={elem.id}>
-                          <Field placeholder={`Enter name of ${props.singular}`} name={`listEntities.${index}.name`} type="input" as={FormControl} className="float-left w-75 mt-1" isInvalid={!!errors.listEntities} />
-                          <Button onClick={() => arrayHelpers.remove(index)} variant="danger ml-2" className="button2 float-left mt-1 mr-2"><p>x</p></Button>
-                        </div>
+                        <Row key={elem.id}>
+                          <Field placeholder={`Enter name of ${props.singular}`} name={`listEntities.${index}.name`} type="input" as={FormControl} className="float-left w-75 mt-1" isInvalid={!!errors.listEntities}     onBlur={e => {
+        handleBlur(e)
+        let someValue = e.currentTarget.value
+        if(someValue){
+          if(included){
+            props.set_included(values.listEntities, !values.allTogether)
+          } else {
+            props.set_excluded(values.listEntities)
+          }
+        }
+    }}/>                  <Button onClick={() => {arrayHelpers.remove(index);
+                                      var first = values.listEntities.slice(0, index)
+                                      var second = values.listEntities.slice(index + 1)   
+                                      var concat = first.concat(second);
+                                      if(!concat.length){
+                                        concat = []
+                                      }
+                                      if(included){
+                                        props.set_included(concat, values.allTogether)
+                                      } else {
+                                        props.set_excluded(concat)
+                                      }
+                                }} variant="danger ml-2" className="button2 float-left mt-1 mr-2"
+
+                          ><p>x</p></Button>
+                          
+                        </Row>
                       );
                     })}
-                    <Button onClick={() => {arrayHelpers.push({name: "", id: "" + Math.random()})}} variant="info" className="button2 mt-2"><p>+</p></Button>
+                    <Row><Button onClick={() => {arrayHelpers.push({name: "", id: "" + Math.random()})}} variant="info" className="button2 mt-2"><p>+</p></Button></Row>
                   </div>
                 )}
 
               </FieldArray>
-              <div className="d-flex justify-content-start">
-                <Button disabled={isSubmitting} type="submit" variant="success" className="button2 mt-2 w-50"><p>Save</p></Button>
-              </div>
+              {included ? <Row className="mt-3"><Field
+              required
+              name="allTogether"
+              as={FormCheck}
+              id="validationFormik0"
+              type="checkbox"
+              onChange={e => {
+                handleChange(e)
+                  if(included){
+                    props.set_included(values.listEntities, !values.allTogether)
+                  } else {
+                    props.set_excluded(values.listEntities)
+                  }
+            }}
+            /><FormLabel className="text-muted font-weight-bold">
+            include all the listed items in one recipe </FormLabel></Row> : null}
+              
             </Form> )}
           </Formik>
         </div>
@@ -79,7 +109,7 @@ function FilterModalExcludedIncluded (props) {
 
     return(
             <Modal
-      {...props}
+      show={props.show} onHide={props.onHide}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
@@ -131,25 +161,39 @@ const mapStateToProps = (state, ownProps) => {
   ? state.recipes.exCuisines  
   : state.recipes.exKitchenware
 
+  const allTogetherState = (ownProps.singular === "ingredient") 
+  ? state.recipes.Iall
+  : (ownProps.singular === "author")
+  ? state.recipes.Aall
+  : (ownProps.singular === "category")
+  ? state.recipes.CAall
+  : (ownProps.singular === "cooking method")
+  ? state.recipes.Mall
+  : (ownProps.singular === "cuisine")
+  ? state.recipes.CUall  
+  : state.recipes.Kall
+
+
   return {
       included: includedState,
-      excluded: excludedState
+      excluded: excludedState,
+      allTogether: allTogetherState
   }
 }
 
 const mapDispatchToProps = (dispatch, ownProps) => {
 
   const includedDispatch = (ownProps.singular === "ingredient") 
-  ? (inc) => dispatch(setIncludedIngredients(inc)) 
+  ? (inc, allTogether) => dispatch(setIncludedIngredients(inc, allTogether)) 
   : (ownProps.singular === "author") 
-  ? (inc) => dispatch(setIncludedAuthors(inc))
+  ? (inc, allTogether) => dispatch(setIncludedAuthors(inc, allTogether))
   : (ownProps.singular === "category") 
-  ? (inc) => dispatch(setIncludedCategories(inc))  
+  ? (inc, allTogether) => dispatch(setIncludedCategories(inc, allTogether))  
   : (ownProps.singular === "cooking method") 
-  ? (inc) => dispatch(setIncludedMethods(inc))
+  ? (inc, allTogether) => dispatch(setIncludedMethods(inc, allTogether))
   : (ownProps.singular === "cuisine") 
-  ? (inc) => dispatch(setIncludedCuisines(inc))
-  : (inc) => dispatch(setIncludedKitchenware(inc))
+  ? (inc, allTogether) => dispatch(setIncludedCuisines(inc, allTogether))
+  : (inc, allTogether) => dispatch(setIncludedKitchenware(inc, allTogether))
 
   const excludedDispatch = (ownProps.singular === "ingredient") 
   ? (exc) => dispatch(setExcludedIngredients(exc)) 

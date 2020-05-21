@@ -19,7 +19,7 @@ public class Instruction extends ModelOfEntity{
     List<ClassFromWikiData> usingMethod = new ArrayList<>();                  //cookingMethod
     List<ClassFromWikiData> requiresEquipment = new ArrayList<>();            //kitchenware
     String hasEndPoint;
-    XSDDuration hasCookTime;
+    com.balintova.repositoryOfRecipe.models.XSDDuration hasCookTime;
     Integer needsTemperature;
     String hasDescription;
 
@@ -79,11 +79,11 @@ public class Instruction extends ModelOfEntity{
         this.hasEndPoint = hasEndPoint;
     }
 
-    public XSDDuration getHasCookTime() {
+    public com.balintova.repositoryOfRecipe.models.XSDDuration getHasCookTime() {
         return hasCookTime;
     }
 
-    public void setHasCookTime(XSDDuration hasCookTime) {
+    public void setHasCookTime(com.balintova.repositoryOfRecipe.models.XSDDuration hasCookTime) {
         this.hasCookTime = hasCookTime;
     }
 
@@ -116,7 +116,11 @@ public class Instruction extends ModelOfEntity{
             setNeedsTemperature(object.asLiteral().getInt());
 
         } else if (predicate.equals(Ontology.hasCookTime.getURI())) {
-            setHasCookTime((XSDDuration)object.asLiteral().getValue());
+            org.apache.jena.datatypes.xsd.XSDDuration xsdDuration1 = (org.apache.jena.datatypes.xsd.XSDDuration) object.asLiteral().getValue();
+            com.balintova.repositoryOfRecipe.models.XSDDuration xsdDuration = new com.balintova.repositoryOfRecipe.models.XSDDuration();
+            xsdDuration.setMinutes(xsdDuration1.getMinutes());
+            xsdDuration.setHours(xsdDuration1.getHours());
+            setHasCookTime(xsdDuration);
 
         } else if (predicate.equals(Ontology.hasDescription.getURI())) {
             setHasDescription(object.asLiteral().getString());
@@ -145,7 +149,6 @@ public class Instruction extends ModelOfEntity{
             Sequence sequence = new Sequence();
             sequence.setProperty(result, object.asResource());
             setHasInstructions(sequence);
-
         }
 
     }

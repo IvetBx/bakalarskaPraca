@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import {Button, ButtonToolbar, Row, Col} from "react-bootstrap";
-import FilterModalExcludedIncluded from "../modals/FilterModalExcludedIncluded"
-import FilterModalRatings from "../modals/FilterModalRatings"
-import FilterModalCookingTime from "../modals/FilterModalCookingTime"
+import FilterModalExcludedIncluded from "./FilterModalExcludedIncluded"
+import FilterModalCookingTime from "./FilterModalCookingTime"
 import { connect } from 'react-redux'
-import { fetchRecipesWithFilters, removeFilters } from "../../redux"
+import { fetchRecipesWithFilters, removeFilters } from "../../../redux/Index"
 
 class Filters extends Component{
 
@@ -16,8 +15,9 @@ class Filters extends Component{
 
   render(){
 
-    let addModalClose=()=>this.setState({ModalCategoriesShow : false, ModalAuthorsShow : false, ModalCookingMethodsShow : false, ModalCookingTimeShow : false
-      , ModalCuisinesShow : false, ModalKitchenwareShow : false, ModalIngredientsShow : false, ModalRatingsShow : false})
+    let addModalClose=()=>{this.setState({ModalCategoriesShow : false, ModalAuthorsShow : false, ModalCookingMethodsShow : false, ModalCookingTimeShow : false
+      , ModalCuisinesShow : false, ModalKitchenwareShow : false, ModalIngredientsShow : false, ModalRatingsShow : false}); 
+      }
 
     return (
       <div>
@@ -89,14 +89,6 @@ class Filters extends Component{
                     plural="ingredients"
                     />  
             </ButtonToolbar>
-
-            <ButtonToolbar className="col-md-auto">
-              <Button variant="dark" className="text-uppercase" onClick={()=> this.setState({ModalRatingsShow:true})}> Ratings </Button>
-              <FilterModalRatings 
-                    show={this.state.ModalRatingsShow}
-                    onHide={addModalClose}
-                    />  
-            </ButtonToolbar>
             </div>
 
             <Row className="bg-dark pt-2 pb-4">
@@ -104,10 +96,10 @@ class Filters extends Component{
             <Col xs={9}>
               <div className="d-flex justify-content-center">
                 <Button variant="info" size="sm  mr-2 mt-2" className="font-weight-bold"
-                onClick={()=> this.props.fetch_recipes_with_filters(this.props.recipes_data.minTime, this.props.recipes_data.maxTime, this.props.recipes_data.minRating, this.props.recipes_data.maxRating, this.props.recipes_data.inAuthors, this.props.recipes_data.exAuthors, 
+                onClick={()=> this.props.fetch_recipes_with_filters(this.props.recipes_data.minTime, this.props.recipes_data.maxTime, this.props.recipes_data.inAuthors, this.props.recipes_data.exAuthors, 
                   this.props.recipes_data.inCategories, this.props.recipes_data.exCategories, this.props.recipes_data.inMethods, this.props.recipes_data.exMethods, this.props.recipes_data.inCuisines, this.props.recipes_data.exCuisines, 
-                  this.props.recipes_data.inKitchenware, this.props.recipes_data.exKitchenware, this.props.recipes_data.inIngredients, this.props.recipes_data.exIngredients)}> Apply filters together </Button>{' '}
-                <Button variant="info" size="sm  mr-2 mt-2" className="font-weight-bold"> Apply filters individually </Button>{' '}
+                  this.props.recipes_data.inKitchenware, this.props.recipes_data.exKitchenware, this.props.recipes_data.inIngredients, this.props.recipes_data.exIngredients,
+                  this.props.recipes_data.Aall, this.props.recipes_data.CAall, this.props.recipes_data.Mall, this.props.recipes_data.CUall, this.props.recipes_data.Kall, this.props.recipes_data.Iall)}>Apply filters</Button>{' '}
                 <Button variant="danger" size="sm  mr-2 mt-2" className="font-weight-bold" onClick={()=> this.props.removeFilters()}> Remove filters </Button>
             </div>
             </Col>
@@ -126,10 +118,10 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-      fetch_recipes_with_filters: (minTime, maxTime, minRating, maxRating, inAuthors, exAuthors, inCategories, exCategories, inMethods, exMethods,
-        inCuisines, exCuisines, inKitchenware, exKitchenware, inIngredients, exIngredients) => 
-      dispatch(fetchRecipesWithFilters(minTime, maxTime, minRating, maxRating, inAuthors, exAuthors, inCategories, exCategories, inMethods, exMethods,
-        inCuisines, exCuisines, inKitchenware, exKitchenware, inIngredients, exIngredients)),
+      fetch_recipes_with_filters: (minTime, maxTime, inAuthors, exAuthors, inCategories, exCategories, inMethods, exMethods,
+        inCuisines, exCuisines, inKitchenware, exKitchenware, inIngredients, exIngredients, Aall, CAall, CMall, CUall, Kall, Iall) => 
+      dispatch(fetchRecipesWithFilters(minTime, maxTime, inAuthors, exAuthors, inCategories, exCategories, inMethods, exMethods,
+        inCuisines, exCuisines, inKitchenware, exKitchenware, inIngredients, exIngredients, Aall, CAall, CMall, CUall, Kall, Iall)),
 
       removeFilters: () => dispatch(removeFilters())
   }

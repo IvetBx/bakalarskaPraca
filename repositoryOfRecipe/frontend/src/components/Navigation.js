@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import {Navbar, Button,Nav,FormControl,Form, NavDropdown} from "react-bootstrap";
 import { connect } from 'react-redux'
-import { fetchRecipesWithName, logOut } from "../../redux"
+import { fetchRecipesWithName, logOut } from "../redux/Index"
 
 
 function Navigation (props) {
 
     const [recipeName, setRecipeName] = useState("")
+    const localStorageUser = JSON.parse(localStorage.getItem("user"))
 
     return (
         <div className="navigation" >
@@ -29,12 +30,12 @@ function Navigation (props) {
                         <NavDropdown.Item href="/createRecipe">Create recipe</NavDropdown.Item>
                         <NavDropdown.Item href="/myRecipes">My recipes</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        {props.user.username ? <NavDropdown.Item href={`/user/${props.user.username}`}>{props.user.username}</NavDropdown.Item> 
-                                             : <NavDropdown.Item href={`/user/${props.user.username}`} disabled>Anonymous user</NavDropdown.Item>} 
+                        {localStorageUser.username ? <NavDropdown.Item href={`/user/${localStorageUser.username}`} disabled>{localStorageUser.username}</NavDropdown.Item> 
+                                             : <NavDropdown.Item href={`/user/${localStorageUser.username}`} disabled>Anonymous user</NavDropdown.Item>} 
                     </NavDropdown>
                 </Nav>
                 <Nav>
-                    {!props.user.username ? <Nav.Link href="/logIn" className="mr-sm-3">Log in</Nav.Link> 
+                        {!localStorageUser.username ? <Nav.Link href="/logIn" className="mr-sm-3">Log in</Nav.Link> 
                                          : <Nav.Link href="/logIn" onClick={() => props.logOut()} className="mr-sm-3">Log out</Nav.Link> }
                     
                     <Form inline>

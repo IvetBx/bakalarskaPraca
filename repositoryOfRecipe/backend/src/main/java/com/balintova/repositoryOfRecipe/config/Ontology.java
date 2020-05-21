@@ -71,4 +71,5 @@ public class Ontology {
 
     public static Property password = getModel().createOntProperty(Constant.ontRecipes + "password");
 
+
 }

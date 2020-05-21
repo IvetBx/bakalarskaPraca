@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
-import {Container, Button, Spinner, Table, Nav} from "react-bootstrap"
+import {Container, Button, Spinner, Table} from "react-bootstrap"
 import { connect } from "react-redux"
-import { fetchWikidataList, fetchMoreInfoAboutWikidataEntity } from "../../redux/index"
-import { useHistory } from 'react-router-dom';
+import { fetchWikidataList, fetchMoreInfoAboutWikidataEntity } from "../../redux/Index"
 import InformationAbout from './InformationAbout';
-import Recipe from '../recipes/Recipe';
 
-class ListOfEntityFromWikidata extends Component {
+class ListOfEntity extends Component {
 
         componentDidMount(){
             this.props.fetchWikidataList(this.props.entity)
@@ -32,12 +30,14 @@ class ListOfEntityFromWikidata extends Component {
                     </thead>
                     <tbody>
                      {this.props.wikidataList.wikidataList.map((entity) => {
+                         if(entity.label){
                             return (
                                 <tr key={entity.uri}><td>
                                     <Button variant="link" onClick={() => {this.props.fetchMoreInfoAboutWikidataEntity(entity.uri, entity.label)}}>{entity.label}</Button>
                                 </td>
                                 </tr>
                             )
+                         }
                             })
                         }
                     </tbody>
@@ -63,7 +63,7 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ListOfEntityFromWikidata)
+export default connect(mapStateToProps, mapDispatchToProps)(ListOfEntity)
 
 
 

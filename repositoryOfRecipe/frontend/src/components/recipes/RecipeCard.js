@@ -1,6 +1,6 @@
 import React from 'react'
 import {Card, Button} from "react-bootstrap"
-import { fetchDetailAboutRecipe } from "../../redux/index"
+import { fetchDetailAboutRecipe } from "../../redux/Index"
 import { connect } from "react-redux"
 
 function RecipeCard (props){

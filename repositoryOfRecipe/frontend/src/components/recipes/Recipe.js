@@ -119,7 +119,7 @@ function getListOfIngredients(ingredients){
         <Nav.Link className="p-0" href={`${urlOntology}hasIngredient`}><h5 className={classNameTitles}>List of ingredients:</h5> </Nav.Link>
         {ingredients.map((ing) =>  
             <Col key={ing.uri}>
-                <h5 className={classNameEntity}>{ing.hasQuantity.hasCount} {ing.hasQuantity.hasMetricQuantity} {ing.label} (source: )</h5>
+                <Nav.Link  className="p-0 mt-3" href={ing.hasFood ? ing.hasFood.uri : ""}><h5 className={classNameEntity}>{ing.hasQuantity.hasCount} {ing.hasQuantity.hasMetricQuantity} {ing.label}</h5></Nav.Link>
             </Col>                     
         )}
         </Col>
@@ -228,7 +228,7 @@ function Recipe (props) {
 
         return(
             <Container>
-                <h1 className="mt-3 d-flex justify-content-center font-weight-bold text-success">{props.detail.label}</h1>
+                <Nav.Link className="p-0 m-0" href={props.detail.uri}><h1 className="mt-3 d-flex justify-content-center font-weight-bold text-success">{props.detail.label}</h1></Nav.Link>
                 <Nav.Link  className="d-flex justify-content-center p-0" href={urlLabel}><h4 className={classNameTitles}>(label)</h4> </Nav.Link>   
                 {createCardOfBasicInformation(produces, description, cookTime, portions, author, categories, cuisines, equipment)}
                 {createCardOfIngredients(ingredients)}
