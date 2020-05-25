@@ -17,7 +17,6 @@ public class WikidataQueries {
                 .addWhere(wikiClassVar, RDFS.comment, nameOfEntity)
                 .addWhere( wikiClassVar, RDFS.label, labelVar)
                 .addOrderBy(labelVar);
-        System.out.println(selectBuilder);
         return selectBuilder;
     }
 
@@ -37,6 +36,18 @@ public class WikidataQueries {
                 "\n" +
                 "  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n" +
                 "} ORDER BY ?wd ?statement ?ps_";
+        return selectBuilder;
+    }
+
+    public static String existFoodByLabel(String label){
+        String selectBuilder = "ASk {?wikiClass  <http://www.w3.org/2000/01/rdf-schema#label>  \"" + label + "\"@en ; " +
+                "<http://www.w3.org/2000/01/rdf-schema#comment>  \"food\".}";
+        return selectBuilder;
+    }
+
+    public static String findFoodByLabel(String label){
+        String selectBuilder = "SELECT ?wikiClass " +
+                "WHERE { ?wikiClass  <http://www.w3.org/2000/01/rdf-schema#label> \"" + label + "\"@en }";
         return selectBuilder;
     }
 

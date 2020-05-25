@@ -1,11 +1,12 @@
 package com.balintova.repositoryOfRecipe.models;
 
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.Resource;
+import com.balintova.repositoryOfRecipe.config.Constant;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.RDFS;
-import org.apache.jena.rdf.model.Model;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -40,10 +41,25 @@ public class ClassFromWikiData extends ModelOfEntity{
     @Override
     public Model addAllPropertiesToModel(Resource resource){
         Model model = ModelFactory.createDefaultModel();
-
         model.addLiteral(resource, RDFS.label, getLabel());
 
         return model;
+    }
+
+    public static List<ClassFromWikiData> createListOfAllClass(ResultSet safeCopy){
+        List<ClassFromWikiData> listOfWikidataEntity = new ArrayList<>();
+
+        while(safeCopy.hasNext()) {
+            QuerySolution qs = safeCopy.next();
+            Resource wikiClass = qs.getResource(Constant.wikiClassVar);
+            Literal lab = qs.getLiteral(Constant.labelVar);
+            ClassFromWikiData classFromWikiData = new ClassFromWikiData();
+            classFromWikiData.setUri(wikiClass.getURI());
+            classFromWikiData.setLabel(lab.getString());
+            listOfWikidataEntity.add(classFromWikiData);
+        }
+
+        return listOfWikidataEntity;
     }
 
 }

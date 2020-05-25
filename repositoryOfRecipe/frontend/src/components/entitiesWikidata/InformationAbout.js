@@ -1,45 +1,41 @@
-import React from 'react';
-import {Table, Nav} from "react-bootstrap";
+import React, {Component} from 'react';
+import {Table} from "react-bootstrap";
 import { connect } from "react-redux"
+import { fetchMoreInfoAboutWikidataEntity } from "../../redux/Index"
+import {loading, displayError, fieldTdTable, fieldThTable} from "./commonComponents"
 
+class InformationAbout extends Component {
 
-function InformationAbout ({wikidataList}) {
+        componentDidMount(){
+            const id = this.props.match.params.id
+            const entity = this.props.match.params.entity
+            this.props.fetchMoreInfoAboutWikidataEntity(id, entity) 
+        }
 
-        return(
-            <div className="container">
-                <h4 className="m-3 d-flex justify-content-center font-weight-bold">More information about</h4>
-                <h1 className="m-3 d-flex justify-content-center font-weight-bold">{wikidataList.entityName}</h1>
-
-                <Table className="mt-3" striped border hover responsive size="sm">
-
-                <thead>
-                    <tr>
-                        <th className="pt-3 pb-3">Property</th>
-                        <th className="pt-3 pb-3">Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                        { wikidataList.moreInfoAboutEntity.map((entity) => {
-                            return (
-                                <tr key={Math.random()} >
-                                    <td>
-                                        <Nav.Item>
-                                            <Nav.Link href={entity.property}>{entity.labelProperty}</Nav.Link>
-                                        </Nav.Item>
-                                    </td>
-                                    <td>
-                                        <Nav.Item>
-                                            <Nav.Link href={entity.object}>{entity.objectLabel}</Nav.Link>
-                                        </Nav.Item>
-                                    </td>
-                                </tr>
-                            )
-                            })
-                        }
-                </tbody>
-                </Table>
-            </div>
-        )
+        render(){
+            return(
+                <div className="container">
+                    <h2 className="m-3 mt-5 d-flex justify-content-center font-weight-bold text-info">More information</h2>
+                    { loading(this.props.wikidataList.loading) }
+                    { displayError(this.props.wikidataList.error, this.props.wikidataList.error) }
+                    
+                    <Table className="mt-3" striped hover responsive size="sm">
+                    { fieldThTable(["Property", "Value"]) }
+                    <tbody>
+                            { this.props.wikidataList.moreInfoAboutEntity && this.props.wikidataList.moreInfoAboutEntity.map((entity, index) => {
+                                return (
+                                    <tr key={index} >
+                                        { fieldTdTable(entity.property, entity.labelProperty) }
+                                        { fieldTdTable(entity.object, entity.objectLabel) }
+                                    </tr>
+                                )
+                                })
+                            }
+                    </tbody>
+                    </Table>
+                </div>
+            )
+        }
 }
 
 const mapStateToProps = state => {
@@ -48,4 +44,10 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps)(InformationAbout)
+const mapDispatchToProps = dispatch => {
+    return {
+        fetchMoreInfoAboutWikidataEntity: (uri, label) => dispatch(fetchMoreInfoAboutWikidataEntity(uri, label))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(InformationAbout)

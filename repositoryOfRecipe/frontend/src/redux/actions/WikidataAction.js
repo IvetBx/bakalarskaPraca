@@ -81,7 +81,6 @@ export const fetchWikidata2List = (entity) => {
             .get(`${URL}/listOf/${entity}`)
             .then(response => {
                 const first = [{uri:"", label:""}]
-                console.log(response.data)
                 const listOf =  first.concat(response.data)
                 dispatch(fetchWikidata2ListSuccess(listOf))
             })
@@ -108,14 +107,13 @@ export const fetchWikidata3List = (entity) => {
 }
 
 export const fetchMoreInfoAboutWikidataEntity = (uri, entityName) => {
-    var uriSplit = uri.split("/")
-
     return (dispatch) => {
         dispatch(fetchMoreInfoAboutWikidataEntityRequest())
         axios
-            .get(`${URL}/listOf/moreInfo/${uriSplit[uriSplit.length-1]}`)
+            .get(`${URL}/listOf/moreInfo/${uri}`)
             .then(response => {
                 const info = response.data
+                console.log(info)
                 dispatch(fetchMoreInfoAboutWikidataEntitySuccess(info, entityName))
             })
             .catch(error => {

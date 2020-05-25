@@ -23,19 +23,13 @@ public class Ontology {
 
     public static OntClass instructionClass = getModel().getOntClass( Constant.ontRecipes + "Instruction");
 
-    public static OntClass ratingClass = getModel().getOntClass( Constant.ontRecipes + "Rating");
-
     public static Property produces = getModel().getOntProperty(Constant.ontRecipes + "produces");
 
     public static Property hasInstruction = getModel().getOntProperty(Constant.ontRecipes + "hasInstructions");
 
-    public static Property hasImage = getModel().getOntProperty(Constant.ontRecipes + "hasImage");
-
     public static Property hasAuthor = getModel().getOntProperty(Constant.ontRecipes + "hasAuthor");
 
     public static Property hasIngredient = getModel().getOntProperty(Constant.ontRecipes + "hasIngredient");
-
-    public static Property hasRating = getModel().getOntProperty(Constant.ontRecipes + "hasRating");
 
     public static Property hasCookTime = getModel().getOntProperty(Constant.ontRecipes + "hasCookTime");
 
@@ -62,12 +56,6 @@ public class Ontology {
     public static Property hasMetricQuantity = getModel().getOntProperty(Constant.ontRecipes + "hasMetricQuantity");
 
     public static Property hasCount = getModel().getOntProperty(Constant.ontRecipes + "hasCount");
-
-    public static Property hasReviewAspect = getModel().getOntProperty(Constant.ontRecipes + "hasReviewAspect");
-
-    public static Property hasRatingValue = getModel().getOntProperty(Constant.ontRecipes + "hasRatingValue");
-
-    public static Property li = getModel().createOntProperty(Constant.rdf + "li");
 
     public static Property password = getModel().createOntProperty(Constant.ontRecipes + "password");
 

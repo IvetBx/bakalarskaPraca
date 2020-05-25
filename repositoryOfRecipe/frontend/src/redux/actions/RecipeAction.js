@@ -6,7 +6,8 @@ import { FETCH_RECIPES_REQUEST, FETCH_RECIPES_SUCCESS, FETCH_RECIPES_FAILURE,
     SET_EXCLUDED_KITCHENWARE, SET_INCLUDED_KITCHENWARE, SET_EXCLUDED_METHODS, SET_INCLUDED_METHODS,
     SET_MIN_TIME,  SET_MAX_TIME, FETCH_RECIPES_WITH_FILTERS_SUCCESS, FETCH_RECIPES_WITH_FILTERS_FAILURE,
     REMOVE_FILTERS, FETCH_DETAIL_ABOUT_RECIPE_REQUEST, FETCH_DETAIL_ABOUT_RECIPE_SUCCESS, FETCH_DETAIL_ABOUT_RECIPE_FAILURE, 
-    CREATE_RECIPE_REQUEST, CREATE_RECIPE_FAILURE, CREATE_RECIPE_SUCCESS, SET_RECIPE_DETAIL} from "../types/RecipeTypes"
+    CREATE_RECIPE_REQUEST, CREATE_RECIPE_FAILURE, CREATE_RECIPE_SUCCESS, SET_RECIPE_DETAIL, DELETE_RECIPE_FAILURE, DELETE_RECIPE_SUCCESS,
+    FETCH_SIMILAR_RECIPES_SUCCESS, FETCH_SIMILAR_RECIPES_FAILURE} from "../types/RecipeTypes"
 import {recipesURL, URL} from "../../config/Constant"
 
 export const fetchRecipesRequest = () => {
@@ -223,6 +224,34 @@ export const setRecipeDetail = recipe => {
     }
 }
 
+export const deleteRecipeSuccess = () => {
+    return {
+        type: DELETE_RECIPE_SUCCESS
+    }
+}
+
+export const deleteRecipeFailure = (error) => {
+    return {
+        type: DELETE_RECIPE_FAILURE, 
+        payload: error
+    }
+}
+
+export const fetchSimilarRecipesSuccess = recipes => {
+    return {
+        type: FETCH_SIMILAR_RECIPES_SUCCESS, 
+        payload: recipes
+    }
+}
+
+export const fetchSimilarRecipesFailure = error => {
+    return {
+        type: FETCH_SIMILAR_RECIPES_FAILURE, 
+        payload: error
+    }
+}
+
+
 
 const arrToStr = (array) => {
     var array1 = []
@@ -234,7 +263,6 @@ export const fetchRecipesWithFilters = (minTime, maxTime, inA, exA, inCa, exCa,
                             inCM, exCM, inCu, exCu, inK, exK, inI, exI, Aall, CAall, CMall, CUall, Kall, Iall) => {
     return (dispatch) => {        
         var urlFINAL = `${recipesURL}/filters/inA=${arrToStr(inA)}&exA=${arrToStr(exA)}&inCa=${arrToStr(inCa)}&exCa=${arrToStr(exCa)}&inCM=${arrToStr(inCM)}&exCM=${arrToStr(exCM)}&inCu=${arrToStr(inCu)}&exCu=${arrToStr(exCu)}&inK=${arrToStr(inK)}&exK=${arrToStr(exK)}&inI=${arrToStr(inI)}&exI=${arrToStr(exI)}&minTime=${minTime}&maxTime=${maxTime}&Aall=${Aall}&CAall=${CAall}&CMall=${CMall}&CUall=${CUall}&Kall=${Kall}&Iall=${Iall}`
-        console.log(urlFINAL)
         dispatch(fetchRecipesRequest())
         axios
             .get(urlFINAL)
@@ -294,12 +322,10 @@ export const fetchRecipes = () => {
 }
 
 export const fetchDetailAboutRecipe = (uri) => {
-    var uriSplit = uri.split("#")
-
     return (dispatch) => {
         dispatch(fetchDetailAboutRecipeRequest())
         axios
-            .get(`${URL}/recipes/detail/${uriSplit[uriSplit.length-1]}`)
+            .get(`${URL}/recipes/detail/${uri}`)
             .then(response => {
                 const recipe = response.data
                 dispatch(fetchDetailAboutRecipeSuccess(recipe))
@@ -309,6 +335,22 @@ export const fetchDetailAboutRecipe = (uri) => {
             })
     }
 }
+
+export const fetchSimilarRecipes = (uri) => {
+return (dispatch) => {
+    dispatch(fetchRecipesRequest())
+    axios
+        .get(`${URL}/recipes/similar/${uri}`)
+        .then(response => {
+            const recipe = response.data
+            dispatch(fetchSimilarRecipesSuccess(recipe))
+        })
+        .catch(error => {
+            dispatch(fetchSimilarRecipesFailure(error.message))
+        })
+}
+}
+
 
 export const createRecipe = (recipe) => {
     return (dispatch) => {
@@ -320,7 +362,43 @@ export const createRecipe = (recipe) => {
                 dispatch(createRecipeSuccess(recipe1))
             })
             .catch(error => {
-                dispatch(createRecipeFailure(error.message))
+                dispatch(createRecipeFailure(error.response.data.message))
+            })
+    }
+}
+
+export const updateRecipe = (user, uri, recipe) => {
+    var uriSplit = uri.split("#")
+    var id = uriSplit[uriSplit.length-1]
+
+    return (dispatch) => {
+        dispatch(createRecipeRequest(recipe))
+        axios
+            .put(`${URL}/${user}/recipes/${id}`, recipe)
+            .then(response => {
+                const recipe1 = response.data
+                dispatch(deleteRecipeSuccess())
+            })
+            .catch(error => {
+                dispatch(deleteRecipeFailure(error.response.data.message))
+            })
+    }
+}
+
+export const deleteRecipe = (user, uri) => {
+    var uriSplit = uri.split("#")
+    var id = uriSplit[uriSplit.length-1]
+    var username = JSON.parse(user).username
+
+    return (dispatch) => {
+        dispatch(fetchDetailAboutRecipeRequest())
+        axios
+            .delete(`${URL}/${username}/recipes/${id}`)
+            .then(response => {
+                dispatch(deleteRecipeSuccess())
+            })
+            .catch(error => {
+                dispatch(deleteRecipeFailure(error))
             })
     }
 }

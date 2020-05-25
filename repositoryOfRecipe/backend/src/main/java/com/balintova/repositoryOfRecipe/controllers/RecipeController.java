@@ -1,19 +1,14 @@
 package com.balintova.repositoryOfRecipe.controllers;
-import com.balintova.repositoryOfRecipe.models.Person;
+
 import com.balintova.repositoryOfRecipe.models.Recipe;
 import com.balintova.repositoryOfRecipe.services.RecipeService;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.io.OutputStream;
 import java.util.List;
-import java.util.Map;
 
 @CrossOrigin(origins = { "http://localhost:3000", "http://localhost:4200" })
 @RestController
@@ -30,6 +25,11 @@ public class RecipeController {
     @GetMapping("/recipes/{recipeName}")
     public List<Recipe> getAllRecipes(@PathVariable String recipeName)  {
         return recipeService.findByName(recipeName);
+    }
+
+    @GetMapping("/recipes/similar/{id}")
+    public List<Recipe> getSimilarRecipes(@PathVariable String id)  {
+        return recipeService.findSimilarRecipes(id);
     }
 
     @GetMapping("/recipes/filters/inA={inA}&exA={exA}&inCa={inCa}&exCa={exCa}&inCM={inCM}&exCM={exCM}" +
@@ -67,7 +67,28 @@ public class RecipeController {
             throw new ResponseStatusException(
                     HttpStatus.BAD_REQUEST, e.getMessage(), e);
         }
+    }
 
+    @PutMapping("/{username}/recipes/{id}")
+    public ResponseEntity<Recipe> updateRecipe(@PathVariable String username, @PathVariable String id,
+                                               @RequestBody Recipe recipe) {
+        try {
+            Recipe recipeUpdated = recipeService.update(username, id, recipe);
+            return new ResponseEntity<Recipe>(recipeUpdated, HttpStatus.OK);
+        } catch (Exception e) {
+            throw new ResponseStatusException(
+                    HttpStatus.BAD_REQUEST, e.getMessage(), e);
+        }
+
+    }
+
+    @DeleteMapping("/{username}/recipes/{id}")
+    public ResponseEntity<Void> deleteCourse(@PathVariable String username, @PathVariable String id) {
+        Recipe recipe = recipeService.delete(username, id);
+        if (recipe != null) {
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.notFound().build();
     }
 
 

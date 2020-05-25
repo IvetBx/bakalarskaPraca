@@ -2,9 +2,8 @@ package com.balintova.repositoryOfRecipe.queries;
 
 import com.balintova.repositoryOfRecipe.config.Constant;
 import com.balintova.repositoryOfRecipe.config.Ontology;
-import org.apache.jena.arq.querybuilder.ExprFactory;
-import org.apache.jena.arq.querybuilder.SelectBuilder;
-import org.apache.jena.arq.querybuilder.WhereBuilder;
+import com.balintova.repositoryOfRecipe.models.Recipe;
+import org.apache.jena.arq.querybuilder.*;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.datatypes.xsd.XSDDuration;
 import org.apache.jena.rdf.model.Property;
@@ -54,6 +53,15 @@ public class RecipeQueries {
         return selectBuilder;
     }
 
+    public static SelectBuilder findSimilarRecipes(String id){
+        String uri = "<"+ Constant.wikidata + id +">";
+
+        SelectBuilder selectBuilder = getAllRecipeQuery()
+                .addWhere(recipeVar, Ontology.produces, uri)
+                .setLimit(10);
+        return selectBuilder;
+    }
+
     public static SelectBuilder findByUri(String uri) {
         uri = "<" + uri + ">";
         SelectBuilder selectBuilder = new SelectBuilder()
@@ -82,8 +90,14 @@ public class RecipeQueries {
 
     private static SelectBuilder createElementOfIncludedRecipesOneFromAll(List<String> filter, SelectBuilder builder, Property property) {
         if(filter != null && filter.size() != 0){
-            builder.addOptional(new WhereBuilder().addWhere(recipeVar, property, objectVar + property.getLocalName())
-                    .addWhere(objectVar + property.getLocalName(), RDFS.label, objectLabelVar + property.getLocalName()));
+            if(Ontology.belongsToCategory.equals(property)){
+                builder.addOptional(new WhereBuilder().addWhere(recipeVar, property, objectLabelVar + property.getLocalName()));
+
+            } else{
+                builder.addOptional(new WhereBuilder().addWhere(recipeVar, property, objectVar + property.getLocalName())
+                        .addWhere(objectVar + property.getLocalName(), RDFS.label, objectLabelVar + property.getLocalName()));
+            }
+
 
             E_LogicalOr allRegex = createFilterWithRegex(filter, property);
             if(allRegex != null) builder.addFilter(allRegex);
@@ -95,8 +109,13 @@ public class RecipeQueries {
         if(filter != null && filter.size() != 0){
             WhereBuilder whereBuilder = new WhereBuilder();
             for(int i = 0; i < filter.size(); i++){
-                whereBuilder.addWhere(recipeVar, property, objectVar + property.getLocalName() + i)
-                        .addWhere(objectVar + property.getLocalName() + i, RDFS.label, objectLabelVar + property.getLocalName() + i);
+                if(Ontology.belongsToCategory.equals(property)){
+                    whereBuilder.addWhere(recipeVar, property, objectLabelVar + property.getLocalName() + i);
+
+                } else{
+                    whereBuilder.addWhere(recipeVar, property, objectVar + property.getLocalName() + i)
+                            .addWhere(objectVar + property.getLocalName() + i, RDFS.label, objectLabelVar + property.getLocalName() + i);
+                }
             }
             builder.addOptional(whereBuilder);
             for(int i = 0; i < filter.size(); i++){
@@ -198,10 +217,24 @@ public class RecipeQueries {
         SelectBuilder builder = getAllRecipeQuery()
                 .addSubQuery(firstSubQuery)
                 .addMinus(secondSubQuery);
-
         System.out.println(builder);
-
         return builder;
+    }
+
+    public static AskBuilder findRecipeByIdAndUsername(String username, String id){
+        String userUri = "<" + Constant.dbUsersPref + username + ">";
+        String recipeUri = "<" + Constant.dbRecipesPref + id + ">";
+
+        AskBuilder askBuilder = new AskBuilder().addWhere(recipeUri, Ontology.hasAuthor, userUri);
+        return askBuilder;
+    }
+
+    public static UpdateBuilder deleteRecipeUpdateQuery(Recipe recipe){
+        UpdateBuilder updateBuilder = new UpdateBuilder().addDelete(sVar, pVar, oVar)
+                .addWhere("<" + recipe.getUri() + ">", "(<>|!<>)*", sVar)
+                .addWhere(sVar, pVar, oVar)
+                .addFilter(exprFactory.not(exprFactory.strstarts(exprFactory.str(sVar), Constant.wikidata)));
+        return updateBuilder;
     }
 
 }

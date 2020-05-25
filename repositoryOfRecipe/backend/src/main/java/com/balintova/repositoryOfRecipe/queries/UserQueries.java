@@ -22,7 +22,7 @@ public class UserQueries {
                 .addWhere( userVar, FOAF.accountName, usernameVar)
                 .addFilter(exprFactory.sameTerm(usernameVar, username))
                 .addWhere( userVar, Ontology.password, passwordVar)
-                .addFilter(exprFactory.sameTerm(passwordVar, password));
+                .addFilter(exprFactory.sameTerm(passwordVar, exprFactory.md5(password)));
         return selectBuilder;
     }
 
@@ -31,7 +31,7 @@ public class UserQueries {
                 .addWhere( userVar, FOAF.accountName, usernameVar)
                 .addFilter(exprFactory.sameTerm(usernameVar, username))
                 .addWhere( userVar, Ontology.password, passwordVar)
-                .addFilter(exprFactory.sameTerm(passwordVar, password));
+                .addFilter(exprFactory.sameTerm(passwordVar, exprFactory.md5(password)));
         return askBuilder;
     }
 

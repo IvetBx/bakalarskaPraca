@@ -70,14 +70,13 @@ public class Ingredient extends ModelOfEntity{
         model.addLiteral(resource, RDFS.label, getLabel());
 
         ClassFromWikiData food = getHasFood();
-        if(food != null){
+        if(food != null && food.getUri() != null && !food.getUri().isEmpty()){
             Resource object = ResourceFactory.createResource (food.getUri());
             model.addLiteral(resource, Ontology.hasFood, object);
-            model.add(food.addAllPropertiesToModel(object));
         }
 
         Mass mass = getHasQuantity();
-        if(mass != null){
+        if(mass != null && (mass.getHasCount() != null || (mass.getHasMetricQuantity() != null && !mass.getHasMetricQuantity().isEmpty()))){
             Resource object1 = ResourceFactory.createResource (mass.getUri());
             model.addLiteral(resource, Ontology.hasQuantity, object1);
             model.add(mass.addAllPropertiesToModel(object1));

@@ -1,7 +1,5 @@
 package com.balintova.repositoryOfRecipe.models;
 
-import com.balintova.repositoryOfRecipe.config.Constant;
-import com.balintova.repositoryOfRecipe.config.Ontology;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.RDF;
 
@@ -11,35 +9,38 @@ import java.util.Map;
 
 public class Sequence extends ModelOfEntity {
 
-    List<Object> li = new ArrayList<>();                        //Recipe or Instruction
+    List<Instruction> li = new ArrayList<>();
 
-    public List<Object> getLi() {
+    public List<Instruction> getLi() {
         return li;
     }
 
-    public void setLi(List<Object> li) {
+    public void setLi(List<Instruction> li) {
         this.li = li;
     }
 
+    public List<Instruction> helpingList = new ArrayList<>();
+
     @Override
     public void checkPredicate(Map<Resource, Map<Resource, List<RDFNode>>> result, String predicate, RDFNode object){
-
-        if(predicate.equals(Ontology.li.getURI())){
+        if(!predicate.equals(RDF.type.getURI())){
             Instruction instruction = new Instruction();
-            instruction.setProperty(result, object.asResource());;
-            li.add(instruction);
+            instruction.setProperty(result, object.asResource());
+            String[] split = predicate.split("#_");
+            Integer number = Integer.parseInt(split[split.length - 1]);
+            helpingList.set(number, instruction);
+            setLi(helpingList);
         }
     }
 
     @Override
     public Model addAllPropertiesToModel(Resource resource){
         Model model = ModelFactory.createDefaultModel();
-
         model.add(resource, RDF.type, RDF.Seq);
-        for(Object instruction : getLi()){
-            Instruction instruction1 = (Instruction)instruction;
+        for(int i = 0; i < getLi().size(); i++){
+            Instruction instruction1 = getLi().get(i);
             Resource object = ResourceFactory.createResource (instruction1.getUri());
-            model.addLiteral(resource, Ontology.li, object);
+            model.addLiteral(resource, RDF.li(i), object);
             model.add(instruction1.addAllPropertiesToModel(object));
         }
 

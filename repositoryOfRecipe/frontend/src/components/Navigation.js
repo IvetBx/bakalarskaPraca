@@ -27,7 +27,7 @@ function Navigation (props) {
                      </NavDropdown>
 
                      <NavDropdown title="My account" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="/createRecipe">Create recipe</NavDropdown.Item>
+                        <NavDropdown.Item href="/createRecipe/-1">Create recipe</NavDropdown.Item>
                         <NavDropdown.Item href="/myRecipes">My recipes</NavDropdown.Item>
                         <NavDropdown.Divider />
                         {localStorageUser.username ? <NavDropdown.Item href={`/user/${localStorageUser.username}`} disabled>{localStorageUser.username}</NavDropdown.Item> 

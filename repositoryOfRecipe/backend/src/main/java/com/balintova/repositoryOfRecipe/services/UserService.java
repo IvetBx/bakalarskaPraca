@@ -1,45 +1,34 @@
 package com.balintova.repositoryOfRecipe.services;
 
-import com.balintova.repositoryOfRecipe.config.Constant;
 import com.balintova.repositoryOfRecipe.config.Fuseki;
-import com.balintova.repositoryOfRecipe.config.Ontology;
 import com.balintova.repositoryOfRecipe.models.Person;
 import com.balintova.repositoryOfRecipe.queries.UserQueries;
 import org.apache.jena.arq.querybuilder.AskBuilder;
-import org.apache.jena.arq.querybuilder.ConstructBuilder;
-import org.apache.jena.arq.querybuilder.ExprFactory;
 import org.apache.jena.arq.querybuilder.SelectBuilder;
 import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.apache.jena.query.ResultSetFactory;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
-import org.apache.jena.rdfconnection.RDFConnection;
-import org.apache.jena.rdfconnection.RDFConnectionFuseki;
-import org.apache.jena.sparql.vocabulary.FOAF;
-import org.apache.jena.vocabulary.RDF;
+import org.apache.jena.system.Txn;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
 
     public Person getUserInfo(String username, String password) throws Exception {
-        SelectBuilder selectBuilder = UserQueries.getUserInfoQuery(username, password);
+        SelectBuilder builder = UserQueries.getUserInfoQuery(username, password);
 
-        QueryExecution qExec = Fuseki.getConnectionUser().query(selectBuilder.build()) ;
-        ResultSet rs = qExec.execSelect() ;
+        ResultSet safeCopy =
+                Txn.calculateRead(Fuseki.getConnectionUser(), ()-> {
+                    QueryExecution execution = Fuseki.getConnectionUser().query(builder.build());
+                    ResultSet result = ResultSetFactory.copyResults(execution.execSelect());
+                    execution.close();
+                    return  result;
+                }) ;
         Person person = new Person();
-        if(rs.hasNext()){
-            person.createPerson(rs.next());
-        }
-        if(rs.hasNext()){
-            throw new Exception("More than two users found");
-        }
-
-        qExec.close();
-
-        return person;
+        return person.createPerson(safeCopy);
     }
 
     public boolean findUser(String username, String password){
@@ -56,10 +45,12 @@ public class UserService {
         if(findUsername(person.getUsername())){
             throw new Exception("Username already exist");
         }
-
         Resource resource = ResourceFactory.createResource (person.getUri());
-        Model model = person.addAllPropertiesToModel(resource);
-        Fuseki.getConnectionUser().load(model);
+
+        Txn.executeWrite(Fuseki.getConnectionUser(), ()->{
+            Model model = person.addAllPropertiesToModel(resource);
+            Fuseki.getConnectionUser().load(model);
+        });
 
         return person;
     }

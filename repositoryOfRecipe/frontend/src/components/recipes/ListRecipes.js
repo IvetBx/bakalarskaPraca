@@ -1,36 +1,34 @@
-import React, { useEffect } from 'react';
+import React, { Component } from 'react';
 import RecipeCard from "./RecipeCard"
-import {Container, Row, Col, Spinner} from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import Filters from "./filters/Filters"
 import { connect } from "react-redux"
 import { fetchRecipes } from "../../redux/Index"
-import Recipe from "./Recipe"
+import {loading, displayError} from "./commonComponents"
 
+class ListRecipes extends Component {
 
-function ListRecipes({ recipeData, fetchRecipes }) {
+    componentDidMount(){
+        this.props.fetchRecipes()
+    }    
 
-    useEffect(() => { fetchRecipes() }, [])
-
-    if(recipeData.recipeDetail.length === 0){
-        return(
-            <div>                
-                <Filters />
-                <Container>
-                    { recipeData.loading && <div className="d-flex justify-content-center"><Spinner animation="border" variant="dark"/></div> }
-                    <Row>
-                    
-                    { recipeData.error && <h2>{recipeData.error}</h2> }
-                    { recipeData && recipeData.filterRecipes ? 
-                        recipeData.filterRecipes.map((recipe) => <Col sm={6} key={recipe.uri}><RecipeCard recipe={recipe} /></Col>) 
-                        :
-                        recipeData.recipes.map((recipe) => <Col sm={6} key={recipe.uri}><RecipeCard recipe={recipe} /></Col>) 
-                    }
-                    </Row>
-                </Container>
-            </div>
-            )
-    } else {
-        return <Recipe />
+    render(){
+            return(
+                <div>                
+                    <Filters />
+                    <Container className="mb-5">
+                        { loading(this.props.recipeData.loading) }
+                        { displayError(this.props.recipeData.error, this.props.recipeData.error) }
+                        <Row>
+                        { this.props.recipeData.filterRecipes ? 
+                            this.props.recipeData.filterRecipes.map((recipe) => <Col sm={6} key={recipe.uri}><RecipeCard recipe={recipe} /></Col>) 
+                            :
+                            this.props.recipeData.recipes.map((recipe) => <Col sm={6} key={recipe.uri}><RecipeCard recipe={recipe} /></Col>) 
+                        }
+                        </Row>
+                    </Container>
+                </div>
+                )
     }
 }
 

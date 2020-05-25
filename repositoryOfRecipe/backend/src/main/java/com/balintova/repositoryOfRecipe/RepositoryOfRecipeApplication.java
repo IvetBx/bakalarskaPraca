@@ -3,7 +3,8 @@ package com.balintova.repositoryOfRecipe;
 import com.balintova.repositoryOfRecipe.config.Constant;
 import com.balintova.repositoryOfRecipe.config.Fuseki;
 import com.balintova.repositoryOfRecipe.config.Ontology;
-import org.apache.jena.datatypes.xsd.XSDDuration;
+import com.balintova.repositoryOfRecipe.models.Recipe;
+import com.balintova.repositoryOfRecipe.queries.RecipeQueries;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -17,4 +18,6 @@ public class RepositoryOfRecipeApplication {
 		Fuseki.setConnectionWikidata(Constant.wikidataSparqlEndpoint);
 		Ontology ontology = new Ontology();
 	}
+
+
 }

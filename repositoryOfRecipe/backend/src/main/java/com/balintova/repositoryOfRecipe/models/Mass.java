@@ -57,7 +57,7 @@ public class Mass extends ModelOfEntity{
         Model model = ModelFactory.createDefaultModel();
 
         model.add(resource, RDF.type, Ontology.massClass);
-        if(getHasMetricQuantity() != null){
+        if(getHasMetricQuantity() != null && !getHasMetricQuantity().isEmpty()){
             model.addLiteral(resource, Ontology.hasMetricQuantity, getHasMetricQuantity());
         }
         if(getHasCount() != null){

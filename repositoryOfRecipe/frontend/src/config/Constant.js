@@ -7,14 +7,19 @@ export const categories = ["", "Appetizer", "Breakfast", "Beverages", "Dessert",
 
 export const units = ["","tablespoon", "teaspoon", "piece", "cup", "cloves", 
 "pinch", "pound", "gram", "kilogram", "litre", "mililitre", "decilitre", 
-"bowl", "to taste"]
+"bowl", "to taste", "can"]
 
 export const dbRecipes = "http://localhost:3030/myFirstRecipes#"
+export const dbUsers = "http://localhost:3030/users#"
+export const urlOntology = "http://www.st.fmph.uniba.sk/~balintova37/ontology/finalOntologyAboutRecipe.owl#"
+export const urlFOAF = "http://xmlns.com/foaf/0.1/"
+export const urlLabel = "http://www.w3.org/2000/01/rdf-schema#label"
+export const urlMember = "https://www.w3.org/2000/01/rdf-schema#rdfs:ContainerMembershipProperty"
 
 export const structureOfhasCookTime = {
     months:0,
-    hours:0,
-    minutes:0,
+    hours:"",
+    minutes:"",
     years:0,
     days:0,
     seconds:0,
@@ -28,22 +33,28 @@ export const structureOfWikidataEntity = {
     label:""
 }
 
-export const structureOfhasIngredient = { uri:"" + + Math.random(),
+export const structureOfhasIngredient = { 
+    uri : dbRecipes + "ing" + new Date().getTime(),
     label: "", 
     hasFood:structureOfWikidataEntity,
     hasQuantity: {
-        uri:"",
+        uri: dbRecipes + "mass" + + new Date().getTime(),
         hasMetricQuantity:"",
         hasCount:""
     }
 }
 
-
-export const structureOfLiOfhasInstruction = 
-        {
+export const structureOfLiOfhasInstruction = {
+        uri: dbRecipes + "ins" + new Date().getTime(),
         label:"",
-        hasInstructions:"",
-        hasIngredient:[ structureOfhasIngredient],
+        hasInstructions: {
+            uri:dbRecipes + "subsequence" + new Date().getTime(),
+            li:[
+                //uri:dbRecipes + "sub" + new Date().getTime(),
+                //hasDescription:""
+            ]
+        },
+        hasIngredient:[],
         produces:structureOfWikidataEntity,
         usingMethod:[structureOfWikidataEntity],
         requiresEquipment:[structureOfWikidataEntity],
@@ -58,7 +69,7 @@ export const structureOfRecipe = {
     label:"",
     produces: structureOfWikidataEntity,
     hasInstructions:{
-        uri:"",
+        uri: dbRecipes + "seq" + new Date().getTime(),
         li: [structureOfLiOfhasInstruction]
     },
     hasAuthor:{
@@ -70,7 +81,7 @@ export const structureOfRecipe = {
     hasCookTime: structureOfhasCookTime,
     hasNumberOfPortions:"",
     belongsToCategory:[""],
-    belongsToCuisine:[{uri:"", label:""}],
+    belongsToCuisine:[structureOfWikidataEntity],
     hasDescription:"",
     requiresEquipment:[structureOfWikidataEntity],
     usingMethod:[structureOfWikidataEntity]

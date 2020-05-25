@@ -1,758 +1,20 @@
-<http://www.wikidata.org/entity/Q2345196>
+<http://www.wikidata.org/entity/Q55638196>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Turkmen cuisine"@en .
+                "Zambian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q846538>
+<http://www.wikidata.org/entity/Q27882810>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Somali cuisine"@en .
+                "Penghu cuisine"@en .
 
-<http://www.wikidata.org/entity/Q84184760>
+<http://www.wikidata.org/entity/Q1196175>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ashkenazi Jewish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2740486>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of New England"@en .
-
-<http://www.wikidata.org/entity/Q126777>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "pasty"@en .
-
-<http://www.wikidata.org/entity/Q16256231>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Korean temple cuisine"@en .
-
-<http://www.wikidata.org/entity/Q846275>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Eritrean cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1156889>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Hunan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1045260>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Macanese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q85752071>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chinese Latin American cuisine"@en .
-
-<http://www.wikidata.org/entity/Q16978846>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of Lesotho"@en .
-
-<http://www.wikidata.org/entity/Q10924860>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sichuan pickles"@en .
-
-<http://www.wikidata.org/entity/Q555997>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "soul food"@en .
-
-<http://www.wikidata.org/entity/Q7058590>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Northern Irish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5639389>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Hainan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q56301925>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Qiang cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3884723>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Lowcountry cuisine"@en .
-
-<http://www.wikidata.org/entity/Q47465207>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "masala channa"@en .
-
-<http://www.wikidata.org/entity/Q48869177>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of São Paulo"@en .
-
-<http://www.wikidata.org/entity/Q432535>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ancient Egyptian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q67647258>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of Lazio"@en .
-
-<http://www.wikidata.org/entity/Q1154790>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cantonese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q7258594>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Puerto Rican Chinese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1223242>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Valencian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q20172519>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Eurasian cuisine of Singapore and Malaysia"@en .
-
-<http://www.wikidata.org/entity/Q7010123>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "New Mexican cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2916159>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "ambrosia"@en .
-
-<http://www.wikidata.org/entity/Q3595124>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Anglo-Indian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3006973>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Bouchon"@en .
-
-<http://www.wikidata.org/entity/Q29561309>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Yup'ik cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3006952>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ivorian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1036522>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sammarinese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q622512>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Spanish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5407615>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Guatemalan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q7406497>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Salvadoran cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3699146>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Roman cuisine"@en .
-
-<http://www.wikidata.org/entity/Q16979571>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Liberian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q831187>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Huaiyang cuisine"@en .
-
-<http://www.wikidata.org/entity/Q6526272>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Leonese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3006981>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Réunionese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q7695315>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Tekel Birası"@en .
-
-<http://www.wikidata.org/entity/Q684343>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Armenian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q862743>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Honzen-ryōri"@en .
-
-<http://www.wikidata.org/entity/Q3884647>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Rocky Mountain cuisine"@en .
-
-<http://www.wikidata.org/entity/Q94951>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "regional cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2053168>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Dutch-Antillian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q733573>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "molecular gastronomy"@en .
-
-<http://www.wikidata.org/entity/Q728206>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Asian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2045824>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Andorra cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192812>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of the Thirteen Colonies"@en .
-
-<http://www.wikidata.org/entity/Q11570019>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "gyūkatsu"@en .
-
-<http://www.wikidata.org/entity/Q1051852>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sōki"@en .
-
-<http://www.wikidata.org/entity/Q7141871>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Pascuense cuisine"@en .
-
-<http://www.wikidata.org/entity/Q832338>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "hot dry noodles"@en .
-
-<http://www.wikidata.org/entity/Q75761914>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Toros salad"@en .
-
-<http://www.wikidata.org/entity/Q7033037>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Nigerian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3006989>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Provence"@en .
-
-<http://www.wikidata.org/entity/Q264327>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Hungarian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q6723155>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Greek Macedonian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1044996>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Hubei cuisine"@en .
-
-<http://www.wikidata.org/entity/Q16984298>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Saint Louis cuisine"@en .
-
-<http://www.wikidata.org/entity/Q654493>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Turkish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1959119>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Belgian beer culture"@en .
-
-<http://www.wikidata.org/entity/Q28197100>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "jijimi"@en .
-
-<http://www.wikidata.org/entity/Q1199032>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Macedonian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1206613>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Beijing cuisine"@en .
-
-<http://www.wikidata.org/entity/Q11414804>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Food culture in Nagoya, Aichi"@en .
-
-<http://www.wikidata.org/entity/Q11679965>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Arroz al horno"@en .
-
-<http://www.wikidata.org/entity/Q180817>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Portuguese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q41927>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Okinawan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q284288>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Jewish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q7005323>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "New American cuisine"@en .
-
-<http://www.wikidata.org/entity/Q60749863>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Australian Chinese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2228549>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Indonesian-Dutch cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1183553>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Teochew cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192807>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sephardic Jewish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5285317>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Djiboutian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2492088>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Native American cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1261477>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "English cuisine"@en .
-
-<http://www.wikidata.org/entity/Q691365>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sichuan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1045166>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Jiangsu cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5097183>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chifa"@en .
-
-<http://www.wikidata.org/entity/Q6827710>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mianwo"@en .
-
-<http://www.wikidata.org/entity/Q3006942>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Guianan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q29572602>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of the Pitcairn Islands and Norfolk Island"@en .
-
-<http://www.wikidata.org/entity/Q1735570>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Catalan & Valencian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1156995>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Fujian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q12041050>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of the Norfolk Island"@en .
-
-<http://www.wikidata.org/entity/Q7825801>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "torikatsu"@en .
-
-<http://www.wikidata.org/entity/Q5192786>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of North Dakota"@en .
-
-<http://www.wikidata.org/entity/Q5876054>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of the province of Jaén"@en .
-
-<http://www.wikidata.org/entity/Q10262188>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of Minas Gerais"@en .
-
-<http://www.wikidata.org/entity/Q859870>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Botswana cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3006992>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Tanzanian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q6596722>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Seoul cuisine"@en .
-
-<http://www.wikidata.org/entity/Q7228884>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Pootharekulu"@en .
-
-<http://www.wikidata.org/entity/Q1492077>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Galician cuisine"@en .
-
-<http://www.wikidata.org/entity/Q616698>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of Abruzzo"@en .
-
-<http://www.wikidata.org/entity/Q19880298>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of the Mid-Atlantic United States"@en .
-
-<http://www.wikidata.org/entity/Q744027>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Greek cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2140875>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Polynesian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q234138>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Japanese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1326339>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Buddhist cuisine"@en .
-
-<http://www.wikidata.org/entity/Q749847>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Peruvian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q521179>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Basque cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1038209>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Shandong cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192810>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of the Western United States"@en .
-
-<http://www.wikidata.org/entity/Q17072156>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Note by Note cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1026802>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "California cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1859351>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sicilian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2257659>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Angolan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1133178>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Anhui cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1381737>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "North African cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3525354>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chettinad cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3006945>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Gabonese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q21485966>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Livonian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q34160>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Malagasy cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3595259>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Kerala"@en .
-
-<http://www.wikidata.org/entity/Q614394>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Brazilian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q4743373>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "American Chinese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192789>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Philadelphia"@en .
-
-<http://www.wikidata.org/entity/Q1199030>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Serbian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2090705>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Punjabi cuisine"@en .
-
-<http://www.wikidata.org/entity/Q960320>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Castilian-Manchego cuisine"@en .
-
-<http://www.wikidata.org/entity/Q10686720>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "South American cuisine"@en .
-
-<http://www.wikidata.org/entity/Q386284>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "African cuisine"@en .
+                "South African cuisine"@en .
 
 <http://www.wikidata.org/entity/Q489789>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -760,455 +22,23 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Andalusian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q5192797>
+<http://www.wikidata.org/entity/Q34160>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of Tianjin"@en .
+                "Malagasy cuisine"@en .
 
-<http://www.wikidata.org/entity/Q3431817>
+<http://www.wikidata.org/entity/Q756020>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chinese Imperial cuisine"@en .
+                "Polish cuisine"@en .
 
-<http://www.wikidata.org/entity/Q1148243>
+<http://www.wikidata.org/entity/Q1026802>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Senegalese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q28759404>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cornish pasty"@en .
-
-<http://www.wikidata.org/entity/Q9385085>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Nanjing cuisine"@en .
-
-<http://www.wikidata.org/entity/Q11682049>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Puerto Rican cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1373750>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Yakgwa"@en .
-
-<http://www.wikidata.org/entity/Q10862203>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chosco"@en .
-
-<http://www.wikidata.org/entity/Q4251375>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Japanese regional cuisine"@en .
-
-<http://www.wikidata.org/entity/Q918277>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "British cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192763>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Burundian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q25452130>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "pulled oats"@en .
-
-<http://www.wikidata.org/entity/Q17110912>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Malawian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1547037>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Middle Eastern cuisine"@en .
-
-<http://www.wikidata.org/entity/Q589354>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Asturian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q245932>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cypriot cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5208800>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Dahi baigana"@en .
-
-<http://www.wikidata.org/entity/Q26821206>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Central American cuisine"@en .
-
-<http://www.wikidata.org/entity/Q6816534>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "menchi-katsu"@en .
-
-<http://www.wikidata.org/entity/Q1645076>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Louisiana Creole cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192792>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Swazi cuisine"@en .
-
-<http://www.wikidata.org/entity/Q468817>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of the Americas"@en .
-
-<http://www.wikidata.org/entity/Q3006998>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of Togo"@en .
-
-<http://www.wikidata.org/entity/Q1066184>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Costa Rican cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3203205>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "East African cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3276139>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "yōshoku"@en .
-
-<http://www.wikidata.org/entity/Q601763>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "fusion cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2707196>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Latin American cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1551510>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Moldovan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q2625025>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Zosui"@en .
-
-<http://www.wikidata.org/entity/Q249277>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Haute cuisine"@en .
-
-<http://www.wikidata.org/entity/Q22977>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of the Palatinate region of Germany"@en .
-
-<http://www.wikidata.org/entity/Q1196267>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Danish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q16828546>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Antebellum America"@en .
-
-<http://www.wikidata.org/entity/Q57766394>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Britain and Ireland"@en .
-
-<http://www.wikidata.org/entity/Q47176>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Lombard cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192808>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of the Southwestern United States"@en .
-
-<http://www.wikidata.org/entity/Q3699129>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "futurist meals"@en .
-
-<http://www.wikidata.org/entity/Q647500>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Korean cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192779>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Kentucky"@en .
-
-<http://www.wikidata.org/entity/Q1061824>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chazuke"@en .
-
-<http://www.wikidata.org/entity/Q5503409>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Fricot"@en .
-
-<http://www.wikidata.org/entity/Q2234037>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sri Lankan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1729345>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Caribbean cuisine"@en .
-
-<http://www.wikidata.org/entity/Q8563945>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Floribbean cuisine"@en .
-
-<http://www.wikidata.org/entity/Q17063016>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "jjamppong"@en .
-
-<http://www.wikidata.org/entity/Q2915733>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "red cooking"@en .
-
-<http://www.wikidata.org/entity/Q897903>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Brandenburg cuisine"@en .
-
-<http://www.wikidata.org/entity/Q20650605>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Kuru köfte"@en .
-
-<http://www.wikidata.org/entity/Q29359>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Tex-Mex"@en .
-
-<http://www.wikidata.org/entity/Q903260>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of New York City"@en .
-
-<http://www.wikidata.org/entity/Q16143746>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Western cuisine"@en .
-
-<http://www.wikidata.org/entity/Q11253032>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Shunde cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3763843>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Giardiniera"@en .
-
-<http://www.wikidata.org/entity/Q4467387>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Japanese Chinese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192766>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of California"@en .
-
-<http://www.wikidata.org/entity/Q23697379>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Bulung gadung"@en .
-
-<http://www.wikidata.org/entity/Q1983633>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Curaçao cuisine"@en .
-
-<http://www.wikidata.org/entity/Q10286142>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Fucha ryori"@en .
-
-<http://www.wikidata.org/entity/Q4697541>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ainu cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1566930>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Soviet cuisine"@en .
-
-<http://www.wikidata.org/entity/Q7566053>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "South Asian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5192803>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of the Midwestern United States"@en .
-
-<http://www.wikidata.org/entity/Q17054362>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Global cuisine"@en .
-
-<http://www.wikidata.org/entity/Q17176918>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Qiang cuisine"@en .
-
-<http://www.wikidata.org/entity/Q3595152>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "South Indian cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1897293>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Scottish cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1368949>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ancient Roman cuisine"@en .
-
-<http://www.wikidata.org/entity/Q207965>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mexican cuisine"@en .
-
-<http://www.wikidata.org/entity/Q9827082>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Caipira cuisine"@en .
-
-<http://www.wikidata.org/entity/Q7489130>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Shanxi cuisine"@en .
-
-<http://www.wikidata.org/entity/Q492236>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Icelandic cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1036629>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Hong Kong cuisine"@en .
-
-<http://www.wikidata.org/entity/Q1778821>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine"@en .
-
-<http://www.wikidata.org/entity/Q5366879>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Guizhou cuisine"@en .
+                "California cuisine"@en .
 
 <http://www.wikidata.org/entity/Q257508>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1216,53 +46,101 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ethiopian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q7122597>
+<http://www.wikidata.org/entity/Q40578>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Pacific Northwest cuisine"@en .
+                "cuisine of the United States"@en .
 
-<http://www.wikidata.org/entity/Q4783734>
+<http://www.wikidata.org/entity/Q776546>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Aragonese cuisine"@en .
+                "Montenegrin cuisine"@en .
 
-<http://www.wikidata.org/entity/Q1156999>
+<http://www.wikidata.org/entity/Q880365>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Zhejiang cuisine"@en .
+                "Swabian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q5049884>
+<http://www.wikidata.org/entity/Q6596722>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Castilian-Leonese cuisine"@en .
+                "Seoul cuisine"@en .
 
-<http://www.wikidata.org/entity/Q5192790>
+<http://www.wikidata.org/entity/Q432535>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Saint Helena"@en .
+                "Ancient Egyptian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q5556168>
+<http://www.wikidata.org/entity/Q5372589>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Gheimeh"@en .
+                "Emirati cuisine"@en .
 
-<http://www.wikidata.org/entity/Q8077453>
+<http://www.wikidata.org/entity/Q192087>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Çalkarası"@en .
+                "Indian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q4348225>
+<http://www.wikidata.org/entity/Q1154790>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "tea culture"@en .
+                "Cantonese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q744027>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Greek cuisine"@en .
+
+<http://www.wikidata.org/entity/Q601763>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "fusion cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1983633>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Curaçao cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3203205>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "East African cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1194855>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nepalese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q749847>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ecuadorian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q22977>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of the Palatinate region of Germany"@en .
+
+<http://www.wikidata.org/entity/Q2459950>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ottoman cuisine"@en .
 
 <http://www.wikidata.org/entity/Q3345199>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1270,77 +148,317 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "New Danish cuisine"@en .
 
+<http://www.wikidata.org/entity/Q7842450>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trinidad and Tobago cuisine"@en .
+
+<http://www.wikidata.org/entity/Q960320>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Castilian-Manchego cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7633380>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sudanese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1145205>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chilean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16984298>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Saint Louis cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4115061>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "New Zealand cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1045260>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Macanese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q10262197>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Pará"@en .
+
+<http://www.wikidata.org/entity/Q691365>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sichuan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q47176>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lombard cuisine"@en .
+
 <http://www.wikidata.org/entity/Q1199173>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Albanian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q4080158>
+<http://www.wikidata.org/entity/Q14495105>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Bashkir cuisine"@en .
+                "Lyonnaise cuisine"@en .
 
-<http://www.wikidata.org/entity/Q27477249>
+<http://www.wikidata.org/entity/Q589354>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chinese cuisine"@en .
+                "Asturian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q1968435>
+<http://www.wikidata.org/entity/Q5192763>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "national cuisine"@en .
+                "Burundian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q2006309>
+<http://www.wikidata.org/entity/Q2378536>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Aztec cuisine"@en .
+                "Saxon cuisine"@en .
 
-<http://www.wikidata.org/entity/Q638022>
+<http://www.wikidata.org/entity/Q24279420>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "vegetarian cuisine"@en .
+                "Suriname cuisine"@en .
 
-<http://www.wikidata.org/entity/Q969579>
+<http://www.wikidata.org/entity/Q16147234>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cajun cuisine"@en .
+                "Mauritanian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q17020498>
+<http://www.wikidata.org/entity/Q5285317>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Hawaii regional cuisine"@en .
+                "Djiboutian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q541916>
+<http://www.wikidata.org/entity/Q2295586>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Extremaduran cuisine"@en .
+                "Hawaiian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q3954967>
+<http://www.wikidata.org/entity/Q805060>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Odisha"@en .
+                "Balkan cuisine"@en .
 
-<http://www.wikidata.org/entity/Q1324207>
+<http://www.wikidata.org/entity/Q48869177>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Canadian cuisine"@en .
+                "cuisine of São Paulo"@en .
 
-<http://www.wikidata.org/entity/Q11260433>
+<http://www.wikidata.org/entity/Q871595>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Uzume meshi"@en .
+                "Czech cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5639389>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hainan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1072146>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ghanaian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q12505>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Russian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16821205>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jamaican cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1223242>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Valencian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17067438>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gagauzian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7383746>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rwandan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17110912>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Malawian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q11622327>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Satsuma cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5407615>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Guatemalan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006905>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Corsica"@en .
+
+<http://www.wikidata.org/entity/Q17054362>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Global cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006881>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Algerian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q874327>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Viennese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5192787>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Omani cuisine"@en .
+
+<http://www.wikidata.org/entity/Q24837062>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Manchu cuisine"@en .
+
+<http://www.wikidata.org/entity/Q896367>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lower Saxon cuisine"@en .
+
+<http://www.wikidata.org/entity/Q187477>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Thuringia"@en .
+
+<http://www.wikidata.org/entity/Q1237995>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of the Community of Madrid"@en .
+
+<http://www.wikidata.org/entity/Q7033037>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nigerian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4119764>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Saudi Arabian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17005501>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Guinean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16151170>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of São Tomé and Príncipe"@en .
+
+<http://www.wikidata.org/entity/Q47629>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "German cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006989>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Provence"@en .
+
+<http://www.wikidata.org/entity/Q1133178>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Anhui cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006959>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Lorraine"@en .
+
+<http://www.wikidata.org/entity/Q1071405>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Uruguayan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q772247>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Malaysian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1328433>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tunisian cuisine"@en .
 
 <http://www.wikidata.org/entity/Q783010>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1348,65 +466,11 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Australian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q579500>
+<http://www.wikidata.org/entity/Q62458>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Argentine cuisine"@en .
-
-<http://www.wikidata.org/entity/Q40578>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of the United States"@en .
-
-<http://www.wikidata.org/entity/Q20864827>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Romani cuisine"@en .
-
-<http://www.wikidata.org/entity/Q6431807>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Korean Chinese cuisine"@en .
-
-<http://www.wikidata.org/entity/Q70700789>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Kalsonnes b'rishta"@en .
-
-<http://www.wikidata.org/entity/Q934309>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mediterranean cuisine"@en .
-
-<http://www.wikidata.org/entity/Q20669090>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "vegan cuisine"@en .
-
-<http://www.wikidata.org/entity/Q29596717>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Vatican"@en .
-
-<http://www.wikidata.org/entity/Q5192785>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cuisine of Niue"@en .
-
-<http://www.wikidata.org/entity/Q71129654>
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "cuisine" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "veggie patty"@en .
+                "Israeli cuisine"@en .
 
 <http://www.wikidata.org/entity/Q381416>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1414,35 +478,569 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Cuisine of the Southern United States"@en .
 
-<http://www.wikidata.org/entity/Q56676019>
+<http://www.wikidata.org/entity/Q17020498>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Cuisine of Malaysia, Singapore and Brunei"@en .
+                "Hawaii regional cuisine"@en .
 
-<http://www.wikidata.org/entity/Q4120078>
+<http://www.wikidata.org/entity/Q2228549>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "North American cuisine"@en .
+                "Indonesian-Dutch cuisine"@en .
 
-<http://www.wikidata.org/entity/Q579316>
+<http://www.wikidata.org/entity/Q929239>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "European cuisine"@en .
+                "Lebanese cuisine"@en .
 
-<http://www.wikidata.org/entity/Q11619980>
+<http://www.wikidata.org/entity/Q684343>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Chinese regional cuisine"@en .
+                "Armenian cuisine"@en .
 
-<http://www.wikidata.org/entity/Q25223099>
+<http://www.wikidata.org/entity/Q2707196>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "chāhan"@en .
+                "Latin American cuisine"@en .
+
+<http://www.wikidata.org/entity/Q614394>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Brazilian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q67647258>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Lazio"@en .
+
+<http://www.wikidata.org/entity/Q1729345>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Caribbean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q19360432>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lithuanian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q57766394>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Britain and Ireland"@en .
+
+<http://www.wikidata.org/entity/Q16978846>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Lesotho"@en .
+
+<http://www.wikidata.org/entity/Q3006942>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Guianan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q841984>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Thai cuisine"@en .
+
+<http://www.wikidata.org/entity/Q25383349>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Mozambique"@en .
+
+<http://www.wikidata.org/entity/Q6433339>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kosovan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q265309>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1196267>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Danish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1150262>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Moroccan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1324604>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Yemeni cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1183553>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Teochew cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4119264>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Syrian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7401715>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Saint Lucian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1089120>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pakistani cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5361328>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kyrgyz cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1520796>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Philippine cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16964540>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Malian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1068545>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Irish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1199030>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Serbian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006870>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Alsatian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2090705>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Punjabi cuisine"@en .
+
+<http://www.wikidata.org/entity/Q81942199>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "South Sudanese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1036629>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hong Kong cuisine"@en .
+
+<http://www.wikidata.org/entity/Q616698>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Abruzzo"@en .
+
+<http://www.wikidata.org/entity/Q909057>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Colombian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q934309>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mediterranean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1038209>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Shandong cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7406497>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Salvadoran cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1193132>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Latvian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2045824>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Andorra cuisine"@en .
+
+<http://www.wikidata.org/entity/Q10686720>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "South American cuisine"@en .
+
+<http://www.wikidata.org/entity/Q792312>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Belgian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q6661>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "French cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1346230>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Egyptian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006978>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Quebec"@en .
+
+<http://www.wikidata.org/entity/Q579500>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Argentine cuisine"@en .
+
+<http://www.wikidata.org/entity/Q707908>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Taiwanese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4080158>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bashkir cuisine"@en .
+
+<http://www.wikidata.org/entity/Q831187>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Huaiyang cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1988266>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dutch cuisine"@en .
+
+<http://www.wikidata.org/entity/Q12041050>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of the Norfolk Island"@en .
+
+<http://www.wikidata.org/entity/Q3595259>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Kerala"@en .
+
+<http://www.wikidata.org/entity/Q5192771>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of East Timor"@en .
+
+<http://www.wikidata.org/entity/Q20669090>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "vegan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q77983315>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Macau cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1573059>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Hamburg"@en .
+
+<http://www.wikidata.org/entity/Q264327>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hungarian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3816156>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cantabrian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2025907>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Goan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16979571>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Liberian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7010123>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "New Mexican cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5192807>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sephardic Jewish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4697541>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ainu cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17073219>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Guinea-Bissau"@en .
+
+<http://www.wikidata.org/entity/Q1640414>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Uzbek cuisine"@en .
+
+<http://www.wikidata.org/entity/Q61701534>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kenyan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q647500>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Korean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1149423>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Venezuelan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1566930>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Soviet cuisine"@en .
+
+<http://www.wikidata.org/entity/Q58913730>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Alpine cuisine"@en .
+
+<http://www.wikidata.org/entity/Q284288>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jewish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q846538>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Somali cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1036522>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sammarinese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3954967>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Odisha"@en .
+
+<http://www.wikidata.org/entity/Q4855470>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bangladeshi cuisine"@en .
+
+<http://www.wikidata.org/entity/Q638022>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "vegetarian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006997>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chadian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5410417>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tarragona cuisine"@en .
+
+<http://www.wikidata.org/entity/Q728206>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Asian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q387580>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bulgarian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5876017>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of  the province of Almería"@en .
+
+<http://www.wikidata.org/entity/Q180817>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Portuguese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16481859>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Syracusan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2915172>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jordanian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q983800>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hessian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1187275>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Burmese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1324207>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Canadian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q136726>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Singaporean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q59652997>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Baden-Württemberg"@en .
+
+<http://www.wikidata.org/entity/Q541916>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Extremaduran cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1036492>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Namibian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2492088>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Native American cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5192790>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Saint Helena"@en .
+
+<http://www.wikidata.org/entity/Q1897293>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Scottish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006895>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bolivian cuisine"@en .
 
 <http://www.wikidata.org/entity/Q2836985>
         <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1450,8 +1048,860 @@
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ancient Greek cuisine"@en .
 
+<http://www.wikidata.org/entity/Q11374408>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Kyoto"@en .
+
+<http://www.wikidata.org/entity/Q3525354>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chettinad cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2560444>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Haitian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17003428>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gambian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1156753>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mongolian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2147761>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rhenish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1330959>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bosnia and Herzegovina cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006992>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tanzanian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q40606>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Finnish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1850480>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Belarusian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1381737>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "North African cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006962>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mauritian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2981418>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bruneian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q388672>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kazakh cuisine"@en .
+
+<http://www.wikidata.org/entity/Q10262188>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Minas Gerais"@en .
+
+<http://www.wikidata.org/entity/Q35623>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Swedish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7877679>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ugandan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7129977>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Panamanian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7566053>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "South Asian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7141871>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pascuense cuisine"@en .
+
+<http://www.wikidata.org/entity/Q6544059>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Liechtensteiner cuisine"@en .
+
+<http://www.wikidata.org/entity/Q821615>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Berlin"@en .
+
+<http://www.wikidata.org/entity/Q5192784>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Niger"@en .
+
+<http://www.wikidata.org/entity/Q922990>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tibetan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17036128>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Western Saharan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006889>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Belizean cuisine"@en .
+
 <http://www.wikidata.org/entity/Q18164994>
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "cuisine" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Hittite cuisine"@en .
+
+<http://www.wikidata.org/entity/Q787497>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Indonesian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q882594>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pomeranian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1154594>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Palestinian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q15809899>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Flemish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q41927>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Okinawan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1036498>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Iraqi cuisine"@en .
+
+<http://www.wikidata.org/entity/Q826059>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vietnamese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q42029>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Austrian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4783734>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aragonese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q84184760>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ashkenazi Jewish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1372774>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lao cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7126897>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Palauan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2234037>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sri Lankan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1471192>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Franconian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q623970>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Arab cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7024467>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nicaraguan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2565249>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Westphalian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1199032>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Macedonian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1547037>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Middle Eastern cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006998>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Togo"@en .
+
+<http://www.wikidata.org/entity/Q20864827>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romani cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2053168>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dutch-Antillian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q18695607>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Amami cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1069518>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Estonian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q954489>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Slovak cuisine"@en .
+
+<http://www.wikidata.org/entity/Q386284>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "African cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2006309>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aztec cuisine"@en .
+
+<http://www.wikidata.org/entity/Q84735119>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Fijian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q859870>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Botswana cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5160555>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Congolese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q19880298>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of the Mid-Atlantic United States"@en .
+
+<http://www.wikidata.org/entity/Q5060183>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of the Central African Republic"@en .
+
+<http://www.wikidata.org/entity/Q897903>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Brandenburg cuisine"@en .
+
+<http://www.wikidata.org/entity/Q245932>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cypriot cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3444032>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dominican Republic cuisine"@en .
+
+<http://www.wikidata.org/entity/Q13497>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Swiss cuisine"@en .
+
+<http://www.wikidata.org/entity/Q30325367>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Nauru"@en .
+
+<http://www.wikidata.org/entity/Q29572602>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of the Pitcairn Islands and Norfolk Island"@en .
+
+<http://www.wikidata.org/entity/Q3277325>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Slovenian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3007011>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ecuadorian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006981>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Réunionese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1196234>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Norwegian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1199026>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Georgian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1261477>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "English cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17069637>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Qatari cuisine"@en .
+
+<http://www.wikidata.org/entity/Q22936031>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Monégasque cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16143746>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Western cuisine"@en .
+
+<http://www.wikidata.org/entity/Q56301925>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Qiang cuisine"@en .
+
+<http://www.wikidata.org/entity/Q521179>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Basque cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5192773>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Equatorial Guinea"@en .
+
+<http://www.wikidata.org/entity/Q2345196>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Turkmen cuisine"@en .
+
+<http://www.wikidata.org/entity/Q26821206>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Central American cuisine"@en .
+
+<http://www.wikidata.org/entity/Q843609>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kuwaiti cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4120078>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "North American cuisine"@en .
+
+<http://www.wikidata.org/entity/Q234138>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Japanese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q17176918>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Qiang cuisine"@en .
+
+<http://www.wikidata.org/entity/Q22340297>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zimbabwean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5192785>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cuisine of Niue"@en .
+
+<http://www.wikidata.org/entity/Q654493>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Turkish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q67041244>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Epirotic cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006945>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gabonese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4208241>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cossack cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1735570>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Catalan & Valencian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7005323>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "New American cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1859351>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sicilian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5049884>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Castilian-Leonese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1148243>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Senegalese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2140875>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Polynesian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006891>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Beninese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2239273>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schleswig-Holstein cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3699139>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Milan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16056294>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Seychellois cuisine"@en .
+
+<http://www.wikidata.org/entity/Q139430>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cambodian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1789628>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Croatian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2564183>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bhutanese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1066184>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Costa Rican cuisine"@en .
+
+<http://www.wikidata.org/entity/Q918277>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "British cuisine"@en .
+
+<http://www.wikidata.org/entity/Q846275>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Eritrean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q20747587>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Barbadian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1146380>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Luxembourger cuisine"@en .
+
+<http://www.wikidata.org/entity/Q18536265>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "East Frisian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q29596717>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Vatican"@en .
+
+<http://www.wikidata.org/entity/Q1996684>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Azerbaijani cuisine"@en .
+
+<http://www.wikidata.org/entity/Q383096>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Afghan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5924685>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maldivian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5420911>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Xinjiang cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1328358>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuban cuisine"@en .
+
+<http://www.wikidata.org/entity/Q192786>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Italian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1551510>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Moldovan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q7511460>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sierra Leonean cuisine"@en .
+
+<http://www.wikidata.org/entity/Q27477249>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chinese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q799087>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Baden cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1342397>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Iranian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q5192792>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Swazi cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3595124>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Anglo-Indian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q385996>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Canarian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006952>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ivorian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1072133>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cameroonian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1503789>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ukrainian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q622512>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Spanish cuisine"@en .
+
+<http://www.wikidata.org/entity/Q56676019>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cuisine of Malaysia, Singapore and Brunei"@en .
+
+<http://www.wikidata.org/entity/Q3006994>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tajik cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3699146>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Roman cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4999065>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Burkinabé cuisine"@en .
+
+<http://www.wikidata.org/entity/Q16147806>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Libyan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q4850680>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Balearic cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1492077>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Galician cuisine"@en .
+
+<http://www.wikidata.org/entity/Q579316>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "European cuisine"@en .
+
+<http://www.wikidata.org/entity/Q3006934>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nord-Pas-de-Calais cuisine"@en .
+
+<http://www.wikidata.org/entity/Q207965>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mexican cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2257659>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Angolan cuisine"@en .
+
+<http://www.wikidata.org/entity/Q1246463>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maltese cuisine"@en .
+
+<http://www.wikidata.org/entity/Q458851>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bavarian cuisine"@en .
+
+<http://www.wikidata.org/entity/Q846433>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bahraini cuisine"@en .
+
+<http://www.wikidata.org/entity/Q2371547>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tatar cuisine"@en .
+
+<http://www.wikidata.org/entity/Q843526>
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "cuisine" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Honduran cuisine"@en .

@@ -37,7 +37,6 @@ export const fetchUser = (username, password) => {
             .get(`${URL}/user/username=${username}password=${password}`)
             .then(response => {
                 const userInfo = response.data
-                
                 localStorage.setItem("user", JSON.stringify(userInfo))
                 dispatch(fetchUserSuccess(userInfo))
             })

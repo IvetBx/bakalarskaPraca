@@ -1,42 +1,46 @@
-import React, { useEffect } from 'react';
+import React, { Component } from 'react';
 import RecipeCard from "./RecipeCard"
-import {Container, Row, Col, Spinner} from "react-bootstrap"
+import {Container, Row, Col } from "react-bootstrap"
 import { connect } from "react-redux"
 import { fetchRecipesFromAuthor } from "../../redux/Index"
-import Recipe from "./Recipe"
+import {cantDisplay, loading, displayError} from "./commonComponents"
 
 
-function UsersRecipes({ recipeData, fetchRecipesFromAuthor }) {
+class UsersRecipes extends Component {
 
-    const localStorageUser = JSON.parse(localStorage.getItem("user"))
+    componentDidMount(){
+        const localStorageUser = JSON.parse(localStorage.getItem("user"))
+        this.props.fetchRecipesFromAuthor(localStorageUser.username)
+    }  
 
-    useEffect(() => { fetchRecipesFromAuthor(localStorageUser.username) }, [])
-
-    if(recipeData.recipeDetail.length === 0){
-        return( 
-                (!localStorageUser.username) ?  
-                    <div>
-                        <h2 className="d-flex justify-content-center font-weight-bolder mt-5 mb-2 text-danger">You can't display your own recipe</h2>
-                        <h1 className="d-flex justify-content-center font-weight-bolder mb-2 text-info">You should log in</h1>
-                    </div>
-                :
-                <Container>
-                    <h1 className="d-flex justify-content-center font-weight-bolder mt-5 mb-5 text-info">My recipes</h1>
-                    { recipeData.loading && <div className="d-flex justify-content-center"><Spinner animation="border" variant="dark"/></div> }
-                    <Row>
-                    { recipeData.error && <h2>{recipeData.error}</h2> }
-                    { recipeData && recipeData.filterRecipes ? 
-                        recipeData.filterRecipes.map((recipe) => <Col sm={6} key={recipe.uri}><RecipeCard recipe={recipe} /></Col>) 
-                    :
-                        <h2 className="d-flex justify-content-center text-muted">You don't have any recipes.</h2>
-                    }
-                    </Row>
-
-                </Container>
-            )
-    } else {
-        return <Recipe />
+    componentDidUpdate(){
+        if(this.props.recipeData.deleteRecipe){
+            const localStorageUser = JSON.parse(localStorage.getItem("user"))
+            this.props.fetchRecipesFromAuthor(localStorageUser.username)        
+        }
     }
+
+    render(){
+            const localStorageUser = JSON.parse(localStorage.getItem("user"))
+            return( 
+                    (!localStorageUser.username) ?  
+                        cantDisplay("You can't display your own recipe", "You should log in")
+                    :
+                    <Container className="mb-5">
+                        <h1 className="d-flex justify-content-center font-weight-bolder mt-5 mb-5 text-info">My recipes</h1>
+                        {loading(this.props.recipeData.loading)}
+                        {displayError(this.props.recipeData.error, this.props.recipeData.error)}
+                        <Row>
+                            { this.props.recipeData.filterRecipes && this.props.recipeData.filterRecipes.length ? 
+                                this.props.recipeData.filterRecipes.map((recipe) => <Col sm={6} key={recipe.uri}><RecipeCard recipe={recipe} myRecipes={true} /></Col>) 
+                            : !this.props.recipeData.loading && !this.props.recipeData.error ?
+                                <h2 className="d-flex text-muted">You don't have any recipes.</h2>
+                            : null  
+                            }
+                        </Row>
+                    </Container>
+                )
+        } 
 }
 
 const mapStateToProps = state => {

@@ -4,12 +4,12 @@ import com.balintova.repositoryOfRecipe.config.Constant;
 import com.balintova.repositoryOfRecipe.config.Ontology;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.QuerySolutionMap;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -22,7 +22,6 @@ public class Recipe extends ModelOfEntity{
     Sequence hasInstructions;
     Person hasAuthor;
     List<Ingredient> hasIngredient = new ArrayList<>();
-    //XSDDuration hasCookTime;
     com.balintova.repositoryOfRecipe.models.XSDDuration hasCookTime;
     Integer hasNumberOfPortions;
     List<String> belongsToCategory = new ArrayList<>();
@@ -138,7 +137,6 @@ public class Recipe extends ModelOfEntity{
             setHasNumberOfPortions(object.asLiteral().getInt());
 
         } else if (predicate.equals(Ontology.hasCookTime.getURI())) {
-            //setHasCookTime((XSDDuration)object.asLiteral().getValue());
             org.apache.jena.datatypes.xsd.XSDDuration xsdDuration1 = (org.apache.jena.datatypes.xsd.XSDDuration) object.asLiteral().getValue();
             XSDDuration xsdDuration = new XSDDuration();
             xsdDuration.setMinutes(xsdDuration1.getMinutes());
@@ -173,6 +171,12 @@ public class Recipe extends ModelOfEntity{
 
         } else if (predicate.equals(Ontology.hasInstruction.getURI())) {
             Sequence sequence = new Sequence();
+            List<Instruction> a = new ArrayList<>();
+            int numberOfStep = result.get(object.asResource()).size() - 1;
+            for(int i = 0; i < numberOfStep; i++){
+                a.add(null);
+            }
+            sequence.helpingList = a;
             sequence.setProperty(result, object.asResource());
             setHasInstructions(sequence);
         }
@@ -181,14 +185,20 @@ public class Recipe extends ModelOfEntity{
     @Override
     public Model addAllPropertiesToModel(Resource resource){
         Model model = ModelFactory.createDefaultModel();
-        System.out.println("RR");
         model.add(resource, RDF.type, Ontology.recipeClass);
 
         if (getLabel() !=null && !getLabel().isEmpty()) model.add(resource, RDFS.label, getLabel());
 
         if (getHasNumberOfPortions() !=null) model.addLiteral(resource, Ontology.hasNumberOfPortions, getHasNumberOfPortions());
 
-        if (getHasCookTime() !=null && (getHasCookTime().hours != 0 || getHasCookTime().minutes != 0)) {
+        if(getHasCookTime() != null && getHasCookTime().getMinutes() == null){
+            getHasCookTime().setMinutes(0);
+        }
+
+        if(getHasCookTime() != null && getHasCookTime().getHours() == null){
+            getHasCookTime().setHours(0);
+        }
+        if (getHasCookTime() !=null && (getHasCookTime().getHours() != 0 || getHasCookTime().getMinutes()!= 0)) {
             String duration = "PT" + getHasCookTime().hours + "H" + getHasCookTime().minutes + "M";
             org.apache.jena.datatypes.xsd.XSDDuration xsdDuration =
             (org.apache.jena.datatypes.xsd.XSDDuration) ResourceFactory.createTypedLiteral(duration, XSDDatatype.XSDduration).getValue();
@@ -197,24 +207,25 @@ public class Recipe extends ModelOfEntity{
 
         if (getHasDescription() !=null && !getHasDescription().isEmpty()) model.addLiteral(resource, Ontology.hasDescription, getHasDescription());
 
-        if (getHasAuthor() !=null) {
+        if (getHasAuthor() != null) {
             Resource person = ResourceFactory.createResource (getHasAuthor().getUri());
             model.add(resource, Ontology.hasAuthor, person);
         };
 
         for (String category : getBelongsToCategory()){
-            model.addLiteral(resource, Ontology.belongsToCategory, category);
+            if(!category.isEmpty()){
+                model.addLiteral(resource, Ontology.belongsToCategory, category);
+            }
         }
 
         ClassFromWikiData food = getProduces();
-        if(getProduces() != null && food.getLabel() != null && !food.getLabel().isEmpty()){
+        if(getProduces() != null && !food.getUri().isEmpty()){
             Resource object = ResourceFactory.createResource (food.getUri());
             model.addLiteral(resource, Ontology.produces, object);
-            model.add(food.addAllPropertiesToModel(object));
         }
 
         Sequence instructions = getHasInstructions();
-        if(getHasInstructions() != null && getHasInstructions().getLi() != null && getHasInstructions().getLi().size() > 1){
+        if(instructions != null && getHasInstructions().getLi() != null && getHasInstructions().getLi().size() > 0){
             Resource object2 = ResourceFactory.createResource (instructions.getUri());
             model.addLiteral(resource, Ontology.hasInstruction, object2);
             model.add(instructions.addAllPropertiesToModel(object2));
@@ -235,12 +246,21 @@ public class Recipe extends ModelOfEntity{
         }
 
         for(Ingredient ingredient : getHasIngredient()){
-            if(!ingredient.getUri().isEmpty()){
+            if(!ingredient.getUri().isEmpty() && !ingredient.getLabel().isEmpty()){
                 Resource object5 = ResourceFactory.createResource (ingredient.getUri());
                 model.addLiteral(resource, Ontology.hasIngredient, object5);
+                model.add(ingredient.addAllPropertiesToModel(object5));
             }
         }
 
+        if(getUsingMethod() != null){
+            for(ClassFromWikiData method : getUsingMethod()){
+                if(!method.getUri().isEmpty()){
+                    Resource object6 = ResourceFactory.createResource (method.getUri());
+                    model.addLiteral(resource, Ontology.usingMethod, object6);
+                }
+            }
+        }
         return model;
     }
 
@@ -248,7 +268,6 @@ public class Recipe extends ModelOfEntity{
         Resource recipe = qs.getResource(recipeVar);
         Literal desc = qs.getLiteral(descriptionVar);
         Literal lab = qs.getLiteral(labelVar);
-
         Recipe recipe1 = new Recipe();
         recipe1.setUri(recipe.getURI());
         recipe1.setLabel(lab.getString());
@@ -303,6 +322,5 @@ public class Recipe extends ModelOfEntity{
         setProperty(result, resource);
         return this;
     }
-
 
 }

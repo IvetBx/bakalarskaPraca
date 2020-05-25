@@ -1,9 +1,11 @@
 import React from "react";
-import {Modal, Button, FormControl, FormLabel, Form} from "react-bootstrap"
+import {Modal, Button, Form, Container} from "react-bootstrap"
 import * as yup from "yup"
-import { Formik, Field} from "formik"
+import { Formik } from "formik"
 import { connect } from 'react-redux'
 import { addUser } from "../../redux/Index"
+import { urlFOAF, urlOntology } from "../../config/Constant"
+import { formField, initVal } from "./commonComponents"
 
 const validationSchema = yup.object({
     username: yup.string().min(5).required(),
@@ -12,32 +14,19 @@ const validationSchema = yup.object({
 
 const createFormular = (props) => {
     return (
-        <div className="container w-50">        
+        <Container className="w-50">        
         <Formik
             validationSchema={validationSchema}
             onSubmit={(values) => {
                 values.uri+=values.username 
                 props.add(values)
             }}
-            initialValues={{
-                uri:"http://localhost:3030/users#",
-                username:"",
-                password:""
-            }
-            }>
-            {({ handleSubmit, values, touched, errors }) => (
+            initialValues={initVal}>
+            {({ handleSubmit, touched, errors }) => (
                 <Form noValidate onSubmit={handleSubmit}>
-                    <Form.Group>
-                        <FormLabel className="text-info font-weight-bold mt-1">Username:</FormLabel>
-                        <Field placeholder="Enter username" name="username" type="input" as={FormControl} isInvalid={!!errors.username && touched.username} />
-                        <Form.Control.Feedback type="invalid"> {errors.username} </Form.Control.Feedback>
-                    </Form.Group>
 
-                    <Form.Group>
-                        <FormLabel className="text-info font-weight-bold">Password:</FormLabel>
-                        <Field placeholder="Enter password" name="password" type="password" as={FormControl} isInvalid={!!errors.password && touched.password} />
-                        <Form.Control.Feedback type="invalid"> {errors.password} </Form.Control.Feedback>
-                    </Form.Group>
+                    {formField("Username:", "input", "Enter username", "username", !!errors.username && touched.username, errors.username, `${urlFOAF}accountName`)}
+                    {formField("Password:", "password", "Enter password", "password", !!errors.password && touched.password, errors.password, `${urlOntology}password`)}
                             
                     <div className="d-flex justify-content-center">
                         <Button variant="success" type="submit" className="mt-2 mr-2 w-50">Register</Button>
@@ -45,7 +34,7 @@ const createFormular = (props) => {
                 </Form>
             )}
         </Formik>   
-        </div>
+        </Container>
     )}
 
 
@@ -57,7 +46,7 @@ function RegisterModal (props) {
                 <Modal.Title id="contained-modal-title-vcenter"> Create new account </Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                  <div className="container"> {createFormular(props)} </div>
+                  <Container> {createFormular(props)} </Container>
               </Modal.Body>
             </Modal>
         )

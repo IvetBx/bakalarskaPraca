@@ -27,11 +27,12 @@ public class ModelOfEntity {
 
         Map<Resource, List<RDFNode>> predicatesAccordingSubject = result.get(subject);
         setUri(subject.getURI());
-
-        for(Resource predicate : predicatesAccordingSubject.keySet()){
-            for(int i = 0; i < predicatesAccordingSubject.get(predicate).size(); i++){
-                RDFNode object = predicatesAccordingSubject.get(predicate).get(i);
-                if(!stopSearching()) checkPredicate(result, predicate.getURI(), object);
+        if(predicatesAccordingSubject != null){
+            for(Resource predicate : predicatesAccordingSubject.keySet()){
+                for(int i = 0; i < predicatesAccordingSubject.get(predicate).size(); i++){
+                    RDFNode object = predicatesAccordingSubject.get(predicate).get(i);
+                    if(!stopSearching()) checkPredicate(result, predicate.getURI(), object);
+                }
             }
         }
     }

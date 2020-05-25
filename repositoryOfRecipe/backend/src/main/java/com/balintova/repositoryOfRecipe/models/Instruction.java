@@ -1,7 +1,7 @@
 package com.balintova.repositoryOfRecipe.models;
 
 import com.balintova.repositoryOfRecipe.config.Ontology;
-import org.apache.jena.datatypes.xsd.XSDDuration;
+import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
@@ -147,6 +147,12 @@ public class Instruction extends ModelOfEntity{
 
         } else if (predicate.equals(Ontology.hasInstruction.getURI())) {
             Sequence sequence = new Sequence();
+            List<Instruction> a = new ArrayList<>();
+            int numberOfStep = result.get(object.asResource()).size() - 1;
+            for(int i = 0; i < numberOfStep; i++){
+                a.add(null);
+            }
+            sequence.helpingList = a;
             sequence.setProperty(result, object.asResource());
             setHasInstructions(sequence);
         }
@@ -156,33 +162,43 @@ public class Instruction extends ModelOfEntity{
     @Override
     public Model addAllPropertiesToModel(Resource resource){
         Model model = ModelFactory.createDefaultModel();
-
         model.add(resource, RDF.type, Ontology.instructionClass);
-        if(getLabel() != null){
+        if(getLabel() != null && !getLabel().isEmpty()){
             model.add(resource, RDFS.label, getLabel());
         }
-        if(getHasEndPoint() != null){
+        if(getHasEndPoint() != null && !getLabel().isEmpty()){
             model.addLiteral(resource, Ontology.hasEndpoint, getHasEndPoint());
         }
-        if(getHasCookTime() != null){
-            model.addLiteral(resource, Ontology.hasCookTime, getHasCookTime());
+
+        if(getHasCookTime() != null && getHasCookTime().getMinutes() == null){
+            getHasCookTime().setMinutes(0);
         }
+
+        if(getHasCookTime() != null && getHasCookTime().getHours() == null){
+            getHasCookTime().setHours(0);
+        }
+        if(getHasCookTime() != null && (getHasCookTime().getMinutes() != 0 || getHasCookTime().getHours() != 0)){
+            String duration = "PT" + getHasCookTime().hours + "H" + getHasCookTime().minutes + "M";
+            org.apache.jena.datatypes.xsd.XSDDuration xsdDuration =
+                    (org.apache.jena.datatypes.xsd.XSDDuration) ResourceFactory.createTypedLiteral(duration, XSDDatatype.XSDduration).getValue();
+            model.addLiteral(resource, Ontology.hasCookTime, xsdDuration);
+        }
+
         if(getNeedsTemperature() != null){
             model.addLiteral(resource, Ontology.needsTemperature, getNeedsTemperature());
         }
-        if(getHasDescription() != null){
+        if(getHasDescription() != null && !getHasDescription().isEmpty()){
             model.addLiteral(resource, Ontology.hasDescription, getHasDescription());
         }
 
         ClassFromWikiData food = getProduces();
-        if(food != null){
+        if(food != null && !food.getLabel().isEmpty()){
             Resource object = ResourceFactory.createResource (food.getUri());
             model.addLiteral(resource, Ontology.produces, object);
-            model.add(food.addAllPropertiesToModel(object));
         }
 
         Sequence instructions = getHasInstructions();
-        if(instructions != null){
+        if(instructions != null && instructions.getLi() != null && instructions.getLi().size() != 0){
             Resource object1 = ResourceFactory.createResource (instructions.getUri());
             model.addLiteral(resource, Ontology.hasInstruction, object1);
             model.add(instructions.addAllPropertiesToModel(object1));
@@ -190,28 +206,31 @@ public class Instruction extends ModelOfEntity{
 
         if(getUsingMethod() != null){
             for(ClassFromWikiData method : getUsingMethod()){
-                Resource object2 = ResourceFactory.createResource (method.getUri());
-                model.addLiteral(resource, Ontology.usingMethod, object2);
-                model.add(method.addAllPropertiesToModel(object2));
+                if(!method.getUri().isEmpty()){
+                    Resource object2 = ResourceFactory.createResource (method.getUri());
+                    model.addLiteral(resource, Ontology.usingMethod, object2);
+                }
             }
         }
 
         if(getRequiresEquipment() != null){
             for(ClassFromWikiData equipment : getRequiresEquipment()){
-                Resource object3 = ResourceFactory.createResource (equipment.getUri());
-                model.addLiteral(resource, Ontology.requiresEquipment, object3);
-                model.add(equipment.addAllPropertiesToModel(object3));
+                if(!equipment.getUri().isEmpty()) {
+                    Resource object3 = ResourceFactory.createResource(equipment.getUri());
+                    model.addLiteral(resource, Ontology.requiresEquipment, object3);
+                }
             }
         }
 
         if(getHasIngredient() != null){
             for(Ingredient ingredient : getHasIngredient()){
-                Resource object4 = ResourceFactory.createResource (ingredient.getUri());
-                model.addLiteral(resource, Ontology.hasIngredient, object4);
-                model.add(ingredient.addAllPropertiesToModel(object4));
+                if(!ingredient.getUri().isEmpty() && !ingredient.getLabel().isEmpty()) {
+                    Resource object4 = ResourceFactory.createResource(ingredient.getUri());
+                    model.addLiteral(resource, Ontology.hasIngredient, object4);
+                    model.add(ingredient.addAllPropertiesToModel(object4));
+                }
             }
         }
-
         return model;
     }
 }

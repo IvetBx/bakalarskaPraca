@@ -4,7 +4,8 @@ import { FETCH_RECIPES_REQUEST, FETCH_RECIPES_SUCCESS, FETCH_RECIPES_FAILURE,
     SET_EXCLUDED_CATEGORIES, SET_INCLUDED_CATEGORIES, SET_EXCLUDED_CUISINES, SET_INCLUDED_CUISINES,
     SET_EXCLUDED_KITCHENWARE, SET_INCLUDED_KITCHENWARE, SET_EXCLUDED_METHODS, SET_INCLUDED_METHODS, SET_MAX_TIME, SET_MIN_TIME, 
     FETCH_RECIPES_WITH_FILTERS_FAILURE, FETCH_RECIPES_WITH_FILTERS_SUCCESS, REMOVE_FILTERS, FETCH_DETAIL_ABOUT_RECIPE_FAILURE, 
-    FETCH_DETAIL_ABOUT_RECIPE_SUCCESS, FETCH_DETAIL_ABOUT_RECIPE_REQUEST, CREATE_RECIPE_REQUEST, CREATE_RECIPE_SUCCESS, CREATE_RECIPE_FAILURE, SET_RECIPE_DETAIL } from "../types/RecipeTypes"
+    FETCH_DETAIL_ABOUT_RECIPE_SUCCESS, FETCH_DETAIL_ABOUT_RECIPE_REQUEST, CREATE_RECIPE_REQUEST, CREATE_RECIPE_SUCCESS, CREATE_RECIPE_FAILURE, 
+    SET_RECIPE_DETAIL, DELETE_RECIPE_FAILURE, DELETE_RECIPE_SUCCESS, FETCH_SIMILAR_RECIPES_FAILURE, FETCH_SIMILAR_RECIPES_SUCCESS } from "../types/RecipeTypes"
 import {structureOfRecipe} from "../../config/Constant"
 
 
@@ -28,13 +29,14 @@ const initState={
     exKitchenware:[],
     inIngredients:[], 
     exIngredients:[],
-    recipeDetail: "",
+    recipeDetail: structureOfRecipe,
+    similarRecipes:[],
     Aall: false,
     CAall: false, 
     Mall : false,
     CUall :false, 
     Kall : false, 
-    Iall:false 
+    Iall:false
 }
 
 const recipeReducer=(state=initState, action) => {
@@ -42,7 +44,6 @@ const recipeReducer=(state=initState, action) => {
         case FETCH_RECIPES_REQUEST:
             return {
                 ...state,
-                recipeDetail:"",
                 loading: true
             }
 
@@ -50,7 +51,7 @@ const recipeReducer=(state=initState, action) => {
             return {
                 ...state,
                 loading: false,
-                recipeDetail:"",
+                recipeDetail:structureOfRecipe,
                 recipes: action.payload,
                 error: ""
             }
@@ -59,7 +60,7 @@ const recipeReducer=(state=initState, action) => {
             return {
                 ...state,
                 loading: false,
-                recipeDetail:"",
+                recipeDetail:structureOfRecipe,
                 recipes: [],
                 error: action.payload
             }
@@ -181,8 +182,10 @@ const recipeReducer=(state=initState, action) => {
             return {
                 ...state,
                 loading: false,
+                recipeDetail:structureOfRecipe,
+                similarRecipes:[],
                 filterRecipes: action.payload,
-                error: ""
+                error: "",
             }
 
         case FETCH_RECIPES_WITH_FILTERS_FAILURE:
@@ -190,14 +193,15 @@ const recipeReducer=(state=initState, action) => {
                 ...state,
                 loading: false,
                 filterRecipes: null,
-                error: action.payload
+                error: action.payload,
             }
         
         case REMOVE_FILTERS:
             return {
                 ...state,
                 filterRecipes: null,
-                recipeDetail:"",
+                recipeDetail:structureOfRecipe,
+                similarRecipes:[],
                 recipeName: "",
                 minTime:"",
                 maxTime:"", 
@@ -238,7 +242,7 @@ const recipeReducer=(state=initState, action) => {
                 return {
                     ...state,
                     loading: false,
-                    recipeDetail: action.payload,
+                    recipeDetail: structureOfRecipe,
                     error: ""
                 }
 
@@ -268,11 +272,38 @@ const recipeReducer=(state=initState, action) => {
                 return {
                     ...state,
                     loading: false,
-                    recipeDetail: [],
+                    recipeDetail: structureOfRecipe,
                     error: action.payload
                 }
-
             
+            case DELETE_RECIPE_SUCCESS:
+                return{
+                    ...state,
+                    loading: false,
+                    error: "",
+                }
+
+            case DELETE_RECIPE_FAILURE:
+                return{
+                    ...state,
+                    loading: false,
+                    error: action.payload,
+                }
+
+            case FETCH_SIMILAR_RECIPES_SUCCESS:
+                return{
+                    ...state,
+                    loading:false,
+                    similarRecipes:action.payload,
+                }
+
+            case FETCH_SIMILAR_RECIPES_FAILURE:
+                return{
+                    ...state, 
+                    loading:false,
+                    error:action.payload,
+                    similarRecipes:[]
+                }
 
         default:
             return state
